@@ -1,0 +1,17 @@
+<div class="social">
+  {% if organizer.url != "" %}
+    <a href="{{ organizer.url }}" target="_blank"><i class="fa fa-globe"></i></a>
+  {% endif %}
+  {% if organizer.twitter != "" %}
+    <a href="{{ organizer.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>
+  {% endif %}
+  {% if organizer.facebook != "" %}
+    <a href="{{ organizer.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>
+  {% endif %}
+  {% if organizer.github != "" %}
+    <a href="{{ organizer.github }}" target="_blank"><i class="fa fa-github"></i></a>
+  {% endif %}
+  {% if organizer.linkedin != "" %}
+    <a href="{{ organizer.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a>
+  {% endif %}
+</div>

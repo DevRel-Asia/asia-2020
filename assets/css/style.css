@@ -30,12 +30,25 @@ p {
   margin: 0 0 30px 0;
 }
 
+.details p {
+  padding: 0;
+  margin: 0 0 0 0;
+}
+
+.organizer {
+  padding-top: 1em;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
   color: #0e1b4d;
+}
+
+.details h3 {
+  margin: 0px;
 }
 
 .main-page {
@@ -143,6 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  background-color: black;
 }
 
 @media (max-width: 991px) {
@@ -751,7 +765,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details .social {
-  height: 30px;
+  height: 20px;
 }
 
 #speakers .speaker .details a {

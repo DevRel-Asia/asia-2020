@@ -1,0 +1,23 @@
+{% assign ogs = site.data.organizers | where: "id", page.id %}
+{% assign organizer = ogs[0] %}
+<section id="speakers-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        {% if organizer.type == "group" %}
+          <img src="{{ site.baseurl }}/assets/images/organizers/{{ organizer.id }}.png" alt="{{ organizer.name_english }}" class="img-fluid">
+        {% else %}
+          <img src="{{ site.baseurl }}/assets/images/organizers/{{ organizer.id }}.jpg" alt="{{ organizer.name_english }}" class="img-fluid">
+        {% endif %}
+      </div>
+      <div class="col-md-6">
+        <div class="details">
+          <h2>{% include nationality.html %} {{ organizer.name_english }}</h2>
+          <h4>{% if organizer.title_english != "" %}{{ organizer.title_english }}@{% endif %}{{ organizer.company_english }}</h4>
+          {% include social.html %}
+          <p>{{ organizer.profile_english | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

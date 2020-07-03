@@ -1,0 +1,26 @@
+<!-- =======  F.A.Q Section ======= -->
+<section id="faq">
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h2>F.A.Q </h2>
+    </div>
+    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-9">
+        <ul id="faq-list">
+          {% for q in site.data.faq %}
+            <li>
+              <a data-toggle="collapse" class="collapsed" href="#faq{{ forloop.index}}">
+                {{ q.question }}<i class="fa fa-minus-circle"></i>
+              </a>
+              <div id="faq{{ forloop.index}}" class="collapse" data-parent="#faq-list">
+                <p>
+                  {{ q.answer_english }}
+                </p>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section><!-- End  F.A.Q Section -->

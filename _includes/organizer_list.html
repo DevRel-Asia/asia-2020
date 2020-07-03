@@ -1,0 +1,16 @@
+<div class="col-md-3 organizer">
+  <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+    {% if organizer.type == "group" %}
+      <img src="./assets/images/organizers/{{ organizer.id }}.png" alt="{{ organizer.name_english }}" class="img-fluid">
+    {% else %}
+      <img src="./assets/images/organizers/{{ organizer.id }}.jpg" alt="{{ organizer.name_english }}" class="img-fluid">
+    {% endif %}
+    <div class="details">
+      <h3>{% include nationality.html %} <a href="./organizers/{{ organizer.id }}/">{{ organizer.name_english }}</a></h3>
+      <p>
+        {% if organizer.title_english != "" %}{{ organizer.title_english }}@{% endif %}{{ organizer.company_english }}
+      </p>
+      {% include social.html %}
+    </div>
+  </div>
+</div>

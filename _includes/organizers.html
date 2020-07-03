@@ -1,0 +1,22 @@
+<!-- ======= Organizers Section ======= -->
+<section id="organizers">
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h2>We're organizers!</h2>
+    </div>
+    <div class="row">
+      {% assign organizers = site.data.organizers | where:"type", "group" %}
+      {% for organizer in organizers %}
+        {% include organizer_list.html organizer=organizer %}
+      {% endfor %}
+    </div>
+    <div class="row">
+      {% assign organizers = site.data.organizers | where:"type", "person" %}
+      {% for organizer in organizers %}
+        {% if organizer.id != "" %}
+          {% include organizer_list.html organizer=organizer %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
