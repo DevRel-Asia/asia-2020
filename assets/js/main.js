@@ -7,6 +7,43 @@
 !(function($) {
   "use strict";
 
+  const arrayToJson = (ary) => {
+    const params = {};
+    ary.forEach((k) =>  params[k.name] = k.value);
+    return params;
+  }
+  $('.form form').on('submit', async (e) => {
+    e.preventDefault();
+    $('.form form .loading').show();
+    const applicationKey = '8ae9a1897b1e2c40742aff799e228352521b70271fbc991d8f83c6fbed50c1fe';
+    const signature = '/OSYSFAGZvKL2hbIgXy+h5x5r/d2OG074Awd1S/v79k=';
+    const timestamp = '2020-07-07T02:56:52.369Z';
+    try {
+      await fetch('https://script.mbaas.api.nifcloud.com/2015-09-01/script/script.js', {
+        method: 'POST',
+        body: JSON.stringify(arrayToJson($('.form form').serializeArray())),
+        headers: {
+          'Content-Type': 'application/json; charset=utf-8',
+          'X-NCMB-Application-Key': applicationKey,
+          'X-NCMB-Signature': signature,
+          'X-NCMB-Timestamp': timestamp
+        }    
+      });  
+      $('.form form .loading').hide();
+      $('.form form .sent-message').show();
+      $('.form form .error-message').hide();
+      $('.form form')[0].reset();
+    } catch (e) {
+      $('.form form .sent-message').hide();
+      $('.form form .loading').hide();
+      $('.form form .error-message').show();
+    }
+  })
+
+
+
+
+
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -164,36 +201,6 @@
         $(".nav-menu li:first").addClass('menu-active');
       }
     });
-  });
-
-  // Gallery carousel (uses the Owl Carousel library)
-  $(".gallery-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    center: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      768: {
-        items: 3
-      },
-      992: {
-        items: 4
-      },
-      1200: {
-        items: 5
-      }
-    }
-  });
-
-  // Buy tickets select the ticket type on click
-  $('#buy-ticket-modal').on('show.bs.modal', function(event) {
-    var button = $(event.relatedTarget);
-    var ticketType = button.data('ticket-type');
-    var modal = $(this);
-    modal.find('#ticket-type').val(ticketType);
   });
 
   // Init AOS
