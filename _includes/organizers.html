@@ -2,7 +2,10 @@
 <section id="organizers">
   <div class="container" data-aos="fade-up">
     <div class="section-header">
-      <h2>We're organizers!</h2>
+      <h2>
+        {% assign messages = site.data.i18n.org1 %}
+        {% include translate.html %}
+      </h2>
     </div>
     <div class="row">
       {% assign organizers = site.data.orgs | where:"type", "group" %}
