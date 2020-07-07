@@ -70,5 +70,23 @@
     "india": "",
     "singapore": "",
     "hongkong": ""
+  },
+  {
+    "key": "news1",
+    "english": "CFP is opening!",
+    "japan": "CFP募集中です！",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "",
+    "english": "You can send your CFP here!",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
   }
 ]
