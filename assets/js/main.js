@@ -7,6 +7,21 @@
 !(function($) {
   "use strict";
 
+  $('.lang').hide();
+  switch (navigator.language) {
+    case 'ja':
+      $('.lang.ja').show();
+      break;
+    case 'ko':
+      $('.lang.ko').show();
+      break;
+    default:
+      $('.lang.en').show();
+      break;
+  }
+
+
+
   const arrayToJson = (ary) => {
     const params = {};
     ary.forEach((k) =>  params[k.name] = k.value);
