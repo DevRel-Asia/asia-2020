@@ -88,5 +88,23 @@
     "india": "",
     "singapore": "",
     "hongkong": ""
+  },
+  {
+    "key": "sponsors1",
+    "english": "Sponsors",
+    "japan": "スポンサー",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "sponsors2",
+    "english": "Reach the unique audience by sponsoring DevRel/Asia 2020. Please contact us!",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
   }
 ]
