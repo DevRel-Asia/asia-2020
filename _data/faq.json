@@ -1,20 +1,20 @@
 [
   {
     "question": "I'm living out side of APAC. Can I send a CFP?",
-    "answer_english": "Yes you can. However you need to attention about timezone gap. Our sessions are everything LIVE, don't use recorded video. So you have to attend as speaker in our timezone.",
-    "answer_japan": "はい、可能です。ただし時差に注意してください。私たちのセッションはすべてライブで、録画データを利用できません。登壇時間に実際にスピーカーとして参加する必要があります。",
-    "answer_skorea": "",
-    "answer_singapore": "",
-    "answer_india": "",
-    "answer_hongkong": ""
+    "english": "Yes you can. However you need to attention about timezone gap. Our sessions are everything LIVE, don't use recorded video. So you have to attend as speaker in our timezone.",
+    "japan": "はい、可能です。ただし時差に注意してください。私たちのセッションはすべてライブで、録画データを利用できません。登壇時間に実際にスピーカーとして参加する必要があります。",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
   },
   {
     "question": "Are all sessions in English?",
-    "answer_english": "No. We're accepting English and common language in local organized area. For example, Japan track accepts English and Japanese.",
-    "answer_japan": "",
-    "answer_skorea": "",
-    "answer_singapore": "",
-    "answer_india": "",
-    "answer_hongkong": ""
+    "english": "No. We're accepting English and common language in local organized area. For example, Japan track accepts English and Japanese.",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
   }
 ]
