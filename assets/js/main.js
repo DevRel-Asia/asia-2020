@@ -4,6 +4,12 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+const changeLang = (lang) => {
+  $('.lang').hide();
+  $(`.lang.${lang}`).show();
+}
+
 !(function($) {
   "use strict";
 
@@ -20,7 +26,9 @@
       break;
   }
 
-
+  $.each($('.markdown .lang'), (i, e) => {
+    $(e).html(marked($(e).text()));
+  })
 
   const arrayToJson = (ary) => {
     const params = {};

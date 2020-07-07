@@ -1,4 +1,4 @@
-{% assign ogs = site.data.organizers | where: "id", page.id %}
+{% assign ogs = site.data.orgs | where: "id", page.id %}
 {% assign organizer = ogs[0] %}
 <section id="speakers-details">
   <div class="container">
@@ -12,10 +12,13 @@
       </div>
       <div class="col-md-6">
         <div class="details">
-          <h2>{% include nationality.html %} {{ organizer.name_english }}</h2>
-          <h4>{% if organizer.title_english != "" %}{{ organizer.title_english }}@{% endif %}{{ organizer.company_english }}</h4>
+          <h2>{% include nationality.html %} {% assign messages = organizer.name %}{% include translate.html %}</h2>
+          <h4>{% if organizer.title_english != "" %}{% assign messages = organizer.title %}{% include translate.html %}@{% endif %}{% assign messages = organizer.company %}{% include translate.html %}</h4>
           {% include social.html %}
-          <p>{{ organizer.profile_english | markdownify }}</p>
+          <p class="markdown">
+            {% assign messages = organizer.profile %}
+            {% include translate.html %}
+          </p>
         </div>
       </div>
     </div>

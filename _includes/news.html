@@ -2,8 +2,14 @@
 <section id="news" style="padding-top: 2em">
   <div class="container" data-aos="fade-up">
     <div class="section-header">
-      <h2>CFP is opening!</h2>
-      <p><a href="https://www.papercall.io/devrel-asia-2020">You can send your CFP here!</a></p>
+      <h2>
+        {% assign messages = site.data.i18n.news1 %}
+        {% include translate.html %}
+      </h2>
+      <p><a href="https://www.papercall.io/devrel-asia-2020">
+        {% assign messages = site.data.i18n.news2 %}
+        {% include translate.html %}
+      </a></p>
     </div>
   </div>
 </section>

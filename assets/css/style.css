@@ -540,7 +540,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
-#intro h1 span {
+#intro h1 span.red {
   color: #f82249;
 }
 
@@ -1654,4 +1654,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+.dropdown-menu {
+  min-width: 3em;
+}
+
+.dropdown-menu.language a {
+  width: 3em;
 }

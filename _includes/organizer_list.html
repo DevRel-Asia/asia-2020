@@ -6,9 +6,12 @@
       <img src="./assets/images/organizers/{{ organizer.id }}.jpg" alt="{{ organizer.name_english }}" class="img-fluid">
     {% endif %}
     <div class="details">
-      <h3>{% include nationality.html %} <a href="./organizers/{{ organizer.id }}/">{{ organizer.name_english }}</a></h3>
+      <h3>{% include nationality.html %} <a href="./organizers/{{ organizer.id }}/">
+        {% assign messages = organizer.name %}
+        {% include translate.html %}
+      </a></h3>
       <p>
-        {% if organizer.title_english != "" %}{{ organizer.title_english }}@{% endif %}{{ organizer.company_english }}
+        {% if organizer.title_english != "" %}{% assign messages = organizer.title %}{% include translate.html %}@{% endif %}{% assign messages = organizer.company %}{% include translate.html %}
       </p>
       {% include social.html %}
     </div>

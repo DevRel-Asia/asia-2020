@@ -5,15 +5,17 @@
       <h2>We're organizers!</h2>
     </div>
     <div class="row">
-      {% assign organizers = site.data.organizers | where:"type", "group" %}
+      {% assign organizers = site.data.orgs | where:"type", "group" %}
       {% for organizer in organizers %}
-        {% include organizer_list.html organizer=organizer %}
+        {% if organizer.images != "" %}
+          {% include organizer_list.html organizer=organizer %}
+        {% endif %}
       {% endfor %}
     </div>
     <div class="row">
-      {% assign organizers = site.data.organizers | where:"type", "person" %}
+      {% assign organizers = site.data.orgs | where:"type", "person" %}
       {% for organizer in organizers %}
-        {% if organizer.id != "" %}
+        {% if organizer.image != "" and organizer.id != "" %}
           {% include organizer_list.html organizer=organizer %}
         {% endif %}
       {% endfor %}

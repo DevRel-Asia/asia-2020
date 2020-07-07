@@ -1,8 +1,14 @@
 <section id="supporters" class="section-with-bg">
   <div class="container" data-aos="fade-up">
     <div class="section-header">
-      <h2>Sponsors</h2>
-      <p>Reach the unique audience by sponsoring DevRel/Asia 2020. Please contact us!</p>
+      <h2>
+        {% assign messages = site.data.i18n.sponsors1 %}
+        {% include translate.html %}
+      </h2>
+      <p>
+        {% assign messages = site.data.i18n.sponsors2 %}
+        {% include translate.html %}
+      </p>
     </div>
     <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
       <!--

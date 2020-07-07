@@ -1,8 +1,8 @@
 [
   {
     "key": "intro1",
-    "english": "The Biggest <span>DevRel</span><br>Conference in <span>Asia</span>",
-    "japan": "<span>アジア最大</span>の<span>DevRel</span><br>カンファレンス",
+    "english": "The Biggest <span class=\"red\">DevRel</span><br>Conference in <span class=\"red\">Asia</span>",
+    "japan": "<span class=\"red\">アジア最大</span>の<span class=\"red\">DevRel</span><br>カンファレンス",
     "korea": "",
     "india": "",
     "singapore": "",
@@ -66,6 +66,51 @@
     "key": "about6",
     "english": "10:00 - 18:00 (JST/KST/IST/SGT)<br>Saturday 14 November",
     "japan": "10〜18時（全タイムゾーン）<br>11月14日（土）",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "news1",
+    "english": "CFP is opening!",
+    "japan": "CFP募集中です！",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "news2",
+    "english": "You can send your CFP here!",
+    "japan": "ここからCFPを送れます！",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "sponsors1",
+    "english": "Sponsors",
+    "japan": "スポンサー",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "sponsors2",
+    "english": "Reach out the unique audience by sponsoring DevRel/Asia 2020. Please contact us!",
+    "japan": "DevRel/Asia 2020の参加者は他では見られない、ユニークな方々ばかりです。<br />彼らへのアプローチにぜひサポンサードを検討してください！",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "faq1",
+    "english": "F.A.Q",
+    "japan": "よくある質問",
     "korea": "",
     "india": "",
     "singapore": "",
