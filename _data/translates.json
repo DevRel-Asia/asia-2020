@@ -136,8 +136,8 @@
   },
   {
     "key": "subscribe2",
-    "english": "Please register your email address for don't miss any update of DevRel/Asia 2020!",
-    "japan": "メールアドレスを登録してください。DevRel/Asia 2020に関するニュースをお届けします！",
+    "english": "Please register your email address for don't miss any update of DevRel/Asia 2020! We never send spam email.",
+    "japan": "メールアドレスを登録してください。DevRel/Asia 2020に関するニュースをお届けします！（スパムメールは送りません）",
     "korea": "",
     "india": "",
     "singapore": "",
@@ -146,7 +146,7 @@
   {
     "key": "subscribe3",
     "english": "Subscribe",
-    "japan": "",
+    "japan": "購読",
     "korea": "",
     "india": "",
     "singapore": "",
@@ -155,7 +155,7 @@
   {
     "key": "subscribe4",
     "english": "Please follow our social media.",
-    "japan": "",
+    "japan": "SNSのフォローをお願いします",
     "korea": "",
     "india": "",
     "singapore": "",
