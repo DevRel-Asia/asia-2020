@@ -124,5 +124,41 @@
     "india": "",
     "singapore": "",
     "hongkong": ""
+  },
+  {
+    "key": "subscribe1",
+    "english": "Newsletter",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "subscribe2",
+    "english": "Please register your email address for don't miss any update of DevRel/Asia 2020!",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "subscribe3",
+    "english": "Subscribe",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "subscribe4",
+    "english": "Please follow our social media.",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
   }
 ]
