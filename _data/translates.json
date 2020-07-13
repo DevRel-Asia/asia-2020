@@ -245,7 +245,7 @@
   {
     "key": "footer3",
     "english": "Home",
-    "japan": "",
+    "japan": "ホーム",
     "korea": "",
     "india": "",
     "singapore": "",
@@ -254,7 +254,7 @@
   {
     "key": "footer4",
     "english": "About us",
-    "japan": "",
+    "japan": "私たちについて",
     "korea": "",
     "india": "",
     "singapore": "",
@@ -263,7 +263,7 @@
   {
     "key": "footer5",
     "english": "Code of Conduct",
-    "japan": "",
+    "japan": "行動規範",
     "korea": "",
     "india": "",
     "singapore": "",
@@ -272,7 +272,7 @@
   {
     "key": "footer6",
     "english": "Privacy policy",
-    "japan": "",
+    "japan": "プライバシーポリシー",
     "korea": "",
     "india": "",
     "singapore": "",
@@ -281,16 +281,16 @@
   {
     "key": "footer7",
     "english": "Contact Us",
-    "japan": "",
+    "japan": "お問い合わせ",
     "korea": "",
     "india": "",
     "singapore": "",
     "hongkong": ""
   },
   {
-    "key": "",
+    "key": "footer8",
     "english": "Email:",
-    "japan": "",
+    "japan": "メール:",
     "korea": "",
     "india": "",
     "singapore": "",
