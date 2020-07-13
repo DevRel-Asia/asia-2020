@@ -12,7 +12,7 @@
     "key": "intro2",
     "english": "About The Conference",
     "japan": "カンファレンスについて",
-    "korea": "About The Conference",
+    "korea": "컨퍼런스 소개",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -21,7 +21,7 @@
     "key": "about1",
     "english": "About The Conference",
     "japan": "カンファレンスについて",
-    "korea": "About The Conference",
+    "korea": "컨퍼런스 소개",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -39,7 +39,7 @@
     "key": "about3",
     "english": "Where",
     "japan": "場所",
-    "korea": "Where",
+    "korea": "장소",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -57,7 +57,7 @@
     "key": "about5",
     "english": "When",
     "japan": "日程",
-    "korea": "When",
+    "korea": "일시",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -66,7 +66,7 @@
     "key": "about6",
     "english": "10:00 - 18:00 (JST/KST/IST/SGT)<br>Saturday 14 November",
     "japan": "10〜18時（全タイムゾーン）<br>11月14日（土）",
-    "korea": "10:00 - 18:00 (JST/KST/IST/SGT)<br>Saturday 14 November",
+    "korea": "10:00 - 18:00 <br>11월 14일(토)",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -93,7 +93,7 @@
     "key": "sponsors1",
     "english": "Sponsors",
     "japan": "スポンサー",
-    "korea": "Sponsors",
+    "korea": "스폰서",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
