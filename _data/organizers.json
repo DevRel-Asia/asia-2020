@@ -40,6 +40,26 @@
     "image": "Added"
   },
   {
+    "id": "ai",
+    "type": "person",
+    "company_english": "App Annie Japan",
+    "title_english": "Communication Specialsit",
+    "name_english": "Ai Naito",
+    "profile_english": "",
+    "organized": "Asia",
+    "profile_language": "Japanese",
+    "company_your_language": "アップアニー",
+    "title_your_language": "コミュニケーションスペシャリスト",
+    "name_your_language": "内藤 愛",
+    "profile_your_language": "",
+    "url": "",
+    "twitter": "https://twitter.com/ai_n1991",
+    "github": "",
+    "facebook": "https://fb.me/ai.naito.7",
+    "linkedin": "https://jp.linkedin.com/in/ai-naito",
+    "image": "Added"
+  },
+  {
     "id": "devreltokyo",
     "type": "group",
     "company_english": "",
@@ -437,26 +457,6 @@
     "github": "",
     "facebook": "https://www.facebook.com/taro.kawashita.9",
     "linkedin": "https://www.linkedin.com/in/taro-kawashita-786310106/",
-    "image": "Added"
-  },
-  {
-    "id": "ai",
-    "type": "person",
-    "company_english": "App Annie Japan",
-    "title_english": "Communication Specialsit",
-    "name_english": "Ai Naito",
-    "profile_english": "",
-    "organized": "Asia",
-    "profile_language": "Japanese",
-    "company_your_language": "アップアニー",
-    "title_your_language": "コミュニケーションスペシャリスト",
-    "name_your_language": "内藤 愛",
-    "profile_your_language": "",
-    "url": "",
-    "twitter": "https://twitter.com/ai_n1991",
-    "github": "",
-    "facebook": "https://fb.me/ai.naito.7",
-    "linkedin": "https://jp.linkedin.com/in/ai-naito",
     "image": "Added"
   },
   {
