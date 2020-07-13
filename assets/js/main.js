@@ -18,6 +18,7 @@ const changeLang = (lang) => {
     case 'ja':
       $('.lang.ja').show();
       break;
+    case 'ko-kr':
     case 'ko':
       $('.lang.ko').show();
       break;
