@@ -280,7 +280,16 @@
   },
   {
     "key": "footer7",
-    "english": "",
+    "english": "Contact Us",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "",
+    "english": "Email:",
     "japan": "",
     "korea": "",
     "india": "",
