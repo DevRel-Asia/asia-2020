@@ -6,23 +6,49 @@
 
         <div class="col-lg-3 col-md-6 footer-info">
           <!-- <img src="assets/img/logo.png" alt="TheEvenet">-->
-          DevRel/Asia 2020
-          <p>DevRel/Asia 2020 is online/virtual conference that is target on Asia pacific. We share great experiences about developer relations, developer experiences, developer marketing and developer communities. </p>
+          {% assign messages = site.data.i18n.footer1 %}
+          {% include translate.html %}
+          <p>
+            {% assign messages = site.data.i18n.about2 %}
+            {% include translate.html %}
+          </p>
         </div>
         <div class="col-lg-3 col-md-6 footer-links">
-          <h4>Useful Links</h4>
+          <h4>
+            {% assign messages = site.data.i18n.footer2 %}
+            {% include translate.html %}
+          </h4>
           <ul>
-            <li><i class="fa fa-angle-right"></i> <a href="/">Home</a></li>
-            <li><i class="fa fa-angle-right"></i> <a href="#about">About us</a></li>
-            <li><i class="fa fa-angle-right"></i> <a href="/asia-2020/code-of-conduct.html">Code of Conduct</a></li>
-            <li><i class="fa fa-angle-right"></i> <a href="/asia-2020/privacy">Privacy policy</a></li>
+            <li><i class="fa fa-angle-right"></i> <a href="/">
+              {% assign messages = site.data.i18n.footer3 %}
+              {% include translate.html %}
+            </a></li>
+            <li><i class="fa fa-angle-right"></i> <a href="#about">
+              {% assign messages = site.data.i18n.footer4 %}
+              {% include translate.html %}
+            </a></li>
+            <li><i class="fa fa-angle-right"></i> <a href="/asia-2020/code-of-conduct.html">
+              {% assign messages = site.data.i18n.footer5 %}
+              {% include translate.html %}
+            </a></li>
+            <li><i class="fa fa-angle-right"></i> <a href="/asia-2020/privacy-policy">
+              {% assign messages = site.data.i18n.footer6 %}
+              {% include translate.html %}
+            </a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
+            <h4>
+              {% assign messages = site.data.i18n.footer7 %}
+              {% include translate.html %}
+            </h4>
           <p>
-            <strong>Email:</strong> asia-2020@devrel.dev<br>
+            <strong>
+              {% assign messages = site.data.i18n.footer8 %}
+              {% include translate.html %}
+              
+            </strong> asia-2020@devrel.dev<br>
           </p>
 
           <div class="social-links">
@@ -38,7 +64,7 @@
 
   <div class="container">
     <div class="copyright">
-      &copy; Copyright <strong>DevRel Meetup in Tokyo</strong>. All Rights Reserved
+      &copy; Copyright <strong>DevRel/Asia & DevRel Meetup in Tokyo</strong>. All Rights Reserved
     </div>
     <div class="credits">
       <!--

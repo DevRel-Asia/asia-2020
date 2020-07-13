@@ -124,5 +124,176 @@
     "india": "",
     "singapore": "",
     "hongkong": ""
+  },
+  {
+    "key": "subscribe1",
+    "english": "Newsletter",
+    "japan": "ニュースレター",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "subscribe2",
+    "english": "Please register your email address for don't miss any update of DevRel/Asia 2020! We never send spam email.",
+    "japan": "メールアドレスを登録してください。DevRel/Asia 2020に関するニュースをお届けします！（スパムメールは送りません）",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "subscribe3",
+    "english": "Subscribe",
+    "japan": "購読",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "subscribe4",
+    "english": "Please follow our social media.",
+    "japan": "SNSのフォローをお願いします",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "contact1",
+    "english": "Contact Us",
+    "japan": "お問い合わせ",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "contact2",
+    "english": "You can ask us anything",
+    "japan": "DevRel/Asia 2020に関するお問い合わせはこちらからお願いします",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "contact3",
+    "english": "Email",
+    "japan": "メールアドレス",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "contact4",
+    "english": "Loading",
+    "japan": "送信中…",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "contact5",
+    "english": "Sorry, we can't send a message. Please use email <a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a>.",
+    "japan": "メッセージ送信中にエラーが発生しました。<a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a>よりお問い合わせください。",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "contact6",
+    "english": "Your message has been sent. Thank you!",
+    "japan": "メッセージを送信しました。ありがとうございます！",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "contact7",
+    "english": "Send Message",
+    "japan": "メッセージを送信する",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "footer1",
+    "english": "DevRel/Asia 2020",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "footer2",
+    "english": "Useful Links",
+    "japan": "リンク",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "footer3",
+    "english": "Home",
+    "japan": "ホーム",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "footer4",
+    "english": "About us",
+    "japan": "私たちについて",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "footer5",
+    "english": "Code of Conduct",
+    "japan": "行動規範",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "footer6",
+    "english": "Privacy policy",
+    "japan": "プライバシーポリシー",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "footer7",
+    "english": "Contact Us",
+    "japan": "お問い合わせ",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "footer8",
+    "english": "Email:",
+    "japan": "メール:",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
   }
 ]

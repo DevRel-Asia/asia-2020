@@ -2,15 +2,24 @@
   <section id="contact" class="section-bg">
     <div class="container" data-aos="fade-up">
       <div class="section-header">
-        <h2>Contact Us</h2>
-        <p>you can ask us anything</p>
+        <h2>
+          {% assign messages = site.data.i18n.contact1 %}
+          {% include translate.html %}
+        </h2>
+        <p>
+          {% assign messages = site.data.i18n.contact2 %}
+          {% include translate.html %}
+        </p>
       </div>
 
       <div class="row contact-info">
         <div class="col-md-12">
           <div class="contact-email">
             <i class="ion-ios-email-outline"></i>
-            <h3>Email</h3>
+            <h3>
+              {% assign messages = site.data.i18n.contact3 %}
+              {% include translate.html %}
+            </h3>
             <p><a href="mailto:asia-2020@devrel.dev">asia-2020@devrel.dev</a></p>
           </div>
         </div>
@@ -34,11 +43,23 @@
             <div class="validate"></div>
           </div>
           <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message">Sorry, we can't send a message. Please use email <a href="mailto:asia-2020@devrel.dev">asia-2020@devrel.dev</a>.</div>
-            <div class="sent-message">Your message has been sent. Thank you!</div>
+            <div class="loading">
+              {% assign messages = site.data.i18n.contact4 %}
+              {% include translate.html %}
+            </div>
+            <div class="error-message">
+              {% assign messages = site.data.i18n.contact5 %}
+              {% include translate.html %}
+            </div>
+            <div class="sent-message">
+              {% assign messages = site.data.i18n.contact6 %}
+              {% include translate.html %}
+            </div>
           </div>
-          <div class="text-center"><button type="submit">Send Message</button></div>
+          <div class="text-center"><button type="submit">
+            {% assign messages = site.data.i18n.contact7 %}
+            {% include translate.html %}
+          </button></div>
         </form>
       </div>
 
