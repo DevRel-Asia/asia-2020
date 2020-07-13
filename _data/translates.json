@@ -200,7 +200,7 @@
   {
     "key": "contact5",
     "english": "Sorry, we can't send a message. Please use email <a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a>.",
-    "japan": "Sorry, we can't send a message. Please use email <a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a>.",
+    "japan": "メッセージ送信中にエラーが発生しました。<a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a>よりお問い合わせください。",
     "korea": "",
     "india": "",
     "singapore": "",
@@ -209,7 +209,7 @@
   {
     "key": "contact6",
     "english": "Your message has been sent. Thank you!",
-    "japan": "",
+    "japan": "メッセージを送信しました。ありがとうございます！",
     "korea": "",
     "india": "",
     "singapore": "",
@@ -218,7 +218,7 @@
   {
     "key": "contact7",
     "english": "Send Message",
-    "japan": "",
+    "japan": "メッセージを送信する",
     "korea": "",
     "india": "",
     "singapore": "",
