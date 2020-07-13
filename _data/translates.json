@@ -201,7 +201,7 @@
     "key": "contact5",
     "english": "Sorry, we can't send a message. Please use email <a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a>.",
     "japan": "メッセージ送信中にエラーが発生しました。<a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a>よりお問い合わせください。",
-    "korea": "Sorry, we can't send a message. Please use email <a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a>.",
+    "korea": "메시지 전송 중에 오류가 발생했습니다. <a href=\"mailto:asia-2020@devrel.dev\"> asia-2020@devrel.dev </a>으로 문의 해주십시오.",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -210,7 +210,7 @@
     "key": "contact6",
     "english": "Your message has been sent. Thank you!",
     "japan": "メッセージを送信しました。ありがとうございます！",
-    "korea": "Your message has been sent. Thank you!",
+    "korea": "메시지가 전송되었습니다. 감사합니다.",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -264,7 +264,7 @@
     "key": "footer5",
     "english": "Code of Conduct",
     "japan": "行動規範",
-    "korea": "Code of Conduct",
+    "korea": "행동 강령",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
