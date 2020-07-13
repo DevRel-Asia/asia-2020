@@ -160,5 +160,59 @@
     "india": "",
     "singapore": "",
     "hongkong": ""
+  },
+  {
+    "key": "contact1",
+    "english": "Contact Us",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "contact2",
+    "english": "You can ask us anything",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "contact3",
+    "english": "Email",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "contact4",
+    "english": "Loading",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "contact5",
+    "english": "Sorry, we can't send a message. Please use email <a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a>.",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "contact6",
+    "english": "Your message has been sent. Thank you!",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
   }
 ]
