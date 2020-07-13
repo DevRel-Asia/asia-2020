@@ -164,7 +164,7 @@
   {
     "key": "contact1",
     "english": "Contact Us",
-    "japan": "",
+    "japan": "お問い合わせ",
     "korea": "",
     "india": "",
     "singapore": "",
@@ -173,7 +173,7 @@
   {
     "key": "contact2",
     "english": "You can ask us anything",
-    "japan": "",
+    "japan": "DevRel/Asia 2020に関するお問い合わせはこちらからお願いします",
     "korea": "",
     "india": "",
     "singapore": "",
@@ -182,7 +182,7 @@
   {
     "key": "contact3",
     "english": "Email",
-    "japan": "",
+    "japan": "メールアドレス",
     "korea": "",
     "india": "",
     "singapore": "",
@@ -191,7 +191,7 @@
   {
     "key": "contact4",
     "english": "Loading",
-    "japan": "",
+    "japan": "送信中…",
     "korea": "",
     "india": "",
     "singapore": "",
@@ -200,7 +200,7 @@
   {
     "key": "contact5",
     "english": "Sorry, we can't send a message. Please use email <a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a>.",
-    "japan": "",
+    "japan": "Sorry, we can't send a message. Please use email <a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a>.",
     "korea": "",
     "india": "",
     "singapore": "",
@@ -209,6 +209,15 @@
   {
     "key": "contact6",
     "english": "Your message has been sent. Thank you!",
+    "japan": "",
+    "korea": "",
+    "india": "",
+    "singapore": "",
+    "hongkong": ""
+  },
+  {
+    "key": "contact7",
+    "english": "Send Message",
     "japan": "",
     "korea": "",
     "india": "",
