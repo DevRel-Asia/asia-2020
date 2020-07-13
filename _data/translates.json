@@ -120,7 +120,7 @@
     "key": "org1",
     "english": "We're organizers!",
     "japan": "私たちが主催しています！",
-    "korea": "We're organizers!",
+    "korea": "오거나이저",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -129,7 +129,7 @@
     "key": "subscribe1",
     "english": "Newsletter",
     "japan": "ニュースレター",
-    "korea": "Newsletter",
+    "korea": "뉴스레터",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -147,7 +147,7 @@
     "key": "subscribe3",
     "english": "Subscribe",
     "japan": "購読",
-    "korea": "Subscribe",
+    "korea": "구독",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -165,7 +165,7 @@
     "key": "contact1",
     "english": "Contact Us",
     "japan": "お問い合わせ",
-    "korea": "Contact Us",
+    "korea": "연락처",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -183,7 +183,7 @@
     "key": "contact3",
     "english": "Email",
     "japan": "メールアドレス",
-    "korea": "Email",
+    "korea": "이메일",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -192,7 +192,7 @@
     "key": "contact4",
     "english": "Loading",
     "japan": "送信中…",
-    "korea": "Loading",
+    "korea": "불러오는 중...",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -219,7 +219,7 @@
     "key": "contact7",
     "english": "Send Message",
     "japan": "メッセージを送信する",
-    "korea": "Send Message",
+    "korea": "메시지 보내기",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -237,7 +237,7 @@
     "key": "footer2",
     "english": "Useful Links",
     "japan": "リンク",
-    "korea": "Useful Links",
+    "korea": "유용한 링크",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -246,7 +246,7 @@
     "key": "footer3",
     "english": "Home",
     "japan": "ホーム",
-    "korea": "Home",
+    "korea": "홈",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -255,7 +255,7 @@
     "key": "footer4",
     "english": "About us",
     "japan": "私たちについて",
-    "korea": "About us",
+    "korea": "소개",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -273,7 +273,7 @@
     "key": "footer6",
     "english": "Privacy policy",
     "japan": "プライバシーポリシー",
-    "korea": "Privacy policy",
+    "korea": "개인정보 보호 정책",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
