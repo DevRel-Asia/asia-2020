@@ -3,7 +3,7 @@
     "key": "intro1",
     "english": "The Biggest <span class=\"red\">DevRel</span><br>Conference in <span class=\"red\">Asia</span>",
     "japan": "<span class=\"red\">アジア最大</span>の<span class=\"red\">DevRel</span><br>カンファレンス",
-    "korea": "<span class=\"red\">아시아 최대</span>の<span class=\"red\">DevRel</span><br>컨퍼런스",
+    "korea": "<span class=\"red\">아시아 5개국</span>이 함께 하는<br><span class=\"red\">DevRel</span> 컨퍼런스",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -75,7 +75,7 @@
     "key": "news1",
     "english": "CFP is open!",
     "japan": "CFP募集中です！",
-    "korea": "스피커 모집 중!",
+    "korea": "발표자 모집 중!",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -84,7 +84,7 @@
     "key": "news2",
     "english": "You can submit your CFP here!",
     "japan": "ここからCFPを送れます！",
-    "korea": "참여 제안은 여기서 해주세요!",
+    "korea": "참여 제안(CFP)은 여기서 해주세요!",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -102,7 +102,7 @@
     "key": "sponsors2",
     "english": "Reach out the unique audience by sponsoring DevRel/Asia 2020. Please contact us!",
     "japan": "DevRel/Asia 2020の参加者は他では見られない、ユニークな方々ばかりです。<br />彼らへのアプローチにぜひサポンサードを検討してください！",
-    "korea": "DevRel/Asia 2020에서 유니크한 전문가들을 만나보세요. <br /> 언제든지 편하게 문의해주세요.",
+    "korea": "DevRel/Asia 2020에서 개발자 마케팅/커뮤니티 전문가들을 만나보세요. <br /> 후원에 관심있으시면 언제든지 편하게 문의해주세요.",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -120,7 +120,7 @@
     "key": "org1",
     "english": "We're organizers!",
     "japan": "私たちが主催しています！",
-    "korea": "오거나이저",
+    "korea": "준비하는 사람들",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
@@ -156,7 +156,7 @@
     "key": "subscribe4",
     "english": "Please follow our social media.",
     "japan": "SNSのフォローをお願いします",
-    "korea": "저희 소셜 미디어를 팔로우해주세요.",
+    "korea": "소셜 미디어를 팔로우해주세요.",
     "india": "",
     "singapore (english)": "",
     "hongkong": ""
