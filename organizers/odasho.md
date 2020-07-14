@@ -2,5 +2,6 @@
 layout: organizer
 permalink: /organizers/odasho/
 id: odasho
-speaker: Shohei Oda（Microsoft Japan）
+type: organizer
+title: Shohei Oda（Microsoft Japan）
 ---

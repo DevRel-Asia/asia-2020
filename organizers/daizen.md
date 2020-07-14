@@ -2,5 +2,6 @@
 layout: organizer
 permalink: /organizers/daizen/
 id: daizen
-speaker: Daizen Ikehara（Twilio）
+type: organizer
+title: Daizen Ikehara（Twilio）
 ---

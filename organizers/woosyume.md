@@ -2,5 +2,6 @@
 layout: organizer
 permalink: /organizers/woosyume/
 id: woosyume
-speaker: Woohyeok Kim（Rakuten）
+type: organizer
+title: Woohyeok Kim（Rakuten）
 ---

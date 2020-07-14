@@ -2,5 +2,6 @@
 layout: organizer
 permalink: /organizers/ai/
 id: ai
-speaker: Ai Naito（App Annie Japan）
+type: organizer
+title: Ai Naito（App Annie Japan）
 ---

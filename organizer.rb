@@ -19,7 +19,8 @@ json.each do |org|
 layout: organizer
 permalink: /organizers/#{org['id']}/
 id: #{org['id']}
-speaker: #{org['name_english']}#{org['company_english'] == '' ? '' : "（#{org['company_english']}）"}
+type: organizer
+title: #{org['name_english']}#{org['company_english'] == '' ? '' : "（#{org['company_english']}）"}
 ---
   EOS
   f = open("./organizers/#{org['id']}.md", 'w')

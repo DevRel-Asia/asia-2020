@@ -2,5 +2,6 @@
 layout: organizer
 permalink: /organizers/devreltokyo/
 id: devreltokyo
-speaker: DevRel Meetup in Tokyo
+type: organizer
+title: DevRel Meetup in Tokyo
 ---

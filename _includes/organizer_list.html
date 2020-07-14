@@ -1,10 +1,12 @@
 <div class="col-md-3 organizer">
   <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-    {% if organizer.type == "group" %}
-      <img src="./assets/images/organizers/{{ organizer.id }}.png" alt="{{ organizer.name_english }}" class="img-fluid">
-    {% else %}
-      <img src="./assets/images/organizers/{{ organizer.id }}.jpg" alt="{{ organizer.name_english }}" class="img-fluid">
-    {% endif %}
+    <a href="./organizers/{{ organizer.id }}/">
+      {% if organizer.type == "group" %}
+        <img src="./assets/images/organizers/{{ organizer.id }}.png" alt="{{ organizer.name_english }}" class="img-fluid">
+      {% else %}
+        <img src="./assets/images/organizers/{{ organizer.id }}.jpg" alt="{{ organizer.name_english }}" class="img-fluid">
+      {% endif %}
+    </a>
     <div class="details">
       <h3>{% include nationality.html %} <a href="./organizers/{{ organizer.id }}/">
         {% assign messages = organizer.name %}

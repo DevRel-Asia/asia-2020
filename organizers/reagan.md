@@ -2,5 +2,6 @@
 layout: organizer
 permalink: /organizers/reagan/
 id: reagan
-speaker: Reagan Hwang（Wanted）
+type: organizer
+title: Reagan Hwang（Wanted）
 ---

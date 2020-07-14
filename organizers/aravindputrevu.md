@@ -2,5 +2,6 @@
 layout: organizer
 permalink: /organizers/aravindputrevu/
 id: aravindputrevu
-speaker: Aravind Putrevu（Elastic）
+type: organizer
+title: Aravind Putrevu（Elastic）
 ---

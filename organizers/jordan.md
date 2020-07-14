@@ -2,5 +2,6 @@
 layout: organizer
 permalink: /organizers/jordan/
 id: jordan
-speaker: Jordan Chung（Krunch ）
+type: organizer
+title: Jordan Chung（Krunch ）
 ---

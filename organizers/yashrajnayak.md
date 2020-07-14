@@ -2,5 +2,6 @@
 layout: organizer
 permalink: /organizers/yashrajnayak/
 id: yashrajnayak
-speaker: Yashraj Nayak（Progate）
+type: organizer
+title: Yashraj Nayak（Progate）
 ---

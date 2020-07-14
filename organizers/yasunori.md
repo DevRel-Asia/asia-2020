@@ -2,5 +2,6 @@
 layout: organizer
 permalink: /organizers/yasunori/
 id: yasunori
-speaker: Yasunori Kihara（Hatena）
+type: organizer
+title: Yasunori Kihara（Hatena）
 ---

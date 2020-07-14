@@ -2,5 +2,6 @@
 layout: organizer
 permalink: /organizers/yumi/
 id: yumi
-speaker: Yumi Lee（REGRAPHY）
+type: organizer
+title: Yumi Lee（REGRAPHY）
 ---

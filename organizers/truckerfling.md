@@ -2,5 +2,6 @@
 layout: organizer
 permalink: /organizers/truckerfling/
 id: truckerfling
-speaker: Sarah Thiam（DevRel Folks Asia）
+type: organizer
+title: Sarah Thiam（DevRel Folks Asia）
 ---
