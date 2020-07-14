@@ -14,17 +14,16 @@ const changeLang = (lang) => {
   "use strict";
 
   $('.lang').hide();
-  switch (navigator.language) {
-    case 'ja':
-      $('.lang.ja').show();
-      break;
-    case 'ko-kr':
-    case 'ko':
-      $('.lang.ko').show();
-      break;
-    default:
-      $('.lang.en').show();
-      break;
+  if (blang.is.en()) {
+    $('.lang.en').show();
+  } else if (blang.is.ja()) {
+    $('.lang.ja').show();
+  } else if (blang.is.ko()) {
+    $('.lang.ko').show();
+  } else if (blang.is.zh()) {
+    $('.lang.zh').show();
+  } else if (blang.is.hi()) {
+    $('.lang.in').show();
   }
 
   $.each($('.markdown .lang'), (i, e) => {
