@@ -2,5 +2,6 @@
 layout: organizer
 permalink: /organizers/iganari/
 id: iganari
-speaker: Toru Igarashi（Cloud Ace）
+type: organizer
+title: Toru Igarashi（Cloud Ace）
 ---
