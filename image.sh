@@ -24,3 +24,4 @@ mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.024.jpeg ./assets/im
 mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.025.jpeg ./assets/images/socials/iganari.jpg;
 mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.026.jpeg ./assets/images/socials/eunoak.jpg;
 mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.027.jpeg ./assets/images/socials/raims.jpg;
+mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.028.jpeg ./assets/images/socials/vishwamehta30.jpg;
