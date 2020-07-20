@@ -20,7 +20,7 @@
   {
     "key": "header1",
     "english": "Home",
-    "japan": "",
+    "japan": "ホーム",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -29,7 +29,7 @@
   {
     "key": "header2",
     "english": "About",
-    "japan": "",
+    "japan": "DevRel/Asiaについて",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -38,7 +38,7 @@
   {
     "key": "header3",
     "english": "Speakers",
-    "japan": "",
+    "japan": "スピーカー",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -47,7 +47,7 @@
   {
     "key": "header4",
     "english": "Schedule",
-    "japan": "",
+    "japan": "スケジュール",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -56,7 +56,7 @@
   {
     "key": "header5",
     "english": "Sponsors",
-    "japan": "",
+    "japan": "スポンサー",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -65,7 +65,7 @@
   {
     "key": "header6",
     "english": "Contact",
-    "japan": "",
+    "japan": "お問い合わせ",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
