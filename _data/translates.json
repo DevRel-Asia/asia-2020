@@ -569,7 +569,7 @@
   {
     "key": "cfp31",
     "english": "Your name",
-    "japan": "",
+    "japan": "あなたの名前",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -577,8 +577,8 @@
   },
   {
     "key": "cfp32",
-    "english": "",
-    "japan": "",
+    "english": "Your email address",
+    "japan": "あなたのメールアドレス",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -586,8 +586,8 @@
   },
   {
     "key": "cfp33",
-    "english": "",
-    "japan": "",
+    "english": "URL",
+    "japan": "URL",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -595,7 +595,7 @@
   },
   {
     "key": "cfp34",
-    "english": "",
+    "english": "Have a blog or some other website you'd like to have listed with this profile? If so, this is the field for you.",
     "japan": "",
     "korea": "",
     "india": "",
