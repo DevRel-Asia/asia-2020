@@ -515,7 +515,7 @@
   {
     "key": "cfp25",
     "english": "This field supports Markdown. Notes will only be seen by reviewers during the CFP process. This is where you should explain things such as technical requirements, why you're the best person to speak on this subject, etc...",
-    "japan": "",
+    "japan": "ここではMarkdownが利用できます。このメモ欄はCFP採択者しか見えません。なぜあなたがこの話に相応しいか、技術的仕様など必要な情報を記述してください。",
     "korea": "",
     "india": "",
     "singapore (english)": "",
