@@ -551,7 +551,7 @@
   {
     "key": "cfp29",
     "english": "Organization or Affiliation",
-    "japan": "",
+    "japan": "所属組織",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -559,8 +559,8 @@
   },
   {
     "key": "cfp30",
-    "english": "",
-    "japan": "",
+    "english": "The name of your company, organization, or affiliation if you have any.",
+    "japan": "会社名や団体名など、あなたが所属しているものについて書いてください",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -568,7 +568,7 @@
   },
   {
     "key": "cfp31",
-    "english": "",
+    "english": "Your name",
     "japan": "",
     "korea": "",
     "india": "",
