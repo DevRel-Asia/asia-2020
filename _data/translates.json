@@ -19,7 +19,7 @@
   },
   {
     "key": "header1",
-    "english": "",
+    "english": "Home",
     "japan": "",
     "korea": "",
     "vietnam": "",
@@ -28,7 +28,7 @@
   },
   {
     "key": "header2",
-    "english": "",
+    "english": "About",
     "japan": "",
     "korea": "",
     "vietnam": "",
@@ -37,7 +37,7 @@
   },
   {
     "key": "header3",
-    "english": "",
+    "english": "Speakers",
     "japan": "",
     "korea": "",
     "vietnam": "",
@@ -46,7 +46,7 @@
   },
   {
     "key": "header4",
-    "english": "",
+    "english": "Schedule",
     "japan": "",
     "korea": "",
     "vietnam": "",
@@ -55,7 +55,7 @@
   },
   {
     "key": "header5",
-    "english": "",
+    "english": "Sponsors",
     "japan": "",
     "korea": "",
     "vietnam": "",
@@ -64,7 +64,7 @@
   },
   {
     "key": "header6",
-    "english": "",
+    "english": "Contact",
     "japan": "",
     "korea": "",
     "vietnam": "",
@@ -73,26 +73,8 @@
   },
   {
     "key": "header7",
-    "english": "",
-    "japan": "",
-    "korea": "",
-    "vietnam": "",
-    "indonesia": "",
-    "simplified_chinese": ""
-  },
-  {
-    "key": "header8",
-    "english": "",
-    "japan": "",
-    "korea": "",
-    "vietnam": "",
-    "indonesia": "",
-    "simplified_chinese": ""
-  },
-  {
-    "key": "header9",
-    "english": "",
-    "japan": "",
+    "english": "Send CFP!",
+    "japan": "CFPを送る",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
