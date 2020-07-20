@@ -523,8 +523,8 @@
   },
   {
     "key": "cfp26",
-    "english": "",
-    "japan": "",
+    "english": "Category",
+    "japan": "カテゴリ",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -532,7 +532,7 @@
   },
   {
     "key": "cfp27",
-    "english": "",
+    "english": "These categories are being used by this event to organize submissions. Please select your submission with the appropriate categories.",
     "japan": "",
     "korea": "",
     "india": "",
