@@ -452,7 +452,7 @@
   {
     "key": "cfp18",
     "english": "You have 300 characters to sell your talk. This is known as the \"elevator pitch\". Make it as exciting and enticing as possible.",
-    "japan": "",
+    "japan": "300文字以内でお願いします。いわゆるエレベーターピッチと同じように、短い言葉であなたのトークの魅力を紹介してください。",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -460,8 +460,8 @@
   },
   {
     "key": "cfp19",
-    "english": "",
-    "japan": "",
+    "english": "Audience Level",
+    "japan": "聴衆レベル",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -469,7 +469,7 @@
   },
   {
     "key": "cfp20",
-    "english": "",
+    "english": "Who is the best target audience for this talk?",
     "japan": "",
     "korea": "",
     "india": "",
