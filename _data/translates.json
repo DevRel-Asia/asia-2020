@@ -371,7 +371,7 @@
   {
     "key": "cfp9",
     "english": "Developer Relations, Community, Marketing, Experience and API",
-    "japan": "",
+    "japan": "Developer Relations, 開発者コミュニティ、開発者マーケティング、開発者体験、APIなど",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -380,7 +380,7 @@
   {
     "key": "cfp10",
     "english": "Speaker:",
-    "japan": "",
+    "japan": "スピーカー：",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -389,7 +389,7 @@
   {
     "key": "cfp11",
     "english": "1 or 2 speakers in a session",
-    "japan": "",
+    "japan": "一つのセッションにつき1人または2人",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -398,7 +398,7 @@
   {
     "key": "cfp12",
     "english": "Submit CFP",
-    "japan": "",
+    "japan": "CFPを送る",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -407,7 +407,7 @@
   {
     "key": "cfp13",
     "english": "Session",
-    "japan": "",
+    "japan": "セッション",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -416,7 +416,7 @@
   {
     "key": "cfp14",
     "english": "Using languages",
-    "japan": "",
+    "japan": "利用する言語",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -425,7 +425,7 @@
   {
     "key": "cfp15",
     "english": "Please select languages of your session. You can select multiple when you allow multiple languages.",
-    "japan": "",
+    "japan": "あなたのセッションで利用する言語を選択してください。複数指定できます。",
     "korea": "",
     "india": "",
     "singapore (english)": "",
