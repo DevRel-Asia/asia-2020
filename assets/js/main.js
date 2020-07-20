@@ -10,6 +10,11 @@ const changeLang = (lang) => {
   $(`.lang.${lang}`).show();
 }
 
+const applicationKey = '8ae9a1897b1e2c40742aff799e228352521b70271fbc991d8f83c6fbed50c1fe';
+const clientKey = '50367c73152a57e8929ff26ae5bba68c2ee5779c51195d01ea85cb84b14a14ad';
+const ncmb = new NCMB(applicationKey, clientKey);
+const CFP = ncmb.DataStore('CFP');
+
 !(function($) {
   "use strict";
 
@@ -64,8 +69,71 @@ const changeLang = (lang) => {
   })
 
 
+  $('.save').on('keyup', (e) => {
+    const form = localStorage.getItem('form') ? JSON.parse(localStorage.getItem('form')) : {};
+    form[e.target.name] = e.target.value;
+    localStorage.setItem('form', JSON.stringify(form));
+  });
 
+  $('.save_cfp').on('keyup', (e) => {
+    if (e.target.multiple) return;
+    const form = localStorage.getItem('cfp') ? JSON.parse(localStorage.getItem('cfp')) : {};
+    form[e.target.name] = e.target.value;
+    localStorage.setItem('cfp', JSON.stringify(form));
+  });
+  $('.save_cfp').on('change', (e) => {
+    const form = localStorage.getItem('cfp') ? JSON.parse(localStorage.getItem('cfp')) : {};
+    form[e.target.name] = $(e.target).val();
+    localStorage.setItem('cfp', JSON.stringify(form));
+  });
 
+  if ($('form.cfp').length > 0) {
+    const form = localStorage.getItem('form') ? JSON.parse(localStorage.getItem('form')) : {};
+    for (let key in form) {
+      const obj = $(`form.cfp [name=${key}]`);
+      if (obj.length > 0) {
+        obj.val(form[key]);
+      }
+    }
+    const cfp = localStorage.getItem('cfp') ? JSON.parse(localStorage.getItem('cfp')) : {};
+    for (let key in cfp) {
+      const obj = $(`form.cfp [name="${key}"]`);
+      if (obj.length > 0) {
+        obj.val(cfp[key]);
+      }
+    }
+  }
+
+  $('form.cfp .hide').hide();
+  $('form.cfp').on('submit', async (e) => {
+    e.preventDefault();
+    const ary = $(e.target).serializeArray();
+    const cfp = new CFP;
+    for (let key of ary) {
+      if (key.name === 'languages[]') continue;
+      cfp.set(key.name, key.value);
+    }
+    cfp.set('languages', $(e.target).find('[name="languages[]"').val());
+    const acl = new ncmb.Acl();
+    acl
+      .setRoleReadAccess('Admin', true)
+      .setRoleWriteAccess('Admin', true)
+      .setPublicReadAccess(false);
+    cfp.set('acl', acl);
+    try {
+      await cfp.save();
+      $('form.cfp .success').show();
+      $('form.cfp .failure').hide();
+      localStorage.removeItem('cfp');
+      $('.save_cfp').val('');
+    } catch (e) {
+      $('form.cfp .success').hide();
+      $('form.cfp .failure').show();
+    }
+    setTimeout(() => {
+      $('form.cfp .hide').hide();
+    }, 5000)
+  });
 
   // Back to top button
   $(window).scroll(function() {

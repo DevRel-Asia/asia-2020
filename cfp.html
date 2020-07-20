@@ -1,0 +1,224 @@
+---
+layout: default
+permalink: /cfp/
+---
+
+<main id="main">
+  <section id="news" style="padding-top: 5em">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <h1>
+          {% assign messages = site.data.i18n.cfp1 %}
+          {% include translate.html %}
+        </h1>
+        <p>
+          {% assign messages = site.data.i18n.cfp2 %}
+          {% include translate.html %}
+          {% assign messages = site.data.i18n.cfp3 %}
+          {% include translate.html %}
+          <ul>
+            <dt>
+              {% assign messages = site.data.i18n.cfp4 %}
+              {% include translate.html %}
+            </dt>
+            <dd style="padding-left: 1em">
+              {% assign messages = site.data.i18n.cfp5 %}
+              {% include translate.html %}
+            </dd>
+            <dt>
+              {% assign messages = site.data.i18n.cfp6 %}
+              {% include translate.html %}
+            </dt>
+            <dd style="padding-left: 1em">
+              {% assign messages = site.data.i18n.cfp7 %}
+              {% include translate.html %}
+            </dd>
+            <dt>
+              {% assign messages = site.data.i18n.cfp8 %}
+              {% include translate.html %}
+            </dt>
+            <dd style="padding-left: 1em">
+              {% assign messages = site.data.i18n.cfp9 %}
+              {% include translate.html %}
+            </dd>
+            <dt>
+              {% assign messages = site.data.i18n.cfp10 %}
+              {% include translate.html %}
+            </dt>
+            <dd style="padding-left: 1em">
+              {% assign messages = site.data.i18n.cfp11 %}
+              {% include translate.html %}
+            </dd>
+          </ul>
+        </p>
+      </div>
+      <div class="row">
+        <h2>
+          {% assign messages = site.data.i18n.cfp12 %}
+          {% include translate.html %}
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col">
+          <form class="cfp">
+            <h3>
+              {% assign messages = site.data.i18n.cfp13 %}
+              {% include translate.html %}
+            </h3>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.cfp14 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.cfp15 %}{% include translate.html %}
+              </small>
+              <select class="custom-select save_cfp" name="languages[]" multiple>
+                <option selected value="English">English</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Korean">Korean</option>
+                <option value="Chinese">Chinese</option>
+                <option value="Vietnamese">Vietnamese</option>
+                <option value="Indonesia">Indonesia</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.cfp16 %}{% include translate.html %}
+              </label>
+              <input type="text" class="form-control save_cfp" name="title" id="inputTitle" aria-describedby="nameHelp" placeholder="Talk Title Here">
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.cfp17 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.cfp18 %}{% include translate.html %}
+              </small>
+              <textarea rows="5" class="form-control save_cfp" id="inputAbstruct" name="abstruct" aria-describedby="nameHelp"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.cfp19 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.cfp20 %}{% include translate.html %}
+              </small>
+              <select class="custom-select save_cfp" name="audienceLevel">
+                <option value="All" selected>All</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.cfp21 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.cfp22 %}{% include translate.html %}
+              </small>
+              <textarea rows="10" name="description" class="form-control save_cfp" id="inputText" aria-describedby="nameHelp"></textarea>
+              <p>
+                {% assign messages = site.data.i18n.cfp23 %}{% include translate.html %}
+              </p>
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.cfp24 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.cfp25 %}{% include translate.html %}
+              </small>
+              <textarea rows="10" name="note" class="form-control save_cfp" id="inputText" aria-describedby="nameHelp"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.cfp26 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.cfp27 %}{% include translate.html %}
+              </small>
+              <select class="custom-select save_cfp" name="category">
+                <option value="Developer Relations" selected>Developer Relations</option>
+                <option value="Developer Marketing">Developer Marketing</option>
+                <option value="Developer Community">Developer Community</option>
+                <option value="Developer Experience">Developer Experience</option>
+                <option value="API">API</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <h3>
+              {% assign messages = site.data.i18n.cfp28 %}{% include translate.html %}
+            </h3>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.cfp29 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.cfp30 %}{% include translate.html %}
+              </small>
+              <input type="text" name="companyName" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your organization name">
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.cfp31 %}{% include translate.html %}
+              </label>
+              <input type="text" name="name" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.cfp32 %}{% include translate.html %}
+              </label>
+              <input type="email" name="email" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your email address">
+              <small id="nameHelp" class="form-text text-muted">
+              </small>
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.cfp33 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.cfp34 %}{% include translate.html %}
+              </small>
+              <input type="text" name="url" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter blog or website URL">
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.cfp35 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.cfp36 %}{% include translate.html %}
+              </small>
+              <input type="text" name="twitter" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="DevRelAsia">
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.cfp37 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.cfp38 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.cfp39 %}{% include translate.html %}
+              </small>
+              <textarea name="bio" rows="10" class="form-control save" id="inputText" aria-describedby="nameHelp"></textarea>
+            </div>
+            <div class="form-group">
+              <div class="alert alert-success cfp success hide" role="alert">
+                {% assign messages = site.data.i18n.cfp40 %}{% include translate.html %}
+              </div>
+              <div class="alert alert-warning cfp failure hide" role="alert">
+                {% assign messages = site.data.i18n.cfp41 %}{% include translate.html %}
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">
+              {% assign messages = site.data.i18n.cfp42 %}{% include translate.html %}
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </section>
+</main>
+
+
