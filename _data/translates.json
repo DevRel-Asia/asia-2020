@@ -433,8 +433,8 @@
   },
   {
     "key": "cfp16",
-    "english": "English",
-    "japan": "英語",
+    "english": "Title",
+    "japan": "タイトル",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -442,8 +442,8 @@
   },
   {
     "key": "cfp17",
-    "english": "",
-    "japan": "",
+    "english": "Abstruct",
+    "japan": "概要",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -451,7 +451,7 @@
   },
   {
     "key": "cfp18",
-    "english": "",
+    "english": "You have 300 characters to sell your talk. This is known as the \"elevator pitch\". Make it as exciting and enticing as possible.",
     "japan": "",
     "korea": "",
     "india": "",
