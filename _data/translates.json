@@ -326,7 +326,7 @@
   {
     "key": "cfp4",
     "english": "Session:",
-    "japan": "",
+    "japan": "セッション：",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -424,7 +424,7 @@
   },
   {
     "key": "cfp15",
-    "english": "",
+    "english": "Please select languages of your session. You can select multiple when you allow multiple languages.",
     "japan": "",
     "korea": "",
     "india": "",
@@ -433,8 +433,8 @@
   },
   {
     "key": "cfp16",
-    "english": "",
-    "japan": "",
+    "english": "English",
+    "japan": "英語",
     "korea": "",
     "india": "",
     "singapore (english)": "",
