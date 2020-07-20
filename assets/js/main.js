@@ -27,6 +27,8 @@ const CFP = ncmb.DataStore('CFP');
     $('.lang.ko').show();
   } else if (blang.is.zh()) {
     $('.lang.zh').show();
+  } else if (blang.is.id()) {
+    $('.lang.id').show();
   } else if (blang.is.hi()) {
     $('.lang.in').show();
   }
