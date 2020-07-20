@@ -622,8 +622,8 @@
   },
   {
     "key": "cfp37",
-    "english": "",
-    "japan": "",
+    "english": "Bio",
+    "japan": "自己紹介文",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -631,7 +631,7 @@
   },
   {
     "key": "cfp38",
-    "english": "",
+    "english": "This field supports Markdown. Your bio sells you. Who are you? Why do you want people to know about you? Who's your favorite member of One Direction?",
     "japan": "",
     "korea": "",
     "india": "",
@@ -640,7 +640,7 @@
   },
   {
     "key": "cfp39",
-    "english": "",
+    "english": "This is your chance to put it all out there.",
     "japan": "",
     "korea": "",
     "india": "",
