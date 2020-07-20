@@ -533,7 +533,7 @@
   {
     "key": "cfp27",
     "english": "These categories are being used by this event to organize submissions. Please select your submission with the appropriate categories.",
-    "japan": "",
+    "japan": "カテゴリはCFPの採択時に使われます。適切だと思うものを選択してください。",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -541,8 +541,8 @@
   },
   {
     "key": "cfp28",
-    "english": "",
-    "japan": "",
+    "english": "Profile Details",
+    "japan": "あなたのプロフィール",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -550,7 +550,7 @@
   },
   {
     "key": "cfp29",
-    "english": "",
+    "english": "Organization or Affiliation",
     "japan": "",
     "korea": "",
     "india": "",
