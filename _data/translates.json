@@ -632,7 +632,7 @@
   {
     "key": "cfp38",
     "english": "This field supports Markdown. Your bio sells you. Who are you? Why do you want people to know about you? Who's your favorite member of One Direction?",
-    "japan": "",
+    "japan": "ここではMarkdownを利用できます。自己紹介はあなたを売り込む場です。あなたは誰で、どんなバックグラウンドをもっていますか。経歴など、あなたについて詳しく教えてください。",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -641,7 +641,7 @@
   {
     "key": "cfp39",
     "english": "This is your chance to put it all out there.",
-    "japan": "",
+    "japan": "これはあなたについて深く知ってもらう良いチャンスです。",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -649,7 +649,7 @@
   },
   {
     "key": "cfp40",
-    "english": "",
+    "english": "Thank you for your CFP! Please send your other experience!",
     "japan": "",
     "korea": "",
     "india": "",
