@@ -596,7 +596,7 @@
   {
     "key": "cfp34",
     "english": "Have a blog or some other website you'd like to have listed with this profile? If so, this is the field for you.",
-    "japan": "",
+    "japan": "プロフィールに掲載したいWebサイトやブログのURLがあれば記述してください",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -604,8 +604,8 @@
   },
   {
     "key": "cfp35",
-    "english": "",
-    "japan": "",
+    "english": "Twitter Handle",
+    "japan": "Twitterアカウント名",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -613,8 +613,8 @@
   },
   {
     "key": "cfp36",
-    "english": "",
-    "japan": "",
+    "english": "Twitter Handle should just be your handle without the \"@\".",
+    "japan": "Twitterアカウント名を記述してください。@は不要です。",
     "korea": "",
     "india": "",
     "singapore (english)": "",
