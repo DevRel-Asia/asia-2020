@@ -650,7 +650,7 @@
   {
     "key": "cfp40",
     "english": "Thank you for your CFP! Please send your other experience!",
-    "japan": "",
+    "japan": "CFPを送っていただきありがとうございます！他にもあれば続けて送信できます！",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -658,8 +658,8 @@
   },
   {
     "key": "cfp41",
-    "english": "",
-    "japan": "",
+    "english": "Sorry, We got an error during sending CFP! Please contact us with email <a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a> or <a href=\"https://twitter.com/DevRelAsia\">@DevRelAsia</a> on Twitter.",
+    "japan": "Sorry, We got an error during sending CFP! Please contact us with email <a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a> or <a href=\"https://twitter.com/DevRelAsia\">@DevRelAsia</a> on Twitter.",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -667,8 +667,8 @@
   },
   {
     "key": "cfp42",
-    "english": "",
-    "japan": "",
+    "english": "Submit My CFP",
+    "japan": "CFPを送信する",
     "korea": "",
     "india": "",
     "singapore (english)": "",
