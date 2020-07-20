@@ -335,7 +335,7 @@
   {
     "key": "cfp5",
     "english": "25 min including Q&amp;A",
-    "japan": "",
+    "japan": "25分（Q&A含む）",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -344,7 +344,7 @@
   {
     "key": "cfp6",
     "english": "Language:",
-    "japan": "",
+    "japan": "言語：",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -353,7 +353,7 @@
   {
     "key": "cfp7",
     "english": "English or you mother tongue (Japanese, Korean, Chinese, Vietnamese and Indonesian)",
-    "japan": "",
+    "japan": "英語または母国語（日本語、韓国語、中国語、ベトナム語、インドネシア語など）",
     "korea": "",
     "india": "",
     "singapore (english)": "",
@@ -362,7 +362,7 @@
   {
     "key": "cfp8",
     "english": "Category:",
-    "japan": "",
+    "japan": "カテゴリ：",
     "korea": "",
     "india": "",
     "singapore (english)": "",
