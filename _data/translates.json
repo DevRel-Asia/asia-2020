@@ -391,7 +391,7 @@
     "english": "Due Date: Aug. 15th, 2020",
     "japan": "CFPの締め切り：2020年8月15日まで！",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Ngày hết hạn: 15/08/2020",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -400,7 +400,7 @@
     "english": "Session:",
     "japan": "セッション：",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Phiên:",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -409,7 +409,7 @@
     "english": "25 min including Q&amp;A",
     "japan": "25分（Q&A含む）",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "25' bao gồm cả hỏi đáp",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -418,7 +418,7 @@
     "english": "Language:",
     "japan": "言語：",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Ngôn ngữ:",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -427,7 +427,7 @@
     "english": "English or you mother tongue (Japanese, Korean, Chinese, Vietnamese and Indonesian)",
     "japan": "英語または母国語（日本語、韓国語、中国語、ベトナム語、インドネシア語など）",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Tiếng Anh hoặc tiếng mẹ đẻ của bạn (Nhật Bản, Hàn Quốc, Trung Quốc, Việt Nam và Indonesia)",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -436,7 +436,7 @@
     "english": "Category:",
     "japan": "カテゴリ：",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Thể loại:",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -445,7 +445,7 @@
     "english": "Developer Relations, Community, Marketing, Experience and API",
     "japan": "Developer Relations, 開発者コミュニティ、開発者マーケティング、開発者体験、APIなど",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Quan hệ nhà phát triển, Cộng đồng, Tiếp thị, Kinh nghiệm và API",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -454,7 +454,7 @@
     "english": "Speaker:",
     "japan": "スピーカー：",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Loa:",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -463,7 +463,7 @@
     "english": "1 or 2 speakers in a session",
     "japan": "一つのセッションにつき1人または2人",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "1 hoặc 2 loa trong một phiên",
     "indonesia": "",
     "simplified_chinese": ""
   },
