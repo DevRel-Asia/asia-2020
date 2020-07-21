@@ -697,7 +697,7 @@
     "english": "Bio",
     "japan": "自己紹介文",
     "korea": "",
-    "vietnam": "Bio",
+    "vietnam": "Tiểu sử",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -706,7 +706,7 @@
     "english": "This field supports Markdown. Your bio sells you. Who are you? Why do you want people to know about you? Who's your favorite member of One Direction?",
     "japan": "ここではMarkdownを利用できます。自己紹介はあなたを売り込む場です。あなたは誰で、どんなバックグラウンドをもっていますか。経歴など、あなたについて詳しく教えてください。",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Trường này hỗ trợ Markdown. Tiểu sử của bạn quảng bá cho bạn. Bạn là ai? Tại sao bạn muốn mọi người biết về bạn? Ai là thành viên yêu thích của bạn trong One Direction?",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -715,7 +715,7 @@
     "english": "This is your chance to put it all out there.",
     "japan": "これはあなたについて深く知ってもらう良いチャンスです。",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Đây là cơ hội của bạn để đưa tất cả ra ngoài đó.",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -724,7 +724,7 @@
     "english": "Thank you for your CFP! Please send your other experience!",
     "japan": "CFPを送っていただきありがとうございます！他にもあれば続けて送信できます！",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Cảm ơn bạn đã CFP của bạn! Xin vui lòng gửi kinh nghiệm khác của bạn!",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -733,7 +733,7 @@
     "english": "Sorry, We got an error during sending CFP! Please contact us with email <a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a> or <a href=\"https://twitter.com/DevRelAsia\">@DevRelAsia</a> on Twitter.",
     "japan": "CFP送信時にエラーが発生しました！メールにて<a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a>へご連絡いただくか、<a href=\"https://twitter.com/DevRelAsia\">@DevRelAsia</a>へTwitterでご連絡ください。",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Xin lỗi, chúng tôi đã gặp lỗi trong khi gửi CFP! Vui lòng liên hệ với chúng tôi qua email <a href=\"mailto:asia-2020@devrel.dev\"> châu Á-2020@devrel.dev </a> hoặc <a href=\"https://twitter.com/DevRelAsia\"> @ DevRelAsia </a> trên Twitter.",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -742,7 +742,7 @@
     "english": "Submit My CFP",
     "japan": "CFPを送信する",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Gửi CFP của tôi",
     "indonesia": "",
     "simplified_chinese": ""
   }
