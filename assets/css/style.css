@@ -1663,3 +1663,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .dropdown-menu.language a {
   width: 3em;
 }
+.tooltip-inner {
+  background-color: #f82249;
+}
+
+.bs-tooltip-bottom .arrow::before {
+  border-bottom-color: #f82249;
+}

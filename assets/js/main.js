@@ -16,7 +16,22 @@ const CFP = ncmb.DataStore('CFP');
 
 !(function($) {
   "use strict";
-
+  const tip = localStorage.getItem('tip');
+  if (!tip && blang.detect().toLowerCase() === 'en-us') {
+    const langs = navigator.languages;
+    if (langs.includes('ko')) {
+      $('#language_change').attr('title', '여기에서 표시 언어를 영어에서 한국어로 변경할 수 있습니다.');
+      $('[data-toggle="tooltip"]').tooltip('show');
+    }
+    if (langs.includes('vi')) {
+      $('#language_change').attr('title', 'Bạn có thể thay đổi ngôn ngữ hiển thị sang Hàn Quốc từ tiếng Anh tại đây.');
+      $('[data-toggle="tooltip"]').tooltip('show');
+    }
+    $('#navbarDropdown').on('click', (e) => {
+      localStorage.setItem('tip', true);
+      $('[data-toggle="tooltip"]').tooltip('hide');
+    })
+  }
   $('.lang').hide();
   if (blang.is.en()) {
     $('.lang.en').show();
