@@ -40,7 +40,7 @@
     "english": "Speakers",
     "japan": "スピーカー",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Diễn giả",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -49,7 +49,7 @@
     "english": "Schedule",
     "japan": "スケジュール",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Lịch trình",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -58,7 +58,7 @@
     "english": "Sponsors",
     "japan": "スポンサー",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Nhà tài trợ",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -67,7 +67,7 @@
     "english": "Contact",
     "japan": "お問い合わせ",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Liên hệ",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -76,7 +76,7 @@
     "english": "Send CFP!",
     "japan": "CFPを送る",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Gửi CFP!",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -85,7 +85,7 @@
     "english": "About The Conference",
     "japan": "カンファレンスについて",
     "korea": "컨퍼런스 소개",
-    "vietnam": "",
+    "vietnam": "Về Hội Nghị",
     "indonesia": "",
     "simplified_chinese": ""
   },
