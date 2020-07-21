@@ -382,7 +382,7 @@
     "english": "Each session has 25min maximum including Q&A time. You can speak in English or your common language like Japanese, Korean, Chinese and Hindu. You can send your CFP in English and your common language like Japanese, Korean, Chinese and Hindu. You have to use online communication tool like Zoom, StreamYard and etc. It depends on track’s rule.",
     "japan": "各セッションは質疑応答を含めて最大25分です。 英語の他、日本語、韓国語、中国語、ヒンドゥー語などの母国語で話すことができます。 CFPも英語の他、日本語、韓国語、中国語、ヒンドゥー語などの母国語で送信できます。 登壇時はZoom、StreamYardなどのオンラインコミュニケーションツールを使用する必要があります。これは各トラックのルールによって異なります。",
     "korea": "",
-    "vietnam": "Mỗi phiên có tối đa 25 phút bao gồm cả thời gian hỏi và đáp. Bạn có thể nói bằng tiếng Anh hoặc ngôn ngữ chính thống của bạn như Nhật Bản, Hàn Quốc, Trung Quốc và Ấn Độ giáo. Bạn có thể gửi CFP bằng tiếng Anh và ngôn ngữ của bạn như Nhật Bản, Hàn Quốc, Trung Quốc và Ấn Độ giáo. Bạn phải sử dụng công cụ giao tiếp trực tuyến như Zoom, StreamYard, v.v. Nó phụ thuộc vào quy định của từng nội dung",
+    "vietnam": "Mỗi phiên có tối đa 25 phút bao gồm cả thời gian hỏi và đáp. Bạn có thể nói bằng tiếng Anh hoặc ngôn ngữ mẹ đẻ của bạn như Nhật Bản, Hàn Quốc, Trung Quốc và Ấn Độ giáo. Bạn có thể gửi CFP bằng tiếng Anh và ngôn ngữ mẹ đẻ của bạn như Nhật Bản, Hàn Quốc, Trung Quốc và Ấn Độ giáo. Bạn phải sử dụng công cụ giao tiếp trực tuyến như Zoom, StreamYard, v.v. Nó phụ thuộc vào quy định của từng nội dung",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -454,7 +454,7 @@
     "english": "Speaker:",
     "japan": "スピーカー：",
     "korea": "",
-    "vietnam": "Loa:",
+    "vietnam": "Diễn giả",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -463,7 +463,7 @@
     "english": "1 or 2 speakers in a session",
     "japan": "一つのセッションにつき1人または2人",
     "korea": "",
-    "vietnam": "1 hoặc 2 loa trong một phiên",
+    "vietnam": "1 hoặc 2 diễn giả trong một phiên",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -472,7 +472,7 @@
     "english": "Submit CFP",
     "japan": "CFPを送る",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Gửi CFP",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -481,7 +481,7 @@
     "english": "Session",
     "japan": "セッション",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Phiên",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -490,7 +490,7 @@
     "english": "Using languages",
     "japan": "利用する言語",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Sử dụng ngôn ngữ",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -499,7 +499,7 @@
     "english": "Please select languages of your session. You can select multiple when you allow multiple languages.",
     "japan": "あなたのセッションで利用する言語を選択してください。複数指定できます。",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Vui lòng chọn ngôn ngữ của phiên của bạn. Bạn có thể chọn nhiều khi bạn cho phép nhiều ngôn ngữ.",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -508,7 +508,7 @@
     "english": "Title",
     "japan": "タイトル",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Tiêu đề",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -517,7 +517,7 @@
     "english": "Abstruct",
     "japan": "概要",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Xây dựng",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -526,7 +526,7 @@
     "english": "You have 300 characters to sell your talk. This is known as the \"elevator pitch\". Make it as exciting and enticing as possible.",
     "japan": "300文字以内でお願いします。いわゆるエレベーターピッチと同じように、短い言葉であなたのトークの魅力を紹介してください。",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Bạn có 300 ký tự để bán bài nói chuyện của bạn. Điều này được gọi là \"sân thang máy\". Làm cho nó thú vị và hấp dẫn nhất có thể.",
     "indonesia": "",
     "simplified_chinese": ""
   },
