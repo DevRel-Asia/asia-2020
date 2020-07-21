@@ -24,7 +24,7 @@ const CFP = ncmb.DataStore('CFP');
       $('[data-toggle="tooltip"]').tooltip('show');
     }
     if (langs.includes('vi')) {
-      $('#language_change').attr('title', 'Bạn có thể thay đổi ngôn ngữ hiển thị sang Hàn Quốc từ tiếng Anh tại đây.');
+      $('#language_change').attr('title', 'Bạn có thể thay đổi ngôn ngữ hiển thị tại đây');
       $('[data-toggle="tooltip"]').tooltip('show');
     }
     $('#navbarDropdown').on('click', (e) => {
