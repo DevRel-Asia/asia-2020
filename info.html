@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="DevRel/Asia 2020 is online/virtual conference that is target on Asia pacific. We share great experiences about developer relations, developer experiences, developer marketing and developer communities. " name="descriptison">
+  <meta content="" name="keywords">
+  <title>DevRel/Asia 2020</title>
+  </head>
+  <body>
+    <div id="result">
+
+    </div>
+    <script src="/asia-2020/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="https://unpkg.com/blang/dist/blang.min.js"></script>
+    <script>
+      $(() => {
+        const lang = navigator.language;
+        const ary = [`Your primary language is ${lang}.`]
+        $('#result').html(ary.join('<br />'));
+        const langs = navigator.languages;
+        ary.push(`Your web browser supports those languages: ${langs.join(', ')}`);
+        $('#result').html(ary.join('<br />'));
+        const detect = blang.detect();
+        ary.push(`Our website deals with you as ${detect}`);
+        $('#result').html(ary.join('<br />'));
+      })
+    </script>
+  </body>
+</html>
