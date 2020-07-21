@@ -535,7 +535,7 @@
     "english": "Audience Level",
     "japan": "聴衆レベル",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Đối tượng khán giả",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -544,7 +544,7 @@
     "english": "Who is the best target audience for this talk?",
     "japan": "聴衆はこのトークにどれくらいのレベルが求められますか？",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Ai là đối tượng mục tiêu tốt nhất cho cuộc nói chuyện này?",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -553,7 +553,7 @@
     "english": "Description",
     "japan": "トークの詳細",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Sự miêu tả",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -562,7 +562,7 @@
     "english": "This field supports Markdown. The description will be seen by reviewers during the CFP process and may eventually be seen by the attendees of the event.",
     "japan": "ここではMarkdownが利用できます。この詳細はCFPのレビューに使われた後、採択された場合はWebサイト上で公開されます。",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Trường này hỗ trợ Markdown. Mô tả sẽ được xem bởi những người đánh giá trong quá trình CFP và cuối cùng có thể được nhìn thấy bởi những người tham dự sự kiện.",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -571,7 +571,7 @@
     "english": "You should make the description of your talk as compelling and exciting as possible. Remember, you're selling both the organizers of the events to select your talk, as well as trying to convince attendees your talk is the one they should see.",
     "japan": "詳細は、できるだけ説得力があり刺激的なものが望ましいです。主催者があなたのセッションを採択すること、およびセッション詳細が聴衆の目に触れるものであることを忘れず、聴衆が納得するものであることを目指してください。",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Bạn nên làm cho mô tả về cuộc nói chuyện của bạn hấp dẫn và thú vị nhất có thể. Hãy nhớ rằng, bạn đang bán cả người tổ chức các sự kiện để chọn bài nói chuyện của mình, cũng như cố gắng thuyết phục người tham dự buổi nói chuyện của bạn là người mà họ nên xem.",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -580,7 +580,7 @@
     "english": "Note",
     "japan": "メモ",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Ghi chú",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -589,7 +589,7 @@
     "english": "This field supports Markdown. Notes will only be seen by reviewers during the CFP process. This is where you should explain things such as technical requirements, why you're the best person to speak on this subject, etc...",
     "japan": "ここではMarkdownが利用できます。このメモ欄はCFP採択者しか見えません。なぜあなたがこの話に相応しいか、技術的仕様など必要な情報を記述してください。",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Trường này hỗ trợ Markdown. Ghi chú sẽ chỉ được nhìn thấy bởi các nhà đánh giá trong quá trình CFP. Đây là nơi bạn nên giải thích những điều như yêu cầu kỹ thuật, tại sao bạn là người tốt nhất để nói về chủ đề này, v.v ...",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -598,7 +598,7 @@
     "english": "Category",
     "japan": "カテゴリ",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "thể loại",
     "indonesia": "",
     "simplified_chinese": ""
   },
