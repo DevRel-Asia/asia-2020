@@ -1,7 +1,7 @@
 [
   {
     "question": "What is DevRel?",
-    "question_japan": "",
+    "question_japan": "DevRelとは何ですか？",
     "question_korea": "",
     "question_vietnam": "",
     "question_indonesia": "",
@@ -13,12 +13,12 @@
   },
   {
     "question": "What are the visions of DevRel Conference?",
-    "question_japan": "",
+    "question_japan": "DevRelカンファレンスの目的はどこにありますか？",
     "question_korea": "",
     "question_vietnam": "",
     "question_indonesia": "",
     "answer": "DevRel Conference(eg. DevRel/Asia) is a conference that share the knowledge of developer relations, developer marketing, developer community, developer experience, developer education, support and documentation. All of speakers have wonderful experience about DevRel and share their knowledge with audiences. All attendees will get how developer relations is important for our world.",
-    "answer_japan": "",
+    "answer_japan": "DevRelカンファレンス（DevRel / Asiaなど）はデベロッパーリレーション、開発者マーケティング、デベロッパーコミュニティ、開発者体験、教育、サポート、ドキュメントの知識を共有するカンファレンスです。 講演者はDevRelについて素晴らしい経験を持ち、聴衆と知識を共有します。参加者はDevRelがいかに重要であるかを理解するでしょう。",
     "answer_korea": "",
     "answer_vietnam": "Sứ mệnh của Hội Nghị DevRel là gì?",
     "answer_indonesia": ""
