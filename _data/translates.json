@@ -598,7 +598,7 @@
     "english": "Category",
     "japan": "カテゴリ",
     "korea": "",
-    "vietnam": "thể loại",
+    "vietnam": "Thể loại",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -607,7 +607,7 @@
     "english": "These categories are being used by this event to organize submissions. Please select your submission with the appropriate categories.",
     "japan": "カテゴリはCFPの採択時に使われます。適切だと思うものを選択してください。",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Các danh mục này đang được sử dụng bởi sự kiện này để tổ chức đệ trình. Vui lòng chọn trình của bạn với các thể loại thích hợp.",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -616,7 +616,7 @@
     "english": "Profile Details",
     "japan": "あなたのプロフィール",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Chi tiết hồ sơ",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -625,7 +625,7 @@
     "english": "Organization or Affiliation",
     "japan": "所属組織",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Tổ chức hoặc Liên kết",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -634,7 +634,7 @@
     "english": "The name of your company, organization, or affiliation if you have any.",
     "japan": "会社名や団体名など、あなたが所属しているものについて書いてください",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Tên của công ty, tổ chức hoặc liên kết của bạn nếu bạn có bất kỳ.",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -643,7 +643,7 @@
     "english": "Your name",
     "japan": "あなたの名前",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Tên của bạn",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -652,7 +652,7 @@
     "english": "Your email address",
     "japan": "あなたのメールアドレス",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "địa chỉ email của bạn",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -661,7 +661,7 @@
     "english": "URL",
     "japan": "URL",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "URL",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -670,7 +670,7 @@
     "english": "Have a blog or some other website you'd like to have listed with this profile? If so, this is the field for you.",
     "japan": "プロフィールに掲載したいWebサイトやブログのURLがあれば記述してください",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Có một blog hoặc một số trang web khác mà bạn muốn được liệt kê với hồ sơ này? Nếu vậy, đây là lĩnh vực cho bạn.",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -679,7 +679,7 @@
     "english": "Twitter Handle",
     "japan": "Twitterアカウント名",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Xử lý Twitter",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -688,7 +688,7 @@
     "english": "Twitter Handle should just be your handle without the \"@\".",
     "japan": "Twitterアカウント名を記述してください。@は不要です。",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Xử lý Twitter chỉ nên là xử lý của bạn mà không có \"@\".",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -697,7 +697,7 @@
     "english": "Bio",
     "japan": "自己紹介文",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Sinh học",
     "indonesia": "",
     "simplified_chinese": ""
   },
