@@ -553,7 +553,7 @@
     "english": "Description",
     "japan": "トークの詳細",
     "korea": "",
-    "vietnam": "Sự miêu tả",
+    "vietnam": "Miêu tả",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -562,7 +562,7 @@
     "english": "This field supports Markdown. The description will be seen by reviewers during the CFP process and may eventually be seen by the attendees of the event.",
     "japan": "ここではMarkdownが利用できます。この詳細はCFPのレビューに使われた後、採択された場合はWebサイト上で公開されます。",
     "korea": "",
-    "vietnam": "Trường này hỗ trợ Markdown. Mô tả sẽ được xem bởi những người đánh giá trong quá trình CFP và cuối cùng có thể được nhìn thấy bởi những người tham dự sự kiện.",
+    "vietnam": "Trường này hỗ trợ Markdown. Mô tả sẽ được xem bởi những người đánh giá trong quá trình CFP và cuối cùng có thể được nhìn thấy bởi những người tham dự sự kiện. ",
     "indonesia": "",
     "simplified_chinese": ""
   },
