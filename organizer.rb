@@ -2,7 +2,7 @@ require('json')
 json = JSON.parse(open('./_data/organizers.json').read)
 
 results = []
-countries = %w(english japan korea singapore hongkong india)
+countries = %w(english japan korea singapore vietnam indonesia)
 json.each do |org|
   %w(company title name profile).each do |type|
     org[type] = {}
