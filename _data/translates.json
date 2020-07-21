@@ -65,7 +65,7 @@
   {
     "key": "header6",
     "english": "Contact",
-    "japan": "お問い合わせ",
+    "japan": "問い合わせ",
     "korea": "",
     "vietnam": "Liên hệ",
     "indonesia": "",
@@ -77,6 +77,15 @@
     "japan": "CFPを送る",
     "korea": "",
     "vietnam": "Gửi CFP!",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "header8",
+    "english": "Organizers",
+    "japan": "主催者",
+    "korea": "",
+    "vietnam": "",
     "indonesia": "",
     "simplified_chinese": ""
   },
