@@ -211,7 +211,7 @@
     "english": "Subscribe",
     "japan": "購読",
     "korea": "구독",
-    "vietnam": "",
+    "vietnam": "Theo dõi",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -220,7 +220,7 @@
     "english": "Please follow us on social media.",
     "japan": "SNSのフォローをお願いします",
     "korea": "소셜 미디어를 팔로우해주세요.",
-    "vietnam": "",
+    "vietnam": "Hãy theo dõi chúng tôi trên phương tiện truyền thông xã hội.",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -229,7 +229,7 @@
     "english": "Contact Us",
     "japan": "お問い合わせ",
     "korea": "문의하기",
-    "vietnam": "",
+    "vietnam": "Liên hệ chúng tôi",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -238,7 +238,7 @@
     "english": "You can ask us anything",
     "japan": "DevRel/Asia 2020に関するお問い合わせはこちらからお願いします",
     "korea": "무엇이든 편하게 물어보세요.",
-    "vietnam": "",
+    "vietnam": "Bạn có thể hỏi chúng tôi bất cứ điều gì",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -247,7 +247,7 @@
     "english": "Email",
     "japan": "メールアドレス",
     "korea": "이메일",
-    "vietnam": "",
+    "vietnam": "E-mail",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -256,7 +256,7 @@
     "english": "Loading",
     "japan": "送信中…",
     "korea": "불러오는 중...",
-    "vietnam": "",
+    "vietnam": "Đang tải",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -265,7 +265,7 @@
     "english": "Sorry, we can't send a message. Please use email <a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a>.",
     "japan": "メッセージ送信中にエラーが発生しました。<a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a>よりお問い合わせください。",
     "korea": "메시지 전송 중에 오류가 발생했습니다. <a href=\"mailto:asia-2020@devrel.dev\"> asia-2020@devrel.dev </a>으로 문의 해주십시오.",
-    "vietnam": "",
+    "vietnam": "Xin lỗi, chúng tôi không thể gửi tin nhắn. Vui lòng sử dụng email <a href=\"mailto:asia-2020@devrel.dev\"> châu Á-2020@devrel.dev </a>.",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -274,7 +274,7 @@
     "english": "Your message has been sent. Thank you!",
     "japan": "メッセージを送信しました。ありがとうございます！",
     "korea": "메시지가 전송되었습니다. 감사합니다.",
-    "vietnam": "",
+    "vietnam": "Tin nhắn của bạn đã được gửi. Cảm ơn bạn!",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -283,7 +283,7 @@
     "english": "Send Message",
     "japan": "メッセージを送信する",
     "korea": "메시지 보내기",
-    "vietnam": "",
+    "vietnam": "Gửi tin nhắn",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -292,7 +292,7 @@
     "english": "DevRel/Asia 2020",
     "japan": "",
     "korea": "DevRel/Asia 2020",
-    "vietnam": "",
+    "vietnam": "DevRel / Châu Á 2020",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -301,7 +301,7 @@
     "english": "Useful Links",
     "japan": "リンク",
     "korea": "유용한 링크",
-    "vietnam": "",
+    "vietnam": "Liên kết hữu ích",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -310,7 +310,7 @@
     "english": "Home",
     "japan": "ホーム",
     "korea": "홈",
-    "vietnam": "",
+    "vietnam": "Trang Chủ",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -319,7 +319,7 @@
     "english": "About us",
     "japan": "私たちについて",
     "korea": "소개",
-    "vietnam": "",
+    "vietnam": "Về chúng tôi",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -328,7 +328,7 @@
     "english": "Code of Conduct",
     "japan": "行動規範",
     "korea": "행동 강령",
-    "vietnam": "",
+    "vietnam": "Quy tắc ứng xử",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -337,7 +337,7 @@
     "english": "Privacy policy",
     "japan": "プライバシーポリシー",
     "korea": "개인정보 보호 정책",
-    "vietnam": "",
+    "vietnam": "Chính sách bảo mật",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -346,7 +346,7 @@
     "english": "Contact Us",
     "japan": "お問い合わせ",
     "korea": "문의하기",
-    "vietnam": "",
+    "vietnam": "Liên hệ chúng tôi",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -355,7 +355,7 @@
     "english": "Email:",
     "japan": "メール:",
     "korea": "이메일:",
-    "vietnam": "",
+    "vietnam": "E-mail:",
     "indonesia": "",
     "simplified_chinese": ""
   },
@@ -364,7 +364,7 @@
     "english": "Call for paper",
     "japan": "登壇希望（CFP）を送る",
     "korea": "",
-    "vietnam": "",
+    "vietnam": "Gọi thêm giấy",
     "indonesia": "",
     "simplified_chinese": ""
   },
