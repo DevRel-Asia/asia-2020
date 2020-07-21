@@ -9,7 +9,6 @@ const changeLang = (lang) => {
   $('.lang').hide();
   $(`.lang.${lang}`).show();
 }
-
 const applicationKey = '8ae9a1897b1e2c40742aff799e228352521b70271fbc991d8f83c6fbed50c1fe';
 const clientKey = '50367c73152a57e8929ff26ae5bba68c2ee5779c51195d01ea85cb84b14a14ad';
 const ncmb = new NCMB(applicationKey, clientKey);
@@ -29,6 +28,8 @@ const CFP = ncmb.DataStore('CFP');
     $('.lang.zh').show();
   } else if (blang.is.id()) {
     $('.lang.id').show();
+  } else if (blang.is.vi()) {
+    $('.lang.vi').show();
   } else if (blang.is.hi()) {
     $('.lang.in').show();
   }
