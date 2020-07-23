@@ -1,4 +1,14 @@
-<!DOCTYPE html><html><head><link rel="shortcut icon" href="//ssl.gstatic.com/docs/script/images/favicon.ico"><title>エラー</title><style type="text/css">body {background-color: #fff; margin: 0; padding: 0;}.errorMessage {font-family: Arial,sans-serif; font-size: 12pt; font-weight: bold; line-height: 150%; padding-top: 25px;}</style></head><body style="margin:20px"><div><img alt="Google Apps Script" src="//ssl.gstatic.com/docs/script/images/logo.png"></div><div style="text-align:center;font-family:monospace;margin:50px auto 0;max-width:600px">起動時間の最大値を超えました</div></body></html>   "company_your_language": "MOONGIFT",
+[
+  {
+    "id": "goofmint",
+    "type": "person",
+    "company_english": "MOONGIFT",
+    "title_english": "CEO",
+    "name_english": "Atsushi Nakatsugawa",
+    "profile_english": "CEO of MOONGIFT Inc. in Japan. Ruby and JavaScript/Node.js Programmer. I manage Web site named MOONGIFT that introduce Open source Software everyday to Japanese programmers from 2004. It is the biggest Open source information site in Japan. I started DevRel service from 2014. I have a knowledge of developing content for programmers. We have several clients in Japan.",
+    "organized": "Asia",
+    "profile_language": "Japanese",
+    "company_your_language": "MOONGIFT",
     "title_your_language": "CEO",
     "name_your_language": "中津川 篤司",
     "profile_your_language": "株式会社MOONGIFT代表取締役。ニフクラ mobile backend エバンジェリスト。プログラマ、エンジニアとしていくつかの企業で働き、28歳のときに独立。2004年、まだ情報が少なかったオープンソースソフトの技術ブログ『MOONGIFT』を開設し、毎日情報を発信している。2013年に法人化、ビジネスとエンジニアを結ぶエバンジェリスト業「DevRel」活動をスタートした。",
