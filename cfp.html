@@ -84,7 +84,7 @@ permalink: /cfp/
               <small id="nameHelp" class="form-text text-muted">
                 {% assign messages = site.data.i18n.cfp15 %}{% include translate.html %}
               </small>
-              <select class="custom-select save_cfp" name="languages[]" multiple>
+              <select class="custom-select save_cfp" name="languages[]" multiple required>
                 <option selected value="English">English</option>
                 <option value="Japanese">Japanese</option>
                 <option value="Korean">Korean</option>
@@ -97,7 +97,7 @@ permalink: /cfp/
               <label for="InputName">
                 {% assign messages = site.data.i18n.cfp16 %}{% include translate.html %}
               </label>
-              <input type="text" class="form-control save_cfp" name="title" id="inputTitle" aria-describedby="nameHelp" placeholder="Talk Title Here">
+              <input type="text" class="form-control save_cfp" required name="title" id="inputTitle" aria-describedby="nameHelp" placeholder="Talk Title Here">
             </div>
             <div class="form-group">
               <label for="InputName">
@@ -106,7 +106,7 @@ permalink: /cfp/
               <small id="nameHelp" class="form-text text-muted">
                 {% assign messages = site.data.i18n.cfp18 %}{% include translate.html %}
               </small>
-              <textarea rows="5" class="form-control save_cfp" id="inputAbstruct" name="abstruct" aria-describedby="nameHelp"></textarea>
+              <textarea rows="5" class="form-control save_cfp" required id="inputAbstruct" name="abstruct" aria-describedby="nameHelp"></textarea>
             </div>
             <div class="form-group">
               <label for="InputName">
@@ -115,7 +115,7 @@ permalink: /cfp/
               <small id="nameHelp" class="form-text text-muted">
                 {% assign messages = site.data.i18n.cfp20 %}{% include translate.html %}
               </small>
-              <select class="custom-select save_cfp" name="audienceLevel">
+              <select class="custom-select save_cfp" name="audienceLevel" required>
                 <option value="All" selected>All</option>
                 <option value="Beginner">Beginner</option>
                 <option value="Intermediate">Intermediate</option>
@@ -129,7 +129,7 @@ permalink: /cfp/
               <small id="nameHelp" class="form-text text-muted">
                 {% assign messages = site.data.i18n.cfp22 %}{% include translate.html %}
               </small>
-              <textarea rows="10" name="description" class="form-control save_cfp" id="inputText" aria-describedby="nameHelp"></textarea>
+              <textarea rows="10" name="description" class="form-control save_cfp" required id="inputText" aria-describedby="nameHelp"></textarea>
               <p>
                 {% assign messages = site.data.i18n.cfp23 %}{% include translate.html %}
               </p>
@@ -175,13 +175,13 @@ permalink: /cfp/
               <label for="InputName">
                 {% assign messages = site.data.i18n.cfp31 %}{% include translate.html %}
               </label>
-              <input type="text" name="name" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your name">
+              <input type="text" name="name" required class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your name">
             </div>
             <div class="form-group">
               <label for="InputName">
                 {% assign messages = site.data.i18n.cfp32 %}{% include translate.html %}
               </label>
-              <input type="email" name="email" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your email address">
+              <input type="email" name="email" required class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your email address">
               <small id="nameHelp" class="form-text text-muted">
               </small>
             </div>
@@ -211,7 +211,7 @@ permalink: /cfp/
                 {% assign messages = site.data.i18n.cfp38 %}{% include translate.html %}
                 {% assign messages = site.data.i18n.cfp39 %}{% include translate.html %}
               </small>
-              <textarea name="bio" rows="10" class="form-control save" id="inputText" aria-describedby="nameHelp"></textarea>
+              <textarea name="bio" rows="10" required class="form-control save" id="inputText" aria-describedby="nameHelp"></textarea>
             </div>
             <div class="form-group">
               <div class="alert alert-success cfp success hide" role="alert">
