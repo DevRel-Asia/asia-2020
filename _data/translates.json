@@ -509,7 +509,7 @@
     "japan": "あなたのセッションで利用する言語を選択してください。複数指定できます。",
     "korea": "",
     "vietnam": "Vui lòng chọn ngôn ngữ của phiên của bạn. Bạn có thể chọn nhiều ngôn ngữ quốc giá ",
-    "indonesia": "Silahkan pilih bahasa yang digunakan dalam sesi Anda. Anda dapat memilih dari b",
+    "indonesia": "Silahkan pilih bahasa yang digunakan dalam sesi Anda. Anda dapat memilih lebih dari satu ketika Anda mengizinkan menggunakan beberapa bahasa.",
     "simplified_chinese": ""
   },
   {
@@ -518,7 +518,7 @@
     "japan": "タイトル",
     "korea": "",
     "vietnam": "Tiêu đề",
-    "indonesia": "",
+    "indonesia": "Judul",
     "simplified_chinese": ""
   },
   {
@@ -527,7 +527,7 @@
     "japan": "概要",
     "korea": "",
     "vietnam": "Xây dựng",
-    "indonesia": "",
+    "indonesia": "Abstrak",
     "simplified_chinese": ""
   },
   {
