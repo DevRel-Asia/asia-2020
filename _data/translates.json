@@ -437,7 +437,7 @@
     "japan": "英語または母国語（日本語、韓国語、中国語、ベトナム語、インドネシア語など）",
     "korea": "",
     "vietnam": "Tiếng Anh hoặc tiếng mẹ đẻ của bạn (Nhật Bản, Hàn Quốc, Trung Quốc, Việt Nam và Indonesia)",
-    "indonesia": "Bahasa Inggris atau Bahasa dimana Anda berasal (Jepang, Korea, Cina, Vietnam, dan Indonesia)",
+    "indonesia": "Bahasa Inggris atau Bahasa di mana Anda berasal (Jepang, Korea, Cina, Vietnam, dan Indonesia)",
     "simplified_chinese": ""
   },
   {
@@ -446,7 +446,7 @@
     "japan": "カテゴリ：",
     "korea": "",
     "vietnam": "Thể loại:",
-    "indonesia": "",
+    "indonesia": "Kategori:",
     "simplified_chinese": ""
   },
   {
@@ -455,7 +455,7 @@
     "japan": "Developer Relations, 開発者コミュニティ、開発者マーケティング、開発者体験、APIなど",
     "korea": "",
     "vietnam": "Quan hệ nhà phát triển, Cộng đồng, Tiếp thị, Kinh nghiệm và API",
-    "indonesia": "",
+    "indonesia": "Developer Relations, Komunitas, Pemasaran, Pengalaman, dan API",
     "simplified_chinese": ""
   },
   {
@@ -464,7 +464,7 @@
     "japan": "スピーカー：",
     "korea": "",
     "vietnam": "Diễn giả",
-    "indonesia": "",
+    "indonesia": "Pembicara:",
     "simplified_chinese": ""
   },
   {
