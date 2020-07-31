@@ -224,12 +224,32 @@ permalink: /cfp/
             <button class="btn btn-primary" type="submit">
               {% assign messages = site.data.i18n.cfp42 %}{% include translate.html %}
             </button>
+            <input type="hidden" name="objectId" />
           </form>
         </div>
       </div>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-info load-message" role="alert">
+            If you want to update or edit your CFP already sent it, Please input id and press load button below.
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <form>
+            <input type="text" class="form-control" required name="id" id="id" placeholder="Key" >
+         </form>
+        </div>
+        <div class="col">
+          <button class="btn btn-primary" id="loadCfp" type="submit">Load CFP</button>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
     </div>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
   </section>
 </main>
 

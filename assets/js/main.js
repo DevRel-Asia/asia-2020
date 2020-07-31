@@ -53,6 +53,20 @@ const CFP = ncmb.DataStore('CFP');
     $(e).html(marked($(e).text()));
   })
 
+  $('#loadCfp').on('click', async (e) => {
+    $('.load-message').html('Please wait a minute');
+    const objectId = $('#id').val();
+    const r = await fetch(`https://script.google.com/macros/s/AKfycbzZNpbhSOxRoGF6GTl8KpmyvvuYg-8f4o7lNM3CLpfmEWYutO1Z/exec?action=edit&id=${objectId}`);
+    const cfp = await r.json();
+    for (let key in cfp) {
+      $(`form.cfp [name="${key}"`).val(cfp[key]);
+    }
+    cfp.languages.split(",").map(c => c.trim()).forEach(l => {
+      $(`form.cfp [name="languages[]"] option[value="${l}"]`).prop("selected", true);
+    })
+    $('.load-message').html('Loaded. Please edit and send it again.');
+  });
+
   const arrayToJson = (ary) => {
     const params = {};
     ary.forEach((k) =>  params[k.name] = k.value);
@@ -122,6 +136,28 @@ const CFP = ncmb.DataStore('CFP');
     }
   }
 
+  async function sendCfp(cfp) {
+    const acl = new ncmb.Acl();
+    acl
+      .setRoleReadAccess('Admin', true)
+      .setRoleWriteAccess('Admin', true)
+      .setPublicReadAccess(false);
+    cfp.set('acl', acl);
+    return await cfp.save();
+  }
+
+  async function updateCfp(objectId, cfp) {
+    const url = `https://script.google.com/macros/s/AKfycbzZNpbhSOxRoGF6GTl8KpmyvvuYg-8f4o7lNM3CLpfmEWYutO1Z/exec`;
+    return await fetch(url, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers:{
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(cfp)
+    });    
+  }
+
   $('form.cfp .hide').hide();
   $('form.cfp').on('submit', async (e) => {
     e.preventDefault();
@@ -129,17 +165,18 @@ const CFP = ncmb.DataStore('CFP');
     const cfp = new CFP;
     for (let key of ary) {
       if (key.name === 'languages[]') continue;
+      if (key.name === 'objectId' && key.value === '') continue;
       cfp.set(key.name, key.value);
     }
     cfp.set('languages', $(e.target).find('[name="languages[]"').val());
-    const acl = new ncmb.Acl();
-    acl
-      .setRoleReadAccess('Admin', true)
-      .setRoleWriteAccess('Admin', true)
-      .setPublicReadAccess(false);
-    cfp.set('acl', acl);
+    const objectId = $(e.target).find('[name="objectId"').val();
     try {
-      await cfp.save();
+      if (objectId !== '') {
+        await updateCfp(objectId, cfp);
+        $(e.target).find('[name="objectId"').val('');
+      } else {
+        await sendCfp(cfp);
+      }
       $('form.cfp .success').show();
       $('form.cfp .failure').hide();
       localStorage.removeItem('cfp');
@@ -150,7 +187,7 @@ const CFP = ncmb.DataStore('CFP');
     }
     setTimeout(() => {
       $('form.cfp .hide').hide();
-    }, 5000)
+    }, 5000);
   });
 
   // Back to top button
