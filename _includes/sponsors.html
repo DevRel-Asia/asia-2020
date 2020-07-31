@@ -1,5 +1,5 @@
 <section id="supporters" class="section-with-bg">
-  <div class="container" data-aos="fade-up">
+  <div class="container">
     <div class="section-header">
       <h2>
         {% assign messages = site.data.i18n.sponsors1 %}
@@ -10,14 +10,31 @@
         {% include translate.html %}
       </p>
     </div>
-    <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
-      <!--
-      <div class="col-lg-3 col-md-4 col-xs-6">
-        <div class="supporter-logo">
-          <img src="assets/img/supporters/1.png" class="img-fluid" alt="">
-        </div>
+    {% assign sponsors = site.data.sponsors | where: "type", "gold" %}
+    <div class="row clearfix">
+      <div class="col">
+        <h3>Gold</h3>
       </div>
-      -->
+    </div>
+    <div class="row clearfix">
+      {% for sponsor in sponsors %}
+        {% if sponsor.id != "" %}
+        <div class="col-md-4">
+          <a href="{{ sponsor.url }}" target="_blank">
+            <div class="row">
+              <div class="col">
+                <img src="{{ site.baseurl }}/assets/images/sponsors/{{ sponsor.id }}.png" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col text-center">
+                <strong>{{ sponsor.name }}</strong>
+              </div>
+            </div>
+          </a>
+        </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section><!-- End Sponsors Section -->

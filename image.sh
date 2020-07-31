@@ -28,4 +28,5 @@ mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.028.jpeg ./assets/im
 mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.029.jpeg ./assets/images/socials/natalie_vietnam.jpg;
 mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.030.jpeg ./assets/images/socials/laura_vieloma.jpg;
 mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.031.jpeg ./assets/images/socials/sumin_moon10.jpg;
+mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.032.jpeg ./assets/images/socials/shiny.jpg;
 
