@@ -61,6 +61,7 @@ const CFP = ncmb.DataStore('CFP');
     for (let key in cfp) {
       $(`form.cfp [name="${key}"`).val(cfp[key]);
     }
+    $(`form.cfp [name="languages[]"]`).val('');
     cfp.languages.split(",").map(c => c.trim()).forEach(l => {
       $(`form.cfp [name="languages[]"] option[value="${l}"]`).prop("selected", true);
     })
