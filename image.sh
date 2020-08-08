@@ -30,3 +30,4 @@ mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.030.jpeg ./assets/im
 mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.031.jpeg ./assets/images/socials/sumin_moon10.jpg;
 mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.032.jpeg ./assets/images/socials/shiny.jpg;
 mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.033.jpeg ./assets/images/socials/paul.jpg;
+mv /Users/nakatsugawa/Downloads/DevRelAsiaOGP/DevRelAsiaOGP.034.jpeg ./assets/images/socials/manbir.jpg;
