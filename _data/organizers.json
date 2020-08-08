@@ -658,5 +658,25 @@
     "facebook": "",
     "linkedin": "",
     "image": "Added"
+  },
+  {
+    "id": "",
+    "type": "person",
+    "company_english": "",
+    "title_english": "",
+    "name_english": "",
+    "profile_english": "",
+    "organized": "",
+    "profile_language": "",
+    "company_your_language": "",
+    "title_your_language": "",
+    "name_your_language": "",
+    "profile_your_language": "",
+    "url": "",
+    "twitter": "",
+    "github": "",
+    "facebook": "",
+    "linkedin": "",
+    "image": ""
   }
 ]
