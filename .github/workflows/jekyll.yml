@@ -17,10 +17,10 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - name: Create local changes
       run: |
-        wget -O ${{ github.workspace }}/_data/organizers.json https://script.google.com/macros/s/AKfycbzZNpbhSOxRoGF6GTl8KpmyvvuYg-8f4o7lNM3CLpfmEWYutO1Z/exec?name=organizers
-        wget -O ${{ github.workspace }}/_data/faq.json https://script.google.com/macros/s/AKfycbzZNpbhSOxRoGF6GTl8KpmyvvuYg-8f4o7lNM3CLpfmEWYutO1Z/exec?name=faq
-        wget -O ${{ github.workspace }}/_data/translates.json https://script.google.com/macros/s/AKfycbzZNpbhSOxRoGF6GTl8KpmyvvuYg-8f4o7lNM3CLpfmEWYutO1Z/exec?name=translates
-        wget -O ${{ github.workspace }}/_data/sponsors.json https://script.google.com/macros/s/AKfycbzZNpbhSOxRoGF6GTl8KpmyvvuYg-8f4o7lNM3CLpfmEWYutO1Z/exec?name=sponsors
+        wget -O ${{ github.workspace }}/_data/organizers.json ${{ secrets.URL }}?name=organizers
+        wget -O ${{ github.workspace }}/_data/faq.json ${{ secrets.URL }}?name=faq
+        wget -O ${{ github.workspace }}/_data/translates.json ${{ secrets.URL }}?name=translates
+        wget -O ${{ github.workspace }}/_data/sponsors.json ${{ secrets.URL }}?name=sponsors
         ruby organizer.rb
         ruby translate.rb 
         ruby faq.rb 
