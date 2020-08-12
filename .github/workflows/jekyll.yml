@@ -25,10 +25,12 @@ jobs:
         ruby ${{ github.workspace }}/translate.rb 
         ruby ${{ github.workspace }}/faq.rb 
     - name: Commit files
+      shell: bash
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "Add changes" -a
+        git add .
+        if [[ `git status` == *use* ]]; then git commit -m "Add changes" fi
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
