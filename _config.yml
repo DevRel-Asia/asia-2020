@@ -27,12 +27,19 @@ baseurl: "/asia-2020" # the subpath of your site, e.g. /blog
 url: "https://devrel.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: DevRelAsia
 github_username:  DevRel-Asia
+excerpt_separator: <!--more-->
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
+languages:
+  - en
+  - ja
+  - ko
+  - zh
+  - in
+  - vi
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

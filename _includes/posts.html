@@ -1,0 +1,45 @@
+<section id="post">
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h2>
+        {% assign messages = site.data.i18n.article1 %}
+        {% include translate.html %}
+      </h2>
+    </div>
+    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+      <div class="col">
+        {% assign posts = site.posts | where: "language", "en" %}
+        {% for post in posts %}
+          <div class="row">
+            <div class="col-md-4">
+              <img src="{{ site.baseurl }}/assets/articles/{{ post.catch }}" width="300px" />
+            </div>
+            <div class="col-md-8">
+              {% for lang in site.languages %}
+                {% if post.post_id != "" %}
+                  {% assign alt_post = site.posts | where: "language", lang | find: "post_id", post.post_id %}
+                {% else %}
+                  {% assign alt_post = nil %}
+                {% endif %}
+                {% if alt_post == nil %}
+                  {% assign alt_post = post %}
+                {% endif %}
+                <div class="row">
+                  <div class="col">
+                    <a href="{{ site.baseurl }}{{ alt_post.url }}"><h2 class="lang {{lang}}">{{ alt_post.title }}</h2></a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="lang {{ lang }}">{{ alt_post.excerpt }} <a href="{{ site.baseurl }}{{ alt_post.url }}"> read more...</a>
+                    </div>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section><!-- End  F.A.Q Section -->

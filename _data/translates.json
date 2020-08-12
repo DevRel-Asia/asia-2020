@@ -379,7 +379,7 @@
   },
   {
     "key": "cfp2",
-    "english": "You are expected by attendees that sharing your experience of developer relations, developer marketing and developer community.",
+    "english": "You are expected by the attendees to share your experience of developer relations, developer marketing and developer community, developer experience and API.",
     "japan": "スピーカーはDevRel、開発者マーケティング、開発者コミュニティの経験などを参加者へ共有することを期待されています。",
     "korea": "",
     "vietnam": "Bạn được mong đợi bởi những người tham dự chia sẻ kinh nghiệm của bạn về quan hệ nhà phát triển, tiếp thị nhà phát triển và cộng đồng nhà phát triển.",
@@ -388,7 +388,7 @@
   },
   {
     "key": "cfp3",
-    "english": "Each session has 25min maximum including Q&A time. You can speak in English or your common language like Japanese, Korean, Chinese and Hindu. You can send your CFP in English and your common language like Japanese, Korean, Chinese and Hindu. You have to use online communication tool like Zoom, StreamYard and etc. It depends on track’s rule.",
+    "english": "Each session will be of 25 mins maximum consisting of the content and Q&A session. You can submit your CFP and speak at the conference in English or your common languages like Japanese, Korean, Chinese, Vietnamese and Indonesian. You may have to use online communication tools like Zoom, StreamYard, etc. It depends on the track’s rule.",
     "japan": "各セッションは質疑応答を含めて最大25分です。 英語の他、日本語、韓国語、中国語、ヒンドゥー語などの母国語で話すことができます。 CFPも英語の他、日本語、韓国語、中国語、ヒンドゥー語などの母国語で送信できます。 登壇時はZoom、StreamYardなどのオンラインコミュニケーションツールを使用する必要があります。これは各トラックのルールによって異なります。",
     "korea": "",
     "vietnam": "Mỗi phiên có tối đa 25 phút bao gồm cả thời gian hỏi và đáp. Bạn có thể nói bằng tiếng Anh hoặc ngôn ngữ mẹ đẻ của bạn như Nhật Bản, Hàn Quốc, Trung Quốc và Ấn Độ giáo. Bạn có thể gửi CFP bằng tiếng Anh và ngôn ngữ mẹ đẻ của bạn như Nhật Bản, Hàn Quốc, Trung Quốc và Ấn Độ giáo. Bạn phải sử dụng công cụ giao tiếp trực tuyến như Zoom, StreamYard, v.v. Nó phụ thuộc vào quy định của từng nội dung",
@@ -752,6 +752,24 @@
     "japan": "CFPを送信する",
     "korea": "",
     "vietnam": "Gửi CFP của tôi",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "article1",
+    "english": "Blog",
+    "japan": "ブログ",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "article2",
+    "english": "read more",
+    "japan": "もっと読む",
+    "korea": "",
+    "vietnam": "",
     "indonesia": "",
     "simplified_chinese": ""
   }
