@@ -21,9 +21,9 @@ jobs:
         wget -O ${{ github.workspace }}/_data/faq.json ${{ secrets.URL }}?name=faq
         wget -O ${{ github.workspace }}/_data/translates.json ${{ secrets.URL }}?name=translates
         wget -O ${{ github.workspace }}/_data/sponsors.json ${{ secrets.URL }}?name=sponsors
-        ruby organizer.rb
-        ruby translate.rb 
-        ruby faq.rb 
+        ruby ${{ github.workspace }}/organizer.rb
+        ruby ${{ github.workspace }}/translate.rb 
+        ruby ${{ github.workspace }}/faq.rb 
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
