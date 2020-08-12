@@ -754,5 +754,23 @@
     "vietnam": "Gửi CFP của tôi",
     "indonesia": "",
     "simplified_chinese": ""
+  },
+  {
+    "key": "article1",
+    "english": "Blog",
+    "japan": "ブログ",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "article2",
+    "english": "read more",
+    "japan": "もっと読む",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
   }
 ]
