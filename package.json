@@ -1,0 +1,23 @@
+{
+  "name": "asia-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevRel-Asia/asia-2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevRel-Asia/asia-2020/issues"
+  },
+  "homepage": "https://github.com/DevRel-Asia/asia-2020#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
