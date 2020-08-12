@@ -15,7 +15,8 @@
               <img src="{{ site.baseurl }}/assets/articles/{{ post.catch }}" width="300px" />
             </div>
             <div class="col-md-8">
-              {% for lang in site.languages %}
+              {% assign languages = "en,ja,ko,zh,vi,id" | split: "," %}
+              {% for lang in languages %}
                 {% if post.post_id != "" %}
                   {% assign alt_post = site.posts | where: "language", lang | find: "post_id", post.post_id %}
                 {% else %}
