@@ -1,0 +1,39 @@
+name: Jekyll site CI
+
+on:
+  schedule:
+    - cron:  '* * * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Build the site in the jekyll/builder container
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: Create local changes
+      run: |
+        wget -O ${{ github.workspace }}/_data/organizers.json ${{ secrets.URL }}?name=organizers
+        wget -O ${{ github.workspace }}/_data/faq.json ${{ secrets.URL }}?name=faq
+        wget -O ${{ github.workspace }}/_data/translates.json ${{ secrets.URL }}?name=translates
+        wget -O ${{ github.workspace }}/_data/sponsors.json ${{ secrets.URL }}?name=sponsors
+        ruby ${{ github.workspace }}/organizer.rb
+        ruby ${{ github.workspace }}/translate.rb 
+        ruby ${{ github.workspace }}/faq.rb 
+    - name: Commit files
+      shell: bash
+      run: |
+        git config --local user.email "action@github.com";
+        git config --local user.name "GitHub Action";
+        git add .;
+        if [[ `git status` == *use* ]]; then
+          git commit -m "Add changes"
+        fi
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
