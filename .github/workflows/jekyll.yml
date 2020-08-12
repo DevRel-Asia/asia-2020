@@ -41,6 +41,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
   github-pages:
+    needs: build
     runs-on: ubuntu-16.04
     steps:
       - uses: actions/checkout@v2
