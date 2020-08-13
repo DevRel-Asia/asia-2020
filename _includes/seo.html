@@ -4,16 +4,16 @@
 <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/socials/{{ page.id }}.jpg" />
 <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.permalink }}" />
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.permalink }}" />
-{% else if page.layout == "post" %}
-<title>{{ page.title }} - {{ site.title }}</title>
-<meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
-{% if page.catch %}
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/articles/{{ page.catch }}" />
-{% else %}
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/socials/ogp.jpg" />
-{% endif %}
-<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
-<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+{% elsif page.layout == "post" %}
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
+  {% if page.catch %}
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/articles/{{ page.catch }}" />
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/socials/ogp.jpg" />
+  {% endif %}
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
 {% else %}
 <title>{{ site.title }}</title>
 <meta property="og:title" content="{{ site.title }}" />
