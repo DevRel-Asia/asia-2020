@@ -32,6 +32,12 @@ const CFP = ncmb.DataStore('CFP');
       $('[data-toggle="tooltip"]').tooltip('hide');
     })
   }
+  if (!$('table').hasClass('table')) {
+    $('table').addClass('table');
+  }
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
   $('.lang').hide();
   if (blang.is.en()) {
     $('.lang.en').show();
