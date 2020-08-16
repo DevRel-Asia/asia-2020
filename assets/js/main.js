@@ -45,8 +45,9 @@ const CFP = ncmb.DataStore('CFP');
     $('.lang.ja').show();
   } else if (blang.is.ko()) {
     $('.lang.ko').show();
-  } else if (blang.is.zh()) {
+  /*} else if (blang.is.zh()) {
     $('.lang.zh').show();
+  */
   } else if (blang.is.id()) {
     $('.lang.id').show();
   } else if (blang.is.vi()) {
