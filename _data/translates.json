@@ -73,8 +73,8 @@
   },
   {
     "key": "header7",
-    "english": "Send CFP!",
-    "japan": "CFPを送る",
+    "english": "Go to CFP form!",
+    "japan": "CFPへ移動する",
     "korea": "",
     "vietnam": "Gửi CFP!",
     "indonesia": "Kirim CFP!",
@@ -146,7 +146,7 @@
   {
     "key": "news1",
     "english": "CFP is open!",
-    "japan": "CFP募集中です！",
+    "japan": "プロポーザル募集中です！",
     "korea": "발표자 모집 중!",
     "vietnam": "CFP đã mở đăng ký!",
     "indonesia": "CFP sudah dibuka!",
@@ -154,11 +154,11 @@
   },
   {
     "key": "news2",
-    "english": "You can submit your CFP here!",
-    "japan": "ここからCFP(登壇希望)を送れます！",
-    "korea": "참여 제안(CFP)은 여기서 해주세요!",
-    "vietnam": "Bạn có thể đăng ký CFP tại đây!",
-    "indonesia": "Anda dapat mendaftar untuk CFP disini!",
+    "english": "You can submit your proposal here!",
+    "japan": "ここからプロポーザル(登壇希望)を送れます！",
+    "korea": "참여 제안(Proposal)은 여기서 해주세요!",
+    "vietnam": "Bạn có thể đăng ký Proposal tại đây!",
+    "indonesia": "Anda dapat mendaftar untuk Proposal disini!",
     "simplified_chinese": ""
   },
   {
@@ -371,7 +371,7 @@
   {
     "key": "cfp1",
     "english": "Call for paper",
-    "japan": "登壇希望（CFP）を送る",
+    "japan": "登壇希望（プロポーザル）を送る",
     "korea": "",
     "vietnam": "Call for paper",
     "indonesia": "Call for paper",
@@ -478,11 +478,11 @@
   },
   {
     "key": "cfp12",
-    "english": "Submit CFP",
-    "japan": "CFPを送る",
+    "english": "Submit Proposal",
+    "japan": "プロポーザルを送る",
     "korea": "",
-    "vietnam": "Gửi CFP",
-    "indonesia": "Kirim CFP",
+    "vietnam": "Gửi Proposal",
+    "indonesia": "Kirim Proposal",
     "simplified_chinese": ""
   },
   {
