@@ -54,6 +54,8 @@ const CFP = ncmb.DataStore('CFP');
     $('.lang.vi').show();
   } else if (blang.is.hi()) {
     $('.lang.in').show();
+  } else {
+    $('.lang.en').show();
   }
 
   $.each($('.markdown .lang'), (i, e) => {
