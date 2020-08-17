@@ -162,6 +162,24 @@
     "simplified_chinese": ""
   },
   {
+    "key": "news3",
+    "english": "Tickets are on sale!",
+    "japan": "チケット発売開始しました！",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "news4",
+    "english": "We will donate 50% of profits at conference to Red Cross or other association. Will be announced detail soon!",
+    "japan": "利益の50%を赤十字または他の組織へ寄付する予定です。詳細は決まり次第発表します。",
+    "korea": "이익의 50 %를 적십자 또는 다른 조직에 기부 할 예정입니다. 자세한 내용은 정해지는대로 발표합니다.",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
     "key": "sponsors1",
     "english": "Sponsors",
     "japan": "スポンサー",
