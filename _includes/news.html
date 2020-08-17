@@ -3,12 +3,22 @@
   <div class="container" data-aos="fade-up">
     <div class="section-header">
       <h2>
-        {% assign messages = site.data.i18n.news1 %}{% include translate.html %}
+        {% assign messages = site.data.i18n.news3 %}{% include translate.html %}
       </h2>
-      <p><a href="/asia-2020/cfp/">
-        {% assign messages = site.data.i18n.news2 %}
-        {% include translate.html %}
-      </a></p>
+      <p>
+        <!-- place this in your head tag -->
+        <script src='https://js.tito.io/v1' async></script>
+
+        <!-- place this where you want the widget to appear -->
+        <tito-widget event="devrel-asia/devrel-asia-2020"></tito-widget>
+
+        <!-- for basic styles include a link to our stylesheet. -->
+        <!-- fancy something more adventurous? Copy it and roll your own! -->
+        <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
+      </p>
+      <p>
+        {% assign messages = site.data.i18n.news4 %}{% include translate.html %}
+      </p>
     </div>
   </div>
 </section>
