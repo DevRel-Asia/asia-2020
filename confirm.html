@@ -1,0 +1,170 @@
+---
+layout: default
+permalink: /confirm/
+---
+
+<main id="main">
+  <section id="news" style="padding-top: 5em">
+    <div class="container">
+      <div class="row">
+        <h1>
+          {% assign messages = site.data.i18n.confirm1 %}
+          {% include translate.html %}
+        </h1>
+        <p>
+          {% assign messages = site.data.i18n.confirm2 %}
+          {% include translate.html %}
+        </p>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-warning" role="alert">
+            {% assign messages = site.data.i18n.confirm3 %}
+            {% include translate.html %}
+          </div>
+        </div>
+      </div>
+      <form class="proposal">
+        <div class="row">
+          <p>
+            <dl>
+              <dt>
+                {% assign messages = site.data.i18n.confirm4 %}
+                {% include translate.html %}
+              </dt>
+              <dd style="padding-left: 1em">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1" name="diwaliConfirm" required>
+                  <label class="form-check-label" for="exampleCheck1">
+                    {% assign messages = site.data.i18n.confirm5 %}
+                    {% include translate.html %}
+                  </label>
+                </div>
+              </dd>
+              <dt>
+                {% assign messages = site.data.i18n.confirm6 %}
+                {% include translate.html %}
+              </dt>
+              <dd style="padding-left: 1em">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1" name="liveConfirm" required>
+                  <label class="form-check-label" for="exampleCheck1">
+                    {% assign messages = site.data.i18n.confirm7 %}
+                    {% include translate.html %}
+                  </label>
+                </div>
+              </dd>
+            </dl>
+          </p>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3>
+              {% assign messages = site.data.i18n.confirm8 %}
+              {% include translate.html %}
+            </h3>
+            <div class="form-group">
+              <dl>
+                <dt>
+                  {% assign messages = site.data.i18n.confirm9 %}{% include translate.html %}
+                </dt>
+                <dd style="padding-left: 1em">
+                  <span class="proposal_title"></span>
+                </dd>
+                <dt>
+                  {% assign messages = site.data.i18n.confirm10 %}{% include translate.html %}
+                </dt>
+                <dd style="padding-left: 1em">
+                  <span class="proposal_abstruct"></span>
+                </dd>
+                <dt>
+                  {% assign messages = site.data.i18n.confirm11 %}{% include translate.html %}
+                </dt>
+                <dd style="padding-left: 1em">
+                  <span class="proposal_description"></span>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3>
+              {% assign messages = site.data.i18n.confirm12 %}{% include translate.html %}
+            </h3>
+            <div class="form-group">
+              <dl>
+                <dt>
+                  {% assign messages = site.data.i18n.confirm13 %}{% include translate.html %}
+                </dt>
+                <dd style="padding-left: 1em">
+                  <span class="proposal_name"></span>
+                </dd>
+                <dt>
+                  {% assign messages = site.data.i18n.confirm14 %}{% include translate.html %}
+                </dt>
+                <dd style="padding-left: 1em">
+                  <span class="proposal_companyName"></span>
+                </dd>
+              </dl>
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.confirm24 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.confirm25 %}{% include translate.html %}
+              </small>
+              <input type="file" accept="image/*" class="image" /><br /><br />
+              <div class="hide spinner-border upload-image" role="status">
+                <span class="sr-only">Loading...</span>
+              </div>
+              <input type="text" name="profileImage" class="proposal_profileImage form-control save" required id="inputText" aria-describedby="nameHelp" placeholder="Enter profile image URL">
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.confirm15 %}{% include translate.html %}
+              </label>
+              <input type="text" name="url" class="proposal_url form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter blog or website URL">
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.confirm16 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.confirm17 %}{% include translate.html %}
+              </small>
+              <textarea name="social" rows="5" class="proposal_social form-control save" aria-describedby="nameHelp"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.confirm18 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.confirm19 %}{% include translate.html %}
+              </small>
+              <textarea name="bio" rows="10" required class="proposal_bio form-control save" id="inputText" aria-describedby="nameHelp"></textarea>
+            </div>
+            <div class="form-group">
+              <div class="alert alert-success success hide" role="alert">
+                {% assign messages = site.data.i18n.confirm20 %}{% include translate.html %}
+              </div>
+              <div class="alert alert-warning failure hide" role="alert">
+                {% assign messages = site.data.i18n.confirm21 %}{% include translate.html %}
+              </div>
+              <div class="alert alert-info loading hide" role="alert">
+                {% assign messages = site.data.i18n.confirm23 %}{% include translate.html %}
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">
+              {% assign messages = site.data.i18n.confirm22 %}{% include translate.html %}
+            </button>
+            <input type="hidden" name="objectId" class="proposal_objectId" />
+          </div>
+        </div>
+      </form>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+  </section>
+</main>

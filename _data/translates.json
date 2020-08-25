@@ -799,5 +799,230 @@
     "vietnam": "",
     "indonesia": "",
     "simplified_chinese": ""
+  },
+  {
+    "key": "confirm1",
+    "english": "Confirmation form for your proposal",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm2",
+    "english": "Congratulations <span class=\"proposal_name\"></span>!<br />\nYour talk, <span class=\"proposal_title\"></span>, has been selected for DevRel/Asia 2020.<br />\nWe are really excited to have you speak and we think your talk will really help make DevRel/Asia 2020 amazing.<br />\nCan you please confirm that will still be able to attend by visiting the link below and letting us know whether you can or can not still attend?",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm3",
+    "english": "Due date is <span class=\"proposal_dueDate\"></span>. Be carefull.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm4",
+    "english": "Note 1: Especially Indian speaker, Our conference is Nov. 14th. It's Diwali in India. Can you attend on Live broadcast? Please confirm it.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm5",
+    "english": "I confirmed November 14th is Diwali. And I can attend the conference",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm6",
+    "english": "Note 2: We use Streaming and Live broadcast. Not recording video. Please confirm it.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm7",
+    "english": "I confirmed DevRel/Asia 2020 uses Live broadcast, not recording.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm8",
+    "english": "Please confirm your proposal.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm9",
+    "english": "Talk title",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm10",
+    "english": "Talk abstruct",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm11",
+    "english": "Talk description",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm12",
+    "english": "You can update your personal information here.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm13",
+    "english": "Name",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm14",
+    "english": "Company or organization",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm15",
+    "english": "URL",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm16",
+    "english": "Social media account",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm17",
+    "english": "Enter each account per line if you want to display it",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm18",
+    "english": "Bio",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm19",
+    "english": "You can use Markdown here",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm20",
+    "english": "Thank you for your accepting. We will contact you soon.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm21",
+    "english": "Sorry, we got an error. Please try again later. Or <a href=\"mailto:asia-2020@devrel.dev\">contanct us</a>.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm22",
+    "english": "I accept your invitation!",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm23",
+    "english": "We're updating. Please just a minute.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm24",
+    "english": "Profile Image",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm25",
+    "english": "You can upload your profile image here. Or please input profile image URL",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
   }
 ]

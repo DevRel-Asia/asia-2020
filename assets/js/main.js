@@ -13,8 +13,9 @@ const applicationKey = '8ae9a1897b1e2c40742aff799e228352521b70271fbc991d8f83c6fb
 const clientKey = '50367c73152a57e8929ff26ae5bba68c2ee5779c51195d01ea85cb84b14a14ad';
 const ncmb = new NCMB(applicationKey, clientKey);
 const CFP = ncmb.DataStore('CFP');
+const Proposal = ncmb.DataStore('Proposal');
 
-!(function($) {
+!(async function($) {
   "use strict";
   const tip = localStorage.getItem('tip');
   if (!tip && blang.detect().toLowerCase() === 'en-us') {
@@ -62,6 +63,76 @@ const CFP = ncmb.DataStore('CFP');
     $(e).html(marked($(e).text()));
   })
 
+  if (location.href.indexOf('/confirm') > -1) {
+    $('.hide').hide();
+    // Confirm proposal
+    const key = url('?key');
+    if (!key) {
+      alert("You can't access this page without key.");
+      location.href='/';
+      return;
+    }
+    const p = await Proposal
+      .equalTo('uniqueKey', key)
+      .fetch();
+    if (Object.keys(p).length === 0) {
+      alert("Your key is wrong. Please check it or contact us");
+      return;
+    }
+    for (let key in p) {
+      const dom = $(`.proposal_${key}`);
+      if (dom[0] && (dom[0].tagName === 'INPUT' || dom[0].tagName === 'TEXTAREA')) {
+        dom.val(p.get(key));
+      } else {
+        if (key === 'description') {
+          dom.html(marked(p.get(key)));
+        } else {
+          if (p.get(key).__type === 'Date') {
+            const d = new Date(p.get(key).iso);
+            dom.html(d.toLocaleString());
+          } else {
+            dom.html(p.get(key));
+          }
+        }
+      }
+    }
+    if (p.get('twitter') !== '' && p.get('social')) {
+      $(`.proposal_social`).val(`https://twitter.com/${p.get('twitter')}`);
+    }
+  }
+  $('form.proposal .image').on('change', async (e) => {
+    e.preventDefault();
+    $('.upload-image').show();
+    const fileData = e.target.files[0];
+    const file = await ncmb.File.upload(fileData.name, fileData);
+    const url = `https://mbaas.api.nifcloud.com/2013-09-01/applications/FoXWpohIiHuqEVib/publicFiles/${file.fileName}`;
+    $('.proposal_profileImage').val(url);
+    $('.upload-image').hide();
+  });
+
+  $('form.proposal').on('submit', async (e) => {
+    e.preventDefault();
+    $('form.proposal .alert').hide();
+    $('form.proposal .loading').show();
+    const ary = $(e.target).serializeArray();
+    const p = new Proposal;
+    for (let key of ary) {
+      p.set(key.name, key.value);
+    }
+    p.set('confirmed', true);
+    try {
+      await p.update();
+      ncmb
+        .Script
+        .query({'objectId': p.get('objectId')})
+        .exec('GET', 'proposal.js');
+      $('form.proposal .success').show();
+    } catch (e) {
+      $('form.proposal .failure').show();
+    }
+    $('form.proposal .loading').hide();
+  });
+  /*
   $('#loadCfp').on('click', async (e) => {
     $('.load-message').html('Please wait a minute');
     const objectId = $('#id').val();
@@ -76,6 +147,7 @@ const CFP = ncmb.DataStore('CFP');
     })
     $('.load-message').html('Loaded. Please edit and send it again.');
   });
+  */
 
   const arrayToJson = (ary) => {
     const params = {};
@@ -109,7 +181,6 @@ const CFP = ncmb.DataStore('CFP');
       $('.form form .error-message').show();
     }
   })
-
 
   $('.save').on('keyup', (e) => {
     const form = localStorage.getItem('form') ? JSON.parse(localStorage.getItem('form')) : {};
@@ -146,6 +217,7 @@ const CFP = ncmb.DataStore('CFP');
     }
   }
 
+  /*
   async function sendCfp(cfp) {
     const acl = new ncmb.Acl();
     acl
@@ -167,7 +239,8 @@ const CFP = ncmb.DataStore('CFP');
       body: JSON.stringify(cfp)
     });    
   }
-
+  */
+  /*
   $('form.cfp .hide').hide();
   $('form.cfp').on('submit', async (e) => {
     e.preventDefault();
@@ -199,6 +272,7 @@ const CFP = ncmb.DataStore('CFP');
       $('form.cfp .hide').hide();
     }, 5000);
   });
+  */
 
   // Back to top button
   $(window).scroll(function() {
