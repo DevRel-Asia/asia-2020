@@ -1026,6 +1026,24 @@
     "simplified_chinese": ""
   },
   {
+    "key": "confirm26",
+    "english": "Timezone",
+    "japan": "タイムゾーン",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm27",
+    "english": "Please write using UTC (eg. UTC+9)",
+    "japan": "UTC+9のような形式で入力してください",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
     "key": "decline1",
     "english": "This is final confirmation",
     "japan": "最終確認です",

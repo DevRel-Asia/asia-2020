@@ -129,6 +129,15 @@ permalink: /confirm/
             </div>
             <div class="form-group">
               <label for="InputName">
+                {% assign messages = site.data.i18n.confirm26 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.confirm27 %}{% include translate.html %}
+              </small>
+              <input type="text" name="timezone" class="proposal_timezone form-control save" id="inputText" aria-describedby="nameHelp" placeholder="UTC+9">
+            </div>
+            <div class="form-group">
+              <label for="InputName">
                 {% assign messages = site.data.i18n.confirm15 %}{% include translate.html %}
               </label>
               <input type="text" name="url" class="proposal_url form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter blog or website URL">
