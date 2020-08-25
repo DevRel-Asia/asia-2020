@@ -1,29 +1,24 @@
-  <!-- ======= Speakers Section ======= -->
-  <!--
   <section id="speakers">
     <div class="container" data-aos="fade-up">
       <div class="section-header">
         <h2>Awesome Speakers</h2>
-        <p>We'll be announced soon!</p>
+        <p>We'll be announced more soon. Stay tuned!</p>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
-            <div class="details">
-              <h3><a href="speaker-details.html">Brenden Legros</a></h3>
-              <p>Quas alias incidunt</p>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
+        {% for speaker in site.data.speakers %}
+          {% if speaker.photo == "true" and speaker.speaker == "true" %}
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+                <img src="{{ site.baseurl }}/assets/images/speakers/{{ speaker.id }}.jpg" alt="{{ speaker.name }}" class="img-fluid">
+                <div class="details">
+                  <h3>{{ speaker.name_english }}</h3>
+                  <p>{{ speaker.company_english }}</p>
+                  {% include social_speaker.html %}
+                </div>
               </div>
             </div>
-          </div>
-        </div>
+          {% endif %}
+        {% endfor %}
       </div>
     </div>
-
   </section>
--->

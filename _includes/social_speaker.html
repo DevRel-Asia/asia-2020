@@ -1,0 +1,17 @@
+<div class="social">
+  {% if speaker.web != "" %}
+    <a href="{{ speaker.web }}" target="_blank"><i class="fa fa-globe"></i></a>
+  {% endif %}
+  {% if speaker.twitter != "" %}
+    <a href="{{ speaker.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>
+  {% endif %}
+  {% if speaker.facebook != "" %}
+    <a href="{{ speaker.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>
+  {% endif %}
+  {% if speaker.github != "" %}
+    <a href="{{ speaker.github }}" target="_blank"><i class="fa fa-github"></i></a>
+  {% endif %}
+  {% if speaker.linkedin != "" %}
+    <a href="{{ speaker.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a>
+  {% endif %}
+</div>
