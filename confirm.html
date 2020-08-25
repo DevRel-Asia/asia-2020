@@ -7,14 +7,20 @@ permalink: /confirm/
   <section id="news" style="padding-top: 5em">
     <div class="container">
       <div class="row">
-        <h1>
-          {% assign messages = site.data.i18n.confirm1 %}
-          {% include translate.html %}
-        </h1>
-        <p>
-          {% assign messages = site.data.i18n.confirm2 %}
-          {% include translate.html %}
-        </p>
+        <div class="col">
+          <h1>
+            {% assign messages = site.data.i18n.confirm1 %}
+            {% include translate.html %}
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>
+            {% assign messages = site.data.i18n.confirm2 %}
+            {% include translate.html %}
+          </p>
+        </div>
       </div>
       <div class="row">
         <div class="col">
