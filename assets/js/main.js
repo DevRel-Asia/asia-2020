@@ -63,7 +63,7 @@ const Proposal = ncmb.DataStore('Proposal');
     $(e).html(marked($(e).text()));
   })
 
-  if (location.href.indexOf('/confirm') > -1) {
+  if (location.href.indexOf('/confirm') > -1 || location.href.indexOf('/decline') > -1) {
     $('.hide').hide();
     // Confirm proposal
     const key = url('?key');
@@ -77,6 +77,11 @@ const Proposal = ncmb.DataStore('Proposal');
       .fetch();
     if (Object.keys(p).length === 0) {
       alert("Your key is wrong. Please check it or contact us");
+      return;
+    }
+    if (p.get('declined') === true) {
+      alert("You already declined our invitation. You can't update any more.");
+      location.href='/';
       return;
     }
     for (let key in p) {
@@ -108,6 +113,30 @@ const Proposal = ncmb.DataStore('Proposal');
     const url = `https://mbaas.api.nifcloud.com/2013-09-01/applications/FoXWpohIiHuqEVib/publicFiles/${file.fileName}`;
     $('.proposal_profileImage').val(url);
     $('.upload-image').hide();
+  });
+
+  $('form.decline').on('submit', async (e) => {
+    e.preventDefault();
+    $('form.decline .alert').hide();
+    $('form.decline .loading').show();
+    const p = new Proposal;
+    const ary = $(e.target).serializeArray();
+    for (let key of ary) {
+      p.set(key.name, key.value);
+    }
+    p.set('confirmed', false);
+    p.set('declined', true);
+    try {
+      await p.update();
+      ncmb
+        .Script
+        .query({'objectId': p.get('objectId')})
+        .exec('GET', 'decline.js');
+      $('form.decline .success').show();
+    } catch (e) {
+      $('form.decline .failure').show();
+    }
+    $('form.decline .loading').hide();
   });
 
   $('form.proposal').on('submit', async (e) => {

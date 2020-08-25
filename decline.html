@@ -1,0 +1,45 @@
+---
+layout: default
+permalink: /decline/
+---
+
+<main id="main">
+  <section id="news" style="padding-top: 5em">
+    <div class="container">
+      <div class="row">
+        <h1>
+          {% assign messages = site.data.i18n.decline1 %}
+          {% include translate.html %}
+        </h1>
+        <p>
+          {% assign messages = site.data.i18n.decline2 %}
+          {% include translate.html %}
+        </p>
+      </div>
+      <form class="decline">
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <div class="alert alert-success success hide" role="alert">
+                {% assign messages = site.data.i18n.decline3 %}{% include translate.html %}
+              </div>
+              <div class="alert alert-warning failure hide" role="alert">
+                {% assign messages = site.data.i18n.decline4 %}{% include translate.html %}
+              </div>
+              <div class="alert alert-info loading hide" role="alert">
+                {% assign messages = site.data.i18n.decline5 %}{% include translate.html %}
+              </div>
+            </div>
+            <input type="hidden" name="objectId" class="proposal_objectId" />
+            <button class="btn btn-warning">
+              
+              {% assign messages = site.data.i18n.decline6 %}{% include translate.html %}
+            </button>
+          </div>
+        </div>
+      </form>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+  </section>
+</main>

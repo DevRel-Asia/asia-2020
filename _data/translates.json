@@ -803,7 +803,7 @@
   {
     "key": "confirm1",
     "english": "Confirmation form for your proposal",
-    "japan": "",
+    "japan": "プロポーザルの確認",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -811,8 +811,8 @@
   },
   {
     "key": "confirm2",
-    "english": "Congratulations <span class=\"proposal_name\"></span>!<br />\nYour talk, <span class=\"proposal_title\"></span>, has been selected for DevRel/Asia 2020.<br />\nWe are really excited to have you speak and we think your talk will really help make DevRel/Asia 2020 amazing.<br />\nCan you please confirm that will still be able to attend by visiting the link below and letting us know whether you can or can not still attend?",
-    "japan": "",
+    "english": "Congratulations <span class=\"proposal_name\"></span>!<br />\nYour talk, <span class=\"proposal_title\"></span>, has been selected for DevRel/Asia 2020.<br />\nWe are really excited to have you speak and we think your talk will really help make DevRel/Asia 2020 amazing.<br />\nCan you please confirm that will still be able to attend. And please click the button that there is the bottom of form.",
+    "japan": "おめでとうございます、<span class=\"\"proposal_name\"\"></span>さん!<br />\nあなたのトーク、<span class=\"\"proposal_title\"\"></span>はDevRel/Asia 2020にて採択されました！<br />\nあなたの話はとても興味深く、カンファレンスを素晴らしいものにすることでしょう。<br />\n下記の内容を確認した上で、フォーム下にあるボタンを押してください。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -821,7 +821,7 @@
   {
     "key": "confirm3",
     "english": "Due date is <span class=\"proposal_dueDate\"></span>. Be carefull.",
-    "japan": "",
+    "japan": "締め切りは<span class=\"proposal_dueDate\"></span>です。ご注意ください。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -830,7 +830,7 @@
   {
     "key": "confirm4",
     "english": "Note 1: Especially Indian speaker, Our conference is Nov. 14th. It's Diwali in India. Can you attend on Live broadcast? Please confirm it.",
-    "japan": "",
+    "japan": "注意1：（主にインドのスピーカーの方向けですがチェックをお願いします）11月14日はインドの祭典ディワリです。あなたはその日登壇可能でしょうか。確認してください。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -839,7 +839,7 @@
   {
     "key": "confirm5",
     "english": "I confirmed November 14th is Diwali. And I can attend the conference",
-    "japan": "",
+    "japan": "11月14日はディワリなのを確認しました。また、登壇可能です。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -847,8 +847,8 @@
   },
   {
     "key": "confirm6",
-    "english": "Note 2: We use Streaming and Live broadcast. Not recording video. Please confirm it.",
-    "japan": "",
+    "english": "Note 2: We use Streaming and Live broadcast, not recording video. Please confirm it.",
+    "japan": "注意2：登壇に際してストリーミング、かつ生放送で行います。録画を流すことはありません。ご確認ください。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -857,7 +857,7 @@
   {
     "key": "confirm7",
     "english": "I confirmed DevRel/Asia 2020 uses Live broadcast, not recording.",
-    "japan": "",
+    "japan": "DevRel/Asia 2020は生放送であり、録画動画は使わないことを確認しました。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -866,7 +866,7 @@
   {
     "key": "confirm8",
     "english": "Please confirm your proposal.",
-    "japan": "",
+    "japan": "あなたのトーク内容を確認してください",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -875,7 +875,7 @@
   {
     "key": "confirm9",
     "english": "Talk title",
-    "japan": "",
+    "japan": "タイトル",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -884,7 +884,7 @@
   {
     "key": "confirm10",
     "english": "Talk abstruct",
-    "japan": "",
+    "japan": "概要",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -893,7 +893,7 @@
   {
     "key": "confirm11",
     "english": "Talk description",
-    "japan": "",
+    "japan": "詳細",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -902,7 +902,7 @@
   {
     "key": "confirm12",
     "english": "You can update your personal information here.",
-    "japan": "",
+    "japan": "ここであなたの情報をアップデートできます",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -911,7 +911,7 @@
   {
     "key": "confirm13",
     "english": "Name",
-    "japan": "",
+    "japan": "お名前",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -920,7 +920,7 @@
   {
     "key": "confirm14",
     "english": "Company or organization",
-    "japan": "",
+    "japan": "会社名または組織名",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -929,7 +929,7 @@
   {
     "key": "confirm15",
     "english": "URL",
-    "japan": "",
+    "japan": "URL",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -938,7 +938,7 @@
   {
     "key": "confirm16",
     "english": "Social media account",
-    "japan": "",
+    "japan": "ソーシャルメディアのアカウント",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -946,8 +946,8 @@
   },
   {
     "key": "confirm17",
-    "english": "Enter each account per line if you want to display it",
-    "japan": "",
+    "english": "Enter each URL per line if you want to display it",
+    "japan": "1行ごとに表示したいソーシャルメディアのURLを記述してください",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -956,7 +956,7 @@
   {
     "key": "confirm18",
     "english": "Bio",
-    "japan": "",
+    "japan": "自己紹介文",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -965,7 +965,7 @@
   {
     "key": "confirm19",
     "english": "You can use Markdown here",
-    "japan": "",
+    "japan": "Markdown記法が利用できます",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -974,7 +974,7 @@
   {
     "key": "confirm20",
     "english": "Thank you for your accepting. We will contact you soon.",
-    "japan": "",
+    "japan": "承諾ありがとうございます。すぐにご連絡いたします。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -983,7 +983,7 @@
   {
     "key": "confirm21",
     "english": "Sorry, we got an error. Please try again later. Or <a href=\"mailto:asia-2020@devrel.dev\">contanct us</a>.",
-    "japan": "",
+    "japan": "申し訳ありません。エラーが発生しました。少し待ってから再度実行するか、<a href=\"mailto:asia-2020@devrel.dev\">メールにてご連絡ください</a>。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -992,7 +992,7 @@
   {
     "key": "confirm22",
     "english": "I accept your invitation!",
-    "japan": "",
+    "japan": "招待を受け入れてスピーカーになる！",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1001,7 +1001,7 @@
   {
     "key": "confirm23",
     "english": "We're updating. Please just a minute.",
-    "japan": "",
+    "japan": "更新中です。お待ちください。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1010,7 +1010,7 @@
   {
     "key": "confirm24",
     "english": "Profile Image",
-    "japan": "",
+    "japan": "プロフィール写真",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1019,7 +1019,61 @@
   {
     "key": "confirm25",
     "english": "You can upload your profile image here. Or please input profile image URL",
-    "japan": "",
+    "japan": "ここでプロフィール写真をアップロードできます。または下記に写真のURLを入力してください。",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "decline1",
+    "english": "This is final confirmation",
+    "japan": "最終確認です",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "decline2",
+    "english": "Hi <span class=\"proposal_name\"></span>, do you really want to decline our offer? Yes, you have privilege accept or decline from our invitation. However if you decline our invitation, you loose your privilege to speech. And your privilege will be moved next candidate speaker.<br />\nIf you're OK, please click decline button below.<br />",
+    "japan": "こんにちは<span class=\"proposal_name\"></span>さん, 本当に私たちのオファーを拒否しますか？はい、その権利はあなたにあります。しかし、もし拒否した場合、登壇する権利は失われます。その権利は次の候補者に移動します。<br />\nもしそれでよければ、以下の拒否するボタンを押してください。<br />",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "decline3",
+    "english": "Thank you so much for your proposal. You declined our invitation.",
+    "japan": "ありがとうございました。あなたはオファーを拒否しました。",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "decline4",
+    "english": "Sorry, we got an error. Please try again later. Or <a href=\"mailto:asia-2020@devrel.dev\">contanct us</a>.",
+    "japan": "申し訳ありません。エラーが発生しました。少し待ってから再度実行するか、<a href=\"mailto:asia-2020@devrel.dev\">メールにてご連絡ください</a>。",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "decline5",
+    "english": "We're updating. Please just a minute.",
+    "japan": "更新中です。お待ちください。",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "decline6",
+    "english": "I decline the offer of DevRel/Asia 2020",
+    "japan": "DevRel/Asia 2020での登壇を拒否する",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
