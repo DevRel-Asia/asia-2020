@@ -109,7 +109,8 @@ const Proposal = ncmb.DataStore('Proposal');
     e.preventDefault();
     $('.upload-image').show();
     const fileData = e.target.files[0];
-    const file = await ncmb.File.upload(fileData.name, fileData);
+    console.log(fileData.name.replace(/(.*?)\.(.*?)/, '$1' + (new Date()).getTime() + '.' + '$2'))
+    const file = await ncmb.File.upload(fileData.name.replace(/(.*?)\.(.*?)/, '$1' + (new Date()).getTime() + '.' + '$2'), fileData);
     const url = `https://mbaas.api.nifcloud.com/2013-09-01/applications/FoXWpohIiHuqEVib/publicFiles/${file.fileName}`;
     $('.proposal_profileImage').val(url);
     $('.upload-image').hide();
