@@ -19,5 +19,12 @@
     "name": "Microsoft",
     "url": "https://azure.microsoft.com/ja-jp/",
     "twitter": "msdevjp"
+  },
+  {
+    "id": "twilio",
+    "type": "gold",
+    "name": "Twilio",
+    "url": "https://www.twilio.com/",
+    "twitter": "twilio"
   }
 ]
