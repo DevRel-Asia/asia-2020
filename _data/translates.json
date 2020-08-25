@@ -803,7 +803,7 @@
   {
     "key": "confirm1",
     "english": "Confirmation form for your proposal",
-    "japan": "",
+    "japan": "プロポーザルの確認",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -811,8 +811,8 @@
   },
   {
     "key": "confirm2",
-    "english": "Congratulations <span class=\"proposal_name\"></span>!<br />\nYour talk, <span class=\"proposal_title\"></span>, has been selected for DevRel/Asia 2020.<br />\nWe are really excited to have you speak and we think your talk will really help make DevRel/Asia 2020 amazing.<br />\nCan you please confirm that will still be able to attend by visiting the link below and letting us know whether you can or can not still attend?",
-    "japan": "",
+    "english": "Congratulations <span class=\"proposal_name\"></span>!<br />\nYour talk, <span class=\"proposal_title\"></span>, has been selected for DevRel/Asia 2020.<br />\nWe are really excited to have you speak and we think your talk will really help make DevRel/Asia 2020 amazing.<br />\nCan you please confirm that will still be able to attend. And please click the button that there is the bottom of form.",
+    "japan": "おめでとうございます、<span class=\"\"proposal_name\"\"></span>さん!<br />\nあなたのトーク、<span class=\"\"proposal_title\"\"></span>はDevRel/Asia 2020にて採択されました！<br />\nあなたの話はとても興味深く、カンファレンスを素晴らしいものにすることでしょう。<br />\n下記の内容を確認した上で、フォーム下にあるボタンを押してください。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -821,7 +821,7 @@
   {
     "key": "confirm3",
     "english": "Due date is <span class=\"proposal_dueDate\"></span>. Be carefull.",
-    "japan": "",
+    "japan": "締め切りは<span class=\"proposal_dueDate\"></span>です。ご注意ください。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
