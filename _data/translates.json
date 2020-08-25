@@ -1036,8 +1036,13 @@
   },
   {
     "key": "decline2",
+<<<<<<< HEAD
     "english": "Hi <span class=\"proposal_name\"></span>, do you really want to decline our offer? Yes, you have privilege accept or decline from our invitation. However if you decline our invitation, you loose your privilege to speech. And your privilege will be moved next candidate speaker.<br />\nIf you're OK, please click decline button below.<br />",
     "japan": "こんにちは<span class=\"proposal_name\"></span>さん, 本当に私たちのオファーを拒否しますか？はい、その権利はあなたにあります。しかし、もし拒否した場合、登壇する権利は失われます。その権利は次の候補者に移動します。<br />\nもしそれでよければ、以下の拒否するボタンを押してください。<br />",
+=======
+    "english": "",
+    "japan": "",
+>>>>>>> 03d626be8d6f1b3a68df8ac3d9acd7f7a8fd185a
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1045,8 +1050,13 @@
   },
   {
     "key": "decline3",
+<<<<<<< HEAD
     "english": "Thank you so much for your proposal. You declined our invitation.",
     "japan": "ありがとうございました。あなたはオファーを拒否しました。",
+=======
+    "english": "",
+    "japan": "",
+>>>>>>> 03d626be8d6f1b3a68df8ac3d9acd7f7a8fd185a
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1054,8 +1064,13 @@
   },
   {
     "key": "decline4",
+<<<<<<< HEAD
     "english": "Sorry, we got an error. Please try again later. Or <a href=\"mailto:asia-2020@devrel.dev\">contanct us</a>.",
     "japan": "申し訳ありません。エラーが発生しました。少し待ってから再度実行するか、<a href=\"mailto:asia-2020@devrel.dev\">メールにてご連絡ください</a>。",
+=======
+    "english": "",
+    "japan": "",
+>>>>>>> 03d626be8d6f1b3a68df8ac3d9acd7f7a8fd185a
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1063,8 +1078,13 @@
   },
   {
     "key": "decline5",
+<<<<<<< HEAD
     "english": "We're updating. Please just a minute.",
     "japan": "更新中です。お待ちください。",
+=======
+    "english": "",
+    "japan": "",
+>>>>>>> 03d626be8d6f1b3a68df8ac3d9acd7f7a8fd185a
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1073,7 +1093,11 @@
   {
     "key": "decline6",
     "english": "I decline the offer of DevRel/Asia 2020",
+<<<<<<< HEAD
     "japan": "DevRel/Asia 2020での登壇を拒否する",
+=======
+    "japan": "",
+>>>>>>> 03d626be8d6f1b3a68df8ac3d9acd7f7a8fd185a
     "korea": "",
     "vietnam": "",
     "indonesia": "",
