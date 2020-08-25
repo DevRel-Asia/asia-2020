@@ -1006,5 +1006,23 @@
     "vietnam": "",
     "indonesia": "",
     "simplified_chinese": ""
+  },
+  {
+    "key": "confirm24",
+    "english": "Profile Image",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "confirm25",
+    "english": "You can upload your profile image here. Or please input profile image URL",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
   }
 ]
