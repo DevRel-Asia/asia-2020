@@ -1,4 +1,4 @@
-{% if page.type == "organizer" %}
+{% if page.type == "organizer" or page.type == "speaker" %}
 <title>{{ page.title }} - {{ site.title }}</title>
 <meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
 <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/socials/{{ page.id }}.jpg" />

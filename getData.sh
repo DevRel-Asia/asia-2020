@@ -6,3 +6,4 @@ wget -O _data/speakers.json https://script.google.com/macros/s/AKfycbzZNpbhSOxRo
 ruby organizer.rb
 ruby translate.rb 
 ruby faq.rb 
+ruby speaker.rb

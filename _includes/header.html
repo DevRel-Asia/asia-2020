@@ -14,22 +14,24 @@
         <li class="menu-active"><a href="/asia-2020/">
           {% assign messages = site.data.i18n.header1 %}{% include translate.html %}
         </a></li>
-        <li><a href="#about">
+        <li><a href="{{ site.baseurl }}/#about">
           {% assign messages = site.data.i18n.header2 %}{% include translate.html %}
         </a></li>
-        <li><a href="#speakers">
+        <li><a href="{{ site.baseurl }}/#speakers">
           {% assign messages = site.data.i18n.header3 %}{% include translate.html %}
         </a></li>
-        <li><a href="#schedule">
+        <!--
+        <li><a href="{{ site.baseurl }}/#schedule">
           {% assign messages = site.data.i18n.header4 %}{% include translate.html %}
         </a></li>
-        <li><a href="#supporters">
+        -->
+        <li><a href="{{ site.baseurl }}/#supporters">
           {% assign messages = site.data.i18n.header5 %}{% include translate.html %}
         </a></li>
-        <li><a href="#organizers">
+        <li><a href="{{ site.baseurl }}/#organizers">
           {% assign messages = site.data.i18n.header8 %}{% include translate.html %}
         </a></li>
-        <li><a href="#contact">
+        <li><a href="{{ site.baseurl }}/#contact">
           {% assign messages = site.data.i18n.header6 %}{% include translate.html %}
         </a></li>
         <li class="nav-item dropdown">

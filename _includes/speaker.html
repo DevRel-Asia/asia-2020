@@ -1,0 +1,24 @@
+{% assign sps = site.data.sps | where: "id", page.id %}
+{% assign speaker = sps[0] %}
+<section id="speakers-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="{{ site.baseurl }}/assets/images/speakers/{{ speaker.id }}.jpg" alt="{{ speaker.name_english }}" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <div class="details">
+          <h2>{% assign messages = speaker.name %}{% include translate.html %}</h2>
+          <h4>
+            {% if speaker.speaker_title_english != "" %}{% assign messages = speaker.speaker_title %}{% include translate.html %}@{% endif %}{% assign messages = speaker.company %}{% include translate.html %}
+          </h4>
+          {% include social_speaker.html %}
+          <p class="markdown">
+            {% assign messages = speaker.profile %}
+            {% include translate.html %}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

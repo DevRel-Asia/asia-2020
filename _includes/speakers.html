@@ -1,18 +1,29 @@
   <section id="speakers">
     <div class="container" data-aos="fade-up">
       <div class="section-header">
-        <h2>Awesome Speakers</h2>
-        <p>We'll be announced more soon. Stay tuned!</p>
+        <h2>
+          {% assign messages = site.data.i18n.speaker1 %}{% include translate.html %}
+        </h2>
+        <p>{% assign messages = site.data.i18n.speaker2 %}{% include translate.html %}</p>
       </div>
       <div class="row">
-        {% for speaker in site.data.speakers %}
+        {% for speaker in site.data.sps %}
           {% if speaker.photo == "true" and speaker.speaker == "true" %}
             <div class="col-lg-4 col-md-6">
               <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-                <img src="{{ site.baseurl }}/assets/images/speakers/{{ speaker.id }}.jpg" alt="{{ speaker.name }}" class="img-fluid">
+                <a href="{{ site.baseurl }}/speakers/{{ speaker.id }}/">
+                  <img src="{{ site.baseurl }}/assets/images/speakers/{{ speaker.id }}.jpg" alt="{{ speaker.name_english }}" class="img-fluid">
+                </a>
                 <div class="details">
-                  <h3>{{ speaker.name_english }}</h3>
-                  <p>{{ speaker.company_english }}</p>
+                  <h3>
+                    <a href="{{ site.baseurl }}/speakers/{{ speaker.id }}/">
+                      {% assign messages = speaker.name %}
+                      {% include translate.html %}
+                    </a>
+                  </h3>
+                  <p>
+                    {% if speaker.speaker_title_english != "" %}{% assign messages = speaker.speaker_title %}{% include translate.html %}@{% endif %}{% assign messages = speaker.company %}{% include translate.html %}
+                  </p>
                   {% include social_speaker.html %}
                 </div>
               </div>
