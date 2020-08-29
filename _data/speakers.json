@@ -726,5 +726,33 @@
     "region": "china",
     "photo": "true",
     "profile_country": "english"
+  },
+  {
+    "id": "yamada",
+    "company_english": "Yahoo Japan Corporation",
+    "speaker_title_english": "",
+    "name_english": "Yamada Noel",
+    "profile_english": "",
+    "company_your_language": "ヤフー株式会社",
+    "speaker_title_your_language": "",
+    "name_your_language": "山田 寛",
+    "profile_your_language": "ヤフー株式会社の山田と申します。\n社外では2014年からコミュニティの立ち上げや運用をしており、2020年11月現在で大きく2つのコミュニティのOrganizerをしています。\nいずれも数千名の累計参加者数を誇り、グローバル展開しているコミュニティは世界一の規模です。\nセミナーやカンファレンスなど賑やかなイベントから、人を集めない手段もあり、豊富な企画は多くの国でも採用され始めました。\nまた、社内でもユーザーコミュニティを立ち上げ、社内の技術をより多くのユーザーに知ってもらう活動もしています。\nコミュニティの活動目的、参加者が得られるもの、そしてオンライン時代の運用ノウハウまで楽しみながらお話したいと思います。\n\n",
+    "web": "https://www.yahoo.co.jp/",
+    "twitter": "https://twitter.com/yamadanoel",
+    "facebook": "https://www.facebook.com/yamadanoel",
+    "github": "",
+    "google": "",
+    "linkedin": "",
+    "youtube": "",
+    "instagram": "",
+    "stackoverflow": "",
+    "devto": "",
+    "twitch": "",
+    "weibo": "",
+    "other": "",
+    "speaker": "true",
+    "region": "japan",
+    "photo": "true",
+    "profile_country": "japan"
   }
 ]
