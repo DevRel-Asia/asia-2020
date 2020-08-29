@@ -247,7 +247,6 @@ const Proposal = ncmb.DataStore('Proposal');
     }
   }
 
-  /*
   async function sendCfp(cfp) {
     const acl = new ncmb.Acl();
     acl
@@ -269,8 +268,7 @@ const Proposal = ncmb.DataStore('Proposal');
       body: JSON.stringify(cfp)
     });    
   }
-  */
-  /*
+
   $('form.cfp .hide').hide();
   $('form.cfp').on('submit', async (e) => {
     e.preventDefault();
@@ -302,7 +300,6 @@ const Proposal = ncmb.DataStore('Proposal');
       $('form.cfp .hide').hide();
     }, 5000);
   });
-  */
 
   // Back to top button
   $(window).scroll(function() {
