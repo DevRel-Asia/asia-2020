@@ -3,5 +3,5 @@ layout: speaker
 permalink: /speakers/alex/
 id: alex
 type: speaker
-title: 
+title: Alex Lakatos
 ---
