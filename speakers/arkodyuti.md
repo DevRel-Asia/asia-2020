@@ -3,5 +3,5 @@ layout: speaker
 permalink: /speakers/arkodyuti/
 id: arkodyuti
 type: speaker
-title: 
+title: Arkodyuti Saha（Microsoft）
 ---
