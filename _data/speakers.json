@@ -890,9 +890,9 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "",
-    "region": "",
-    "photo": "",
+    "speaker": "true",
+    "region": "korea",
+    "photo": "true",
     "profile_country": ""
   }
 ]
