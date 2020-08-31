@@ -835,6 +835,12 @@
     "weibo": "",
     "other": "https://developeravocados.net/",
     "speaker": "true",
+    "region": "korea",
+    "photo": "true",
+    "profile_country": "english"
+  },
+  {
+    "id": "hung",
     "company_english": "DAC Data science Vietnam",
     "speaker_title_english": "",
     "name_english": "Hung Le Thanh",
@@ -857,6 +863,8 @@
     "weibo": "",
     "other": "",
     "speaker": "true",
+    "region": "sea",
+    "photo": "true",
     "profile_country": "english"
   }
 ]
