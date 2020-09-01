@@ -3,5 +3,5 @@ layout: speaker
 permalink: /speakers/nguyen/
 id: nguyen
 type: speaker
-title: 
+title: Nguyen Huyen My（SheCodes Vietnam）
 ---
