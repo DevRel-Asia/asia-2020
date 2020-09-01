@@ -949,7 +949,7 @@
     "speaker": "",
     "region": "",
     "photo": "",
-    "profile_country": ""
+    "profile_country": "english"
   },
   {
     "id": "nguyen",
@@ -966,7 +966,7 @@
     "facebook": "",
     "github": "",
     "google": "",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/nguyenthihuyenmy/",
     "youtube": "",
     "instagram": "",
     "stackoverflow": "",
