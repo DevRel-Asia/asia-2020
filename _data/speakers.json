@@ -946,9 +946,9 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "",
+    "speaker": "true",
     "region": "asia",
-    "photo": "",
+    "photo": "true",
     "profile_country": "english"
   },
   {
@@ -974,9 +974,9 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "",
+    "speaker": "true",
     "region": "asia",
-    "photo": "",
+    "photo": "true",
     "profile_country": "english"
   },
   {
@@ -1002,9 +1002,9 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "",
+    "speaker": "true",
     "region": "japan",
-    "photo": "",
+    "photo": "true",
     "profile_country": "japan"
   },
   {
