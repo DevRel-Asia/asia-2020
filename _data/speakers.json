@@ -1069,14 +1069,14 @@
     "speaker_title_english": "",
     "name_english": "Jaime Lopez Jr",
     "profile_english": "Jaime is a Developer Advocate working on open banking APIs at Jack Henry & Associates. Prior to becoming an advocate, he led multiple software development teams throughout his career. Jaime is also a co-host of the More Than Just Code podcast. He often enjoys a nice cup of coffee and conversation on various topics.",
-    "company_your_language": "",
+    "company_your_language": "Jack Henry & Associates",
     "speaker_title_your_language": "",
-    "name_your_language": "",
+    "name_your_language": "Jaime Lopez Jr",
     "profile_your_language": "Jaime is a Developer Advocate working on open banking APIs at Jack Henry & Associates. Prior to becoming an advocate, he led multiple software development teams throughout his career. Jaime is also a co-host of the More Than Just Code podcast. He often enjoys a nice cup of coffee and conversation on various topics.",
     "web": "",
-    "twitter": "",
+    "twitter": "https://twitter.com/DevWithTheHair",
     "facebook": "",
-    "github": "",
+    "github": "http://github.com/DevWithTheHair",
     "google": "",
     "linkedin": "",
     "youtube": "",
@@ -1089,6 +1089,6 @@
     "speaker": "",
     "region": "",
     "photo": "",
-    "profile_country": ""
+    "profile_country": "english"
   }
 ]
