@@ -1117,7 +1117,7 @@
   },
   {
     "key": "unconf1",
-    "english": "",
+    "english": "Unconference CFP form",
     "japan": "",
     "korea": "",
     "vietnam": "",
@@ -1126,7 +1126,259 @@
   },
   {
     "key": "unconf2",
-    "english": "",
+    "english": "You are expected by the attendees to share your experience of developer relations, developer marketing and developer community, developer experience and API.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf3",
+    "english": "Each session will be of 10 mins maximum consisting of the content and no Q&A session. You can submit your CFP and speak at the conference in English. You may have to use online communication tools like Zoom, StreamYard, etc.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf4",
+    "english": "Session:",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf5",
+    "english": "10 min no Q&amp;A",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf6",
+    "english": "Language:",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf7",
+    "english": "English",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf8",
+    "english": "Category:",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf9",
+    "english": "Developer Relations, Community, Marketing, Experience and API",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf10",
+    "english": "Speaker:",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf11",
+    "english": "1 speaker in a session",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf12",
+    "english": "Submit Proposal",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf13",
+    "english": "Session",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf14",
+    "english": "Title",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf15",
+    "english": "Abstract",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf16",
+    "english": "You have 300 characters to sell your talk. This is known as the \"elevator pitch\". Make it as exciting and enticing as possible.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf17",
+    "english": "Profile Details",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf18",
+    "english": "Organization or Affiliation",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf19",
+    "english": "The name of your company, organization, or affiliation if you have any.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf20",
+    "english": "Your name",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf21",
+    "english": "Your email address",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf22",
+    "english": "Twitter Handle",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf23",
+    "english": "Twitter Handle should just be your handle without the \"@\".",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf24",
+    "english": "Bio",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf25",
+    "english": "This field supports Markdown. Your bio sells you. Who are you? Why do you want people to know about you? Who's your favorite member of One Direction?",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf26",
+    "english": "This is your chance to put it all out there.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf27",
+    "english": "Thank you for your proposal! Please send your other experience!",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf28",
+    "english": "Sorry, We got an error during sending proposal! Please contact us with email <a href=\"mailto:asia-2020@devrel.dev\">asia-2020@devrel.dev</a> or <a href=\"https://twitter.com/DevRelAsia\">@DevRelAsia</a> on Twitter.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf29",
+    "english": "Submit My Proposal",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "unconf30",
+    "english": "Due Date: Oct. 10th, 2020",
     "japan": "",
     "korea": "",
     "vietnam": "",
