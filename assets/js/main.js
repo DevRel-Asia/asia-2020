@@ -14,6 +14,7 @@ const clientKey = '50367c73152a57e8929ff26ae5bba68c2ee5779c51195d01ea85cb84b14a1
 const ncmb = new NCMB(applicationKey, clientKey);
 const CFP = ncmb.DataStore('CFP');
 const Proposal = ncmb.DataStore('Proposal');
+const Uncof = ncmb.DataStore('Unconf');
 
 !(async function($) {
   "use strict";
@@ -230,17 +231,17 @@ const Proposal = ncmb.DataStore('Proposal');
     localStorage.setItem('cfp', JSON.stringify(form));
   });
 
-  if ($('form.cfp').length > 0) {
+  if ($('form.cfp,form.unconf').length > 0) {
     const form = localStorage.getItem('form') ? JSON.parse(localStorage.getItem('form')) : {};
     for (let key in form) {
-      const obj = $(`form.cfp [name=${key}]`);
+      const obj = $(`form.cfp,form.unconf [name=${key}]`);
       if (obj.length > 0) {
         obj.val(form[key]);
       }
     }
     const cfp = localStorage.getItem('cfp') ? JSON.parse(localStorage.getItem('cfp')) : {};
     for (let key in cfp) {
-      const obj = $(`form.cfp [name="${key}"]`);
+      const obj = $(`form.cfp,form.unconf [name="${key}"]`);
       if (obj.length > 0) {
         obj.val(cfp[key]);
       }
@@ -270,6 +271,30 @@ const Proposal = ncmb.DataStore('Proposal');
   }
 
   $('form.cfp .hide').hide();
+  $('form.unconf .hide').hide();
+  $('form.unconf').on('submit', async (e) => {
+    e.preventDefault();
+    const ary = $(e.target).serializeArray();
+    const cfp = new Unconf;
+    for (let key of ary) {
+      cfp.set(key.name, key.value);
+    }
+    try {
+      await sendCfp(cfp);
+      $('form.unconf .success').show();
+      $('form.unconf .failure').hide();
+      localStorage.removeItem('cfp');
+      $('.save_cfp').val('');
+    } catch (e) {
+      $('form.unconf .success').hide();
+      $('form.unconf .failure').show();
+    }
+    setTimeout(() => {
+      $('form.unconf .hide').hide();
+    }, 5000);
+  });
+
+
   $('form.cfp').on('submit', async (e) => {
     e.preventDefault();
     const ary = $(e.target).serializeArray();

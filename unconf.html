@@ -1,0 +1,158 @@
+---
+layout: default
+permalink: /unconf/
+---
+
+<main id="main">
+  <section id="news" style="padding-top: 5em">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <h1>
+          {% assign messages = site.data.i18n.unconf1 %}
+          {% include translate.html %}
+        </h1>
+        <p>
+          {% assign messages = site.data.i18n.unconf2 %}
+          {% include translate.html %}
+          {% assign messages = site.data.i18n.unconf3 %}
+          {% include translate.html %}
+        </p>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-warning" role="alert">
+            {% assign messages = site.data.i18n.unconf30 %}
+            {% include translate.html %}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <p>
+          <ul>
+            <dt>
+              {% assign messages = site.data.i18n.unconf4 %}
+              {% include translate.html %}
+            </dt>
+            <dd style="padding-left: 1em">
+              {% assign messages = site.data.i18n.unconf5 %}
+              {% include translate.html %}
+            </dd>
+            <dt>
+              {% assign messages = site.data.i18n.unconf6 %}
+              {% include translate.html %}
+            </dt>
+            <dd style="padding-left: 1em">
+              {% assign messages = site.data.i18n.unconf7 %}
+              {% include translate.html %}
+            </dd>
+            <dt>
+              {% assign messages = site.data.i18n.unconf8 %}
+              {% include translate.html %}
+            </dt>
+            <dd style="padding-left: 1em">
+              {% assign messages = site.data.i18n.unconf9 %}
+              {% include translate.html %}
+            </dd>
+            <dt>
+              {% assign messages = site.data.i18n.unconf10 %}
+              {% include translate.html %}
+            </dt>
+            <dd style="padding-left: 1em">
+              {% assign messages = site.data.i18n.unconf11 %}
+              {% include translate.html %}
+            </dd>
+          </ul>
+        </p>
+      </div>
+      <div class="row">
+        <h2>
+          {% assign messages = site.data.i18n.unconf12 %}
+          {% include translate.html %}
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col">
+          <form class="unconf">
+            <h3>
+              {% assign messages = site.data.i18n.unconf13 %}
+              {% include translate.html %}
+            </h3>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.unconf14 %}{% include translate.html %}
+              </label>
+              <input type="text" class="form-control save_cfp" required name="title" id="inputTitle" aria-describedby="nameHelp" placeholder="Talk Title Here">
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.unconf15 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.unconf16 %}{% include translate.html %}
+              </small>
+              <textarea rows="5" class="form-control save_cfp" required id="inputAbstruct" name="abstruct" aria-describedby="nameHelp"></textarea>
+            </div>
+            <h3>
+              {% assign messages = site.data.i18n.unconf17 %}{% include translate.html %}
+            </h3>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.unconf18 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.unconf19 %}{% include translate.html %}
+              </small>
+              <input type="text" name="companyName" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your organization name">
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.unconf20 %}{% include translate.html %}
+              </label>
+              <input type="text" name="name" required class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.unconf21 %}{% include translate.html %}
+              </label>
+              <input type="email" name="email" required class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your email address">
+              <small id="nameHelp" class="form-text text-muted">
+              </small>
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.unconf22 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.unconf23 %}{% include translate.html %}
+              </small>
+              <input type="text" name="twitter" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="DevRelAsia">
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                {% assign messages = site.data.i18n.unconf24 %}{% include translate.html %}
+              </label>
+              <small id="nameHelp" class="form-text text-muted">
+                {% assign messages = site.data.i18n.unconf25 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.unconf26 %}{% include translate.html %}
+              </small>
+              <textarea name="bio" rows="10" required class="form-control save" id="inputText" aria-describedby="nameHelp"></textarea>
+            </div>
+            <div class="form-group">
+              <div class="alert alert-success cfp success hide" role="alert">
+                {% assign messages = site.data.i18n.unconf27 %}{% include translate.html %}
+              </div>
+              <div class="alert alert-warning cfp failure hide" role="alert">
+                {% assign messages = site.data.i18n.unconf28 %}{% include translate.html %}
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">
+              {% assign messages = site.data.i18n.unconf29 %}{% include translate.html %}
+            </button>
+          </form>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+  </section>
+</main>
