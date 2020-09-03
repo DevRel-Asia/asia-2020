@@ -1058,10 +1058,10 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "",
-    "region": "",
-    "photo": "",
-    "profile_country": ""
+    "speaker": "true",
+    "region": "sea",
+    "photo": "true",
+    "profile_country": "english"
   },
   {
     "id": "jaime",
