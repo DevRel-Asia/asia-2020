@@ -1086,9 +1086,9 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "",
+    "speaker": "true",
     "region": "",
-    "photo": "",
+    "photo": "true",
     "profile_country": "english"
   }
 ]
