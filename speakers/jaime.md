@@ -3,5 +3,5 @@ layout: speaker
 permalink: /speakers/jaime/
 id: jaime
 type: speaker
-title: 
+title: Jaime Lopez Jr（Jack Henry & Associates）
 ---
