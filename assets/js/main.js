@@ -14,7 +14,7 @@ const clientKey = '50367c73152a57e8929ff26ae5bba68c2ee5779c51195d01ea85cb84b14a1
 const ncmb = new NCMB(applicationKey, clientKey);
 const CFP = ncmb.DataStore('CFP');
 const Proposal = ncmb.DataStore('Proposal');
-const Uncof = ncmb.DataStore('Unconf');
+const Unconf = ncmb.DataStore('Unconf');
 
 !(async function($) {
   "use strict";
