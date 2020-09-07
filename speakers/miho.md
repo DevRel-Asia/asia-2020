@@ -1,7 +1,7 @@
 ---
 layout: speaker
-permalink: /speakers//
-id: 
+permalink: /speakers/miho/
+id: miho
 type: speaker
 title: 
 ---
