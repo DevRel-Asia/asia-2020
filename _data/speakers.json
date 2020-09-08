@@ -1201,20 +1201,20 @@
     "speaker": "",
     "region": "",
     "photo": "",
-    "profile_country": ""
+    "profile_country": "english"
   },
   {
     "id": "aditya",
-    "company_english": "",
+    "company_english": "Cloud Foundry",
     "speaker_title_english": "",
-    "name_english": "",
-    "profile_english": "",
-    "company_your_language": "",
+    "name_english": "Shedrack Akintayo",
+    "profile_english": "Shedrack Akintayo is a Developer Advocate at the Cloud Foundry Foundation from Lagos, Nigeria, who loves community building, open-source, and creating content and tech for developers.",
+    "company_your_language": "Cloud Foundry",
     "speaker_title_your_language": "",
-    "name_your_language": "",
-    "profile_your_language": "",
-    "web": "",
-    "twitter": "",
+    "name_your_language": "Shedrack Akintayo",
+    "profile_your_language": "Shedrack Akintayo is a Developer Advocate at the Cloud Foundry Foundation from Lagos, Nigeria, who loves community building, open-source, and creating content and tech for developers.",
+    "web": "https://www.sheddy.xyz/",
+    "twitter": "https://twitter.com/coder_blvck",
     "facebook": "",
     "github": "",
     "google": "",
@@ -1229,7 +1229,7 @@
     "speaker": "",
     "region": "",
     "photo": "",
-    "profile_country": ""
+    "profile_country": "english"
   },
   {
     "id": "shedrack",
