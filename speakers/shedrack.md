@@ -3,5 +3,5 @@ layout: speaker
 permalink: /speakers/shedrack/
 id: shedrack
 type: speaker
-title: 
+title: Shedrack Akintayo（Cloud Foundry）
 ---
