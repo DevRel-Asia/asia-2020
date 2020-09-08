@@ -1142,9 +1142,9 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "",
+    "speaker": "true",
     "region": "japan",
-    "photo": "",
+    "photo": "true",
     "profile_country": "japan"
   },
   {
@@ -1170,9 +1170,9 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "",
+    "speaker": "true",
     "region": "sea",
-    "photo": "",
+    "photo": "true",
     "profile_country": "english"
   },
   {
@@ -1198,9 +1198,9 @@
     "twitch": "",
     "weibo": "",
     "other": "https://stackoverflow.com/users/379693/paresh-mayani",
-    "speaker": "",
+    "speaker": "true",
     "region": "",
-    "photo": "",
+    "photo": "true",
     "profile_country": "english"
   },
   {
@@ -1226,9 +1226,9 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "",
+    "speaker": "true",
     "region": "",
-    "photo": "",
+    "photo": "true",
     "profile_country": "english"
   },
   {
@@ -1254,10 +1254,10 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "",
+    "speaker": "true",
     "region": "",
-    "photo": "",
-    "profile_country": ""
+    "photo": "true",
+    "profile_country": "english"
   },
   {
     "id": "kushlani",
@@ -1282,13 +1282,13 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "",
+    "speaker": "true",
     "region": "",
-    "photo": "",
-    "profile_country": ""
+    "photo": "true",
+    "profile_country": "english"
   },
   {
-    "id": "",
+    "id": "raviraj",
     "company_english": "Freshworks Inc.",
     "speaker_title_english": "",
     "name_english": "Raviraj Subramanian",
@@ -1310,13 +1310,13 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "",
+    "speaker": "true",
     "region": "",
-    "photo": "",
-    "profile_country": ""
+    "photo": "true",
+    "profile_country": "english"
   },
   {
-    "id": "",
+    "id": "juhi",
     "company_english": "Freshworks Inc.",
     "speaker_title_english": "",
     "name_english": "Juhi Singh",
@@ -1331,6 +1331,34 @@
     "github": "",
     "google": "",
     "linkedin": "https://www.linkedin.com/in/sjuhi/",
+    "youtube": "",
+    "instagram": "",
+    "stackoverflow": "",
+    "devto": "",
+    "twitch": "",
+    "weibo": "",
+    "other": "",
+    "speaker": "true",
+    "region": "",
+    "photo": "true",
+    "profile_country": "english"
+  },
+  {
+    "id": "jongmin",
+    "company_english": "",
+    "speaker_title_english": "",
+    "name_english": "",
+    "profile_english": "",
+    "company_your_language": "",
+    "speaker_title_your_language": "",
+    "name_your_language": "",
+    "profile_your_language": "",
+    "web": "",
+    "twitter": "",
+    "facebook": "",
+    "github": "",
+    "google": "",
+    "linkedin": "",
     "youtube": "",
     "instagram": "",
     "stackoverflow": "",
