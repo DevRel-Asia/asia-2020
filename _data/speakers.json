@@ -1258,5 +1258,33 @@
     "region": "",
     "photo": "",
     "profile_country": ""
+  },
+  {
+    "id": "kushlani",
+    "company_english": "",
+    "speaker_title_english": "",
+    "name_english": "",
+    "profile_english": "",
+    "company_your_language": "",
+    "speaker_title_your_language": "",
+    "name_your_language": "",
+    "profile_your_language": "",
+    "web": "",
+    "twitter": "",
+    "facebook": "",
+    "github": "",
+    "google": "",
+    "linkedin": "",
+    "youtube": "",
+    "instagram": "",
+    "stackoverflow": "",
+    "devto": "",
+    "twitch": "",
+    "weibo": "",
+    "other": "",
+    "speaker": "",
+    "region": "",
+    "photo": "",
+    "profile_country": ""
   }
 ]
