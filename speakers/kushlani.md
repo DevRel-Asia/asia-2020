@@ -3,5 +3,5 @@ layout: speaker
 permalink: /speakers/kushlani/
 id: kushlani
 type: speaker
-title: Kushlani De Silva
+title: Kushlani De Silva（WSO2）
 ---
