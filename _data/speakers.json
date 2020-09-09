@@ -25,7 +25,8 @@
     "speaker": "true",
     "region": "korea",
     "photo": "false",
-    "profile_country": "korea"
+    "profile_country": "korea",
+    "": ""
   },
   {
     "id": "reagan",
@@ -53,7 +54,8 @@
     "speaker": "false",
     "region": "korea",
     "photo": "true",
-    "profile_country": "korea"
+    "profile_country": "korea",
+    "": ""
   },
   {
     "id": "tebica",
@@ -81,7 +83,8 @@
     "speaker": "false",
     "region": "korea",
     "photo": "true",
-    "profile_country": "korea"
+    "profile_country": "korea",
+    "": ""
   },
   {
     "id": "annpmathew",
@@ -109,7 +112,8 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "emma",
@@ -137,7 +141,8 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "pj",
@@ -165,7 +170,8 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "seth",
@@ -193,7 +199,8 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "christina",
@@ -221,7 +228,8 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "hemchander",
@@ -249,7 +257,8 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "mvkaran",
@@ -277,7 +286,8 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "seigo",
@@ -305,7 +315,8 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "yokota",
@@ -333,7 +344,8 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": ""
   },
   {
     "id": "a-know",
@@ -361,7 +373,8 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": ""
   },
   {
     "id": "taiji",
@@ -389,7 +402,8 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "goofmint",
@@ -417,7 +431,8 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "odasho",
@@ -445,7 +460,8 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": ""
   },
   {
     "id": "wataru",
@@ -473,7 +489,8 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": ""
   },
   {
     "id": "shotaro",
@@ -501,7 +518,8 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": ""
   },
   {
     "id": "yuko",
@@ -529,7 +547,8 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": ""
   },
   {
     "id": "ryo",
@@ -557,7 +576,8 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": ""
   },
   {
     "id": "llminatoll",
@@ -585,7 +605,8 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": ""
   },
   {
     "id": "aya",
@@ -613,7 +634,8 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": ""
   },
   {
     "id": "zhang",
@@ -641,7 +663,8 @@
     "speaker": "true",
     "region": "china",
     "photo": "true",
-    "profile_country": "china"
+    "profile_country": "china",
+    "": ""
   },
   {
     "id": "singing",
@@ -669,7 +692,8 @@
     "speaker": "true",
     "region": "china",
     "photo": "true",
-    "profile_country": "china"
+    "profile_country": "china",
+    "": ""
   },
   {
     "id": "don",
@@ -697,7 +721,8 @@
     "speaker": "true",
     "region": "china",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "ado",
@@ -725,7 +750,8 @@
     "speaker": "true",
     "region": "china",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "yamada",
@@ -753,7 +779,8 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": ""
   },
   {
     "id": "sammy",
@@ -781,7 +808,8 @@
     "speaker": "true",
     "region": "china",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "akhil",
@@ -809,7 +837,8 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "alex",
@@ -837,7 +866,8 @@
     "speaker": "true",
     "region": "korea",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "hung",
@@ -865,7 +895,8 @@
     "speaker": "true",
     "region": "sea",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "hyunsang",
@@ -893,7 +924,8 @@
     "speaker": "true",
     "region": "korea",
     "photo": "true",
-    "profile_country": "korea"
+    "profile_country": "korea",
+    "": ""
   },
   {
     "id": "arkodyuti",
@@ -921,7 +953,8 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "jessica",
@@ -949,7 +982,8 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "nguyen",
@@ -977,7 +1011,8 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "manabu",
@@ -1005,7 +1040,8 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": ""
   },
   {
     "id": "juyoung",
@@ -1033,7 +1069,8 @@
     "speaker": "true",
     "region": "korea",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "tien",
@@ -1061,7 +1098,8 @@
     "speaker": "true",
     "region": "sea",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "jaime",
@@ -1089,7 +1127,8 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "patrick",
@@ -1117,7 +1156,8 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "miho",
@@ -1145,7 +1185,8 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": ""
   },
   {
     "id": "elishatam",
@@ -1173,7 +1214,8 @@
     "speaker": "true",
     "region": "sea",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "paresh",
@@ -1201,7 +1243,8 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "aditya",
@@ -1229,7 +1272,8 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "shedrack",
@@ -1257,7 +1301,8 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "kushlani",
@@ -1285,7 +1330,8 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "raviraj",
@@ -1313,7 +1359,8 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "juhi",
@@ -1341,7 +1388,8 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": ""
   },
   {
     "id": "jongmin",
@@ -1369,7 +1417,8 @@
     "speaker": "",
     "region": "",
     "photo": "",
-    "profile_country": ""
+    "profile_country": "",
+    "": ""
   },
   {
     "id": "yasushi",
@@ -1397,6 +1446,7 @@
     "speaker": "",
     "region": "",
     "photo": "",
-    "profile_country": ""
+    "profile_country": "",
+    "": ""
   }
 ]
