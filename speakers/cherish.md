@@ -3,5 +3,5 @@ layout: speaker
 permalink: /speakers/cherish/
 id: cherish
 type: speaker
-title: Cherish Santoshi
+title: Cherish Santoshi（HackerEarth）
 ---
