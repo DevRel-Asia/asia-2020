@@ -3,5 +3,5 @@ layout: speaker
 permalink: /speakers/renaldi/
 id: renaldi
 type: speaker
-title: Renaldi Gondosubroto
+title: Renaldi Gondosubroto（GReS Studio）
 ---
