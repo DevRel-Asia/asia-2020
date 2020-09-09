@@ -25,7 +25,9 @@
     "speaker": "true",
     "region": "korea",
     "photo": "false",
-    "profile_country": "korea"
+    "profile_country": "korea",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "reagan",
@@ -53,7 +55,9 @@
     "speaker": "false",
     "region": "korea",
     "photo": "true",
-    "profile_country": "korea"
+    "profile_country": "korea",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "tebica",
@@ -81,7 +85,9 @@
     "speaker": "false",
     "region": "korea",
     "photo": "true",
-    "profile_country": "korea"
+    "profile_country": "korea",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "annpmathew",
@@ -109,7 +115,9 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "209",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/annpmathew.jpg"
   },
   {
     "id": "emma",
@@ -137,7 +145,9 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/emma.jpg"
   },
   {
     "id": "pj",
@@ -165,7 +175,9 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/pj.jpg"
   },
   {
     "id": "seth",
@@ -193,7 +205,9 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/seth.jpg"
   },
   {
     "id": "christina",
@@ -221,7 +235,9 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/christina.jpg"
   },
   {
     "id": "hemchander",
@@ -249,7 +265,9 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/hemchander.jpg"
   },
   {
     "id": "mvkaran",
@@ -277,7 +295,9 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/mvkaran.jpg"
   },
   {
     "id": "seigo",
@@ -305,7 +325,9 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/seigo.jpg"
   },
   {
     "id": "yokota",
@@ -333,7 +355,9 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "a-know",
@@ -361,7 +385,9 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "taiji",
@@ -389,7 +415,9 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/taiji.jpg"
   },
   {
     "id": "goofmint",
@@ -417,7 +445,9 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/goofmint.jpg"
   },
   {
     "id": "odasho",
@@ -445,7 +475,9 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "wataru",
@@ -473,7 +505,9 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "shotaro",
@@ -501,7 +535,9 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "yuko",
@@ -529,7 +565,9 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "ryo",
@@ -557,7 +595,9 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "llminatoll",
@@ -585,7 +625,9 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "aya",
@@ -613,7 +655,9 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "zhang",
@@ -641,7 +685,9 @@
     "speaker": "true",
     "region": "china",
     "photo": "true",
-    "profile_country": "china"
+    "profile_country": "china",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "singing",
@@ -669,7 +715,9 @@
     "speaker": "true",
     "region": "china",
     "photo": "true",
-    "profile_country": "china"
+    "profile_country": "china",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "don",
@@ -697,7 +745,9 @@
     "speaker": "true",
     "region": "china",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/don.jpg"
   },
   {
     "id": "ado",
@@ -725,7 +775,9 @@
     "speaker": "true",
     "region": "china",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/ado.jpg"
   },
   {
     "id": "yamada",
@@ -753,7 +805,9 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "sammy",
@@ -781,7 +835,9 @@
     "speaker": "true",
     "region": "china",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/sammy.jpg"
   },
   {
     "id": "akhil",
@@ -809,12 +865,14 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/akhil.jpg"
   },
   {
     "id": "alex",
-    "company_english": "Developer Avocados",
-    "speaker_title_english": "",
+    "company_english": "Fidel",
+    "speaker_title_english": "Developer Avocados",
     "name_english": "Alex Lakatos",
     "profile_english": "Alex Lakatos is a Developer Relations Manager for Fidel. In his spare time, he is a Mozilla Tech Speaker and has been a contributor to the Mozilla project for the past ten years, based in Bristol. JavaScript developer building on the open web, he has been pushing its boundaries every day. You can check out his GitHub profile or get in touch on [Twitter](https://twitter.com/lakatos88). When he’s not programming, ~he likes to travel the world, so it’s likely you’ll bump into him in an airport lounge~ he’s stuck in the house, same as everyone else.",
     "company_your_language": "Developer Avocados",
@@ -837,7 +895,9 @@
     "speaker": "true",
     "region": "korea",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/alex.jpg"
   },
   {
     "id": "hung",
@@ -865,7 +925,9 @@
     "speaker": "true",
     "region": "sea",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/hung.jpg"
   },
   {
     "id": "hyunsang",
@@ -893,7 +955,9 @@
     "speaker": "true",
     "region": "korea",
     "photo": "true",
-    "profile_country": "korea"
+    "profile_country": "korea",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "arkodyuti",
@@ -921,7 +985,9 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/arkodyuti.jpg"
   },
   {
     "id": "jessica",
@@ -949,7 +1015,9 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/jessica.jpg"
   },
   {
     "id": "nguyen",
@@ -977,7 +1045,9 @@
     "speaker": "true",
     "region": "asia",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/nguyen.jpg"
   },
   {
     "id": "manabu",
@@ -1005,7 +1075,9 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "juyoung",
@@ -1033,7 +1105,9 @@
     "speaker": "true",
     "region": "korea",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/juyoung.jpg"
   },
   {
     "id": "tien",
@@ -1061,7 +1135,9 @@
     "speaker": "true",
     "region": "sea",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/tien.jpg"
   },
   {
     "id": "jaime",
@@ -1089,7 +1165,9 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/jaime.jpg"
   },
   {
     "id": "patrick",
@@ -1117,7 +1195,9 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/patrick.jpg"
   },
   {
     "id": "miho",
@@ -1145,7 +1225,9 @@
     "speaker": "true",
     "region": "japan",
     "photo": "true",
-    "profile_country": "japan"
+    "profile_country": "japan",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "elishatam",
@@ -1173,7 +1255,9 @@
     "speaker": "true",
     "region": "sea",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/elishatam.jpg"
   },
   {
     "id": "paresh",
@@ -1201,7 +1285,9 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/paresh.jpg"
   },
   {
     "id": "aditya",
@@ -1229,7 +1315,9 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/aditya.jpg"
   },
   {
     "id": "shedrack",
@@ -1257,7 +1345,9 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/shedrack.jpg"
   },
   {
     "id": "kushlani",
@@ -1285,7 +1375,9 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/kushlani.jpg"
   },
   {
     "id": "raviraj",
@@ -1313,7 +1405,9 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/raviraj.jpg"
   },
   {
     "id": "juhi",
@@ -1341,7 +1435,9 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english"
+    "profile_country": "english",
+    "": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/juhi.jpg"
   },
   {
     "id": "jongmin",
@@ -1369,7 +1465,9 @@
     "speaker": "",
     "region": "",
     "photo": "",
-    "profile_country": ""
+    "profile_country": "",
+    "": "",
+    "ogp": ""
   },
   {
     "id": "yasushi",
@@ -1397,6 +1495,8 @@
     "speaker": "",
     "region": "",
     "photo": "",
-    "profile_country": ""
+    "profile_country": "",
+    "": "",
+    "ogp": ""
   }
 ]
