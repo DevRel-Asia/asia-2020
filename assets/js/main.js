@@ -63,6 +63,54 @@ const Unconf = ncmb.DataStore('Unconf');
   $.each($('.markdown .lang'), (i, e) => {
     $(e).html(marked($(e).text()));
   })
+  
+  if (location.href.indexOf('/update/') > -1) {
+    $('.hide').hide();
+    // Confirm proposal
+    const key = url('?key');
+    if (!key) {
+      alert("You can't access this page without key.");
+      location.href='/';
+      return;
+    }
+    const Speaker = ncmb.DataStore('Speaker');
+    const p = await Speaker
+      .equalTo('uniqueKey', key)
+      .fetch();
+    if (Object.keys(p).length === 0) {
+      alert("Your key is wrong. Please check it or contact us");
+      return;
+    }
+    for (let key in p) {
+      if (typeof p[key] === 'function') continue;
+      const dom = $(`form.profile [name="${key}"]`);
+      if (dom[0] && (dom[0].tagName === 'INPUT' || dom[0].tagName === 'TEXTAREA')) {
+        dom.val(p.get(key));
+      }
+    }
+
+    $('form.profile').on('submit', async e => {
+      e.preventDefault();
+      $('form.profile .alert').hide();
+      $('form.profile .loading').show();
+      $('form .btn').attr('disabled', true);
+      const ary = $(e.target).serializeArray();
+      console.log(ary)
+      const s = new Speaker;
+      for (let key of ary) {
+        s.set(key.name, key.value);
+      }
+      s.set('updated', true);
+      try {
+        await s.update();
+        $('form.profile .success').show();
+      } catch (e) {
+        $('form.profile .failure').show();
+      }
+      $('form .btn').attr('disabled', false);
+      $('form.profile .loading').hide();  
+    })
+  }
 
   if (location.href.indexOf('/confirm') > -1 || location.href.indexOf('/decline') > -1) {
     $('.hide').hide();
