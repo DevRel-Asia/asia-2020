@@ -1384,5 +1384,320 @@
     "vietnam": "",
     "indonesia": "",
     "simplified_chinese": ""
+  },
+  {
+    "key": "update1",
+    "english": "Update your profile",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update2",
+    "english": "You can update your profile to perfectly.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update3",
+    "english": "This system doesn't update your website information directly. We use async updating system and there is cache. Please 10-20 min for reflect your new information. So please don't send multiple time. <br />\nYou can't update your profile photo and session information on this system. Please contact us if you want to update it.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update4",
+    "english": "Your information",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update5",
+    "english": "Company or organization name in English",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update6",
+    "english": "Company or organization name in your language",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update7",
+    "english": "Write your company or organization name in your common languge like Japanese, Korean, Chinese and etc.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update8",
+    "english": "Your title in English",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update9",
+    "english": "CEO, Technical evangelist, Developer advocate and etc.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update10",
+    "english": "Your title in your language",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update11",
+    "english": "Write your title in your common language like Japanese, Korean, Chinese and etc.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update12",
+    "english": "Your name in English",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update13",
+    "english": "Your name in your language",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update14",
+    "english": "Write your name in your common language like Japanese, Korean, Chinese and etc.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update15",
+    "english": "Your profile in English",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update16",
+    "english": "Your profile in your language",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update17",
+    "english": "Write your profile in your common language like Japanese, Korean, Chinese and etc.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update18",
+    "english": "Your website",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update19",
+    "english": "Blog or your official website",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update20",
+    "english": "Twitter account",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update21",
+    "english": "Please write it if you want to display it on your profile. And please start with https://.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update22",
+    "english": "Facebook profile URL",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update23",
+    "english": "GitHub profile URL",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update24",
+    "english": "Google profile URL",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update25",
+    "english": "LinkedIn profile URL",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update26",
+    "english": "YouTube URL",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update27",
+    "english": "Instagram URL",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update28",
+    "english": "Stack Overflow profile URL",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update29",
+    "english": "Dev.to URL",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update30",
+    "english": "Twitch URL",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update31",
+    "english": "Weibo URL",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update32",
+    "english": "Other URL",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update33",
+    "english": "Thank you. We will update your information soon. Please wait 10-20 min.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update34",
+    "english": "Sorry, we got an error to send your new information. Please contact us on Slack or try again later.",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
+  },
+  {
+    "key": "update35",
+    "english": "Send my new information",
+    "japan": "",
+    "korea": "",
+    "vietnam": "",
+    "indonesia": "",
+    "simplified_chinese": ""
   }
 ]

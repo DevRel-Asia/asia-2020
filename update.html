@@ -8,24 +8,18 @@ permalink: /update/
     <div class="container">
       <div class="row">
         <h1>
-          Update your profile
           {% assign messages = site.data.i18n.update1 %}
           {% include translate.html %}
         </h1>
         <p>
-          You can update your profile to perfectly.
           {% assign messages = site.data.i18n.update2 %}
-          {% include translate.html %}
-          {% assign messages = site.data.i18n.update3 %}
           {% include translate.html %}
         </p>
       </div>
       <div class="row">
         <div class="col">
           <div class="alert alert-warning" role="alert">
-            This system doesn't update your website information directly. We use async updating system and there is cache. Please 10-20 min for reflect your new information. So please don't send multiple time. <br />
-            You can't update your profile photo and session information on this system. Please contact us if you want to update it.
-            {% assign messages = site.data.i18n.update43 %}
+            {% assign messages = site.data.i18n.update3 %}
             {% include translate.html %}
           </div>
         </div>
@@ -34,24 +28,20 @@ permalink: /update/
         <div class="col">
           <form class="profile">
             <h3>
-              {% assign messages = site.data.i18n.update28 %}{% include translate.html %}
-              Your information
+              {% assign messages = site.data.i18n.update4 %}{% include translate.html %}
             </h3>
             <div class="form-group">
               <label for="InputName">
-                Company or organization name in English
-                {% assign messages = site.data.i18n.update29 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update5 %}{% include translate.html %}
               </label>
               <input type="text" name="company_english" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your organization name">
             </div>
             <div class="form-group">
               <label for="InputName">
-                Company or organization name in your language
-                {% assign messages = site.data.i18n.update29 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update6 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                {% assign messages = site.data.i18n.update30 %}{% include translate.html %}
-                Write your company or organization name in your common languge like Japanese, Korean, Chinese and etc.
+                {% assign messages = site.data.i18n.update7 %}{% include translate.html %}
               </small>
               <input type="text" name="company_your_language" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your organization name">
             </div>
@@ -59,42 +49,35 @@ permalink: /update/
 
             <div class="form-group">
               <label for="InputName">
-                Your title in English
-                {% assign messages = site.data.i18n.update31 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update8 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                {% assign messages = site.data.i18n.update30 %}{% include translate.html %}
-                CEO, Technical evangelist, Developer advocate and etc.
+                {% assign messages = site.data.i18n.update9 %}{% include translate.html %}
               </small>
               <input type="text" name="speaker_title_english" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your name">
             </div>
             <div class="form-group">
               <label for="InputName">
-                {% assign messages = site.data.i18n.update31 %}{% include translate.html %}
-                Your title in your language
+                {% assign messages = site.data.i18n.update10 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                {% assign messages = site.data.i18n.update30 %}{% include translate.html %}
-                Write your title in your common language like Japanese, Korean, Chinese and etc.
+                {% assign messages = site.data.i18n.update11 %}{% include translate.html %}
               </small>
               <input type="text" name="speaker_title_your_language" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your name">
             </div>
 
             <div class="form-group">
               <label for="InputName">
-                {% assign messages = site.data.i18n.update31 %}{% include translate.html %}
-                Your name in English
+                {% assign messages = site.data.i18n.update12 %}{% include translate.html %}
               </label>
               <input type="text" name="name_english" required class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your name">
             </div>
             <div class="form-group">
               <label for="InputName">
-                {% assign messages = site.data.i18n.update31 %}{% include translate.html %}
-                Your name in your language
+                {% assign messages = site.data.i18n.update13 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                {% assign messages = site.data.i18n.update30 %}{% include translate.html %}
-                Write your name in your common language like Japanese, Korean, Chinese and etc.
+                {% assign messages = site.data.i18n.update14 %}{% include translate.html %}
               </small>
               <input type="text" name="name_your_language" required class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="Enter your name">
             </div>
@@ -102,176 +85,147 @@ permalink: /update/
 
             <div class="form-group">
               <label for="InputName">
-                {% assign messages = site.data.i18n.update37 %}{% include translate.html %}
-                Your profile in English
+                {% assign messages = site.data.i18n.update15 %}{% include translate.html %}
               </label>
               <textarea name="profile_english" rows="10" required class="form-control save" id="inputText" aria-describedby="nameHelp"></textarea>
             </div>
 
             <div class="form-group">
               <label for="InputName">
-                {% assign messages = site.data.i18n.update37 %}{% include translate.html %}
-                Your profile in your language
+                {% assign messages = site.data.i18n.update16 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                {% assign messages = site.data.i18n.update38 %}{% include translate.html %}
-                Write your profile in your common language like Japanese, Korean, Chinese and etc.
+                {% assign messages = site.data.i18n.update17 %}{% include translate.html %}
               </small>
               <textarea name="profile_your_language" rows="10" required class="form-control save" id="inputText" aria-describedby="nameHelp"></textarea>
             </div>
             	
             <div class="form-group">
               <label for="InputName">
-                {% assign messages = site.data.i18n.update35 %}{% include translate.html %}
-                Your website
+                {% assign messages = site.data.i18n.update18 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                {% assign messages = site.data.i18n.update36 %}{% include translate.html %}
-                Blog or your official website
+                {% assign messages = site.data.i18n.update19 %}{% include translate.html %}
               </small>
               <input type="text" name="web" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="https://devrel.dev/asia-2020/">
             </div>
 
             <div class="form-group">
               <label for="InputName">
-                Twitter account
-                {% assign messages = site.data.i18n.update35 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update20 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                Please write it if you want to display it on your profile. And please start with https://.
-                {% assign messages = site.data.i18n.update36 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update21 %}{% include translate.html %}
               </small>
               <input type="text" name="twitter" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="https://twitter.com/home">
             </div>
 
             <div class="form-group">
               <label for="InputName">
-                Facebook profile URL
-                {% assign messages = site.data.i18n.update35 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update22 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                Please write it if you want to display it on your profile. And please start with https://.
-                {% assign messages = site.data.i18n.update36 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update21 %}{% include translate.html %}
               </small>
               <input type="text" name="facebook" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="https://www.facebook.com/">
             </div>
 
             <div class="form-group">
               <label for="InputName">
-                GitHub profile URL
-                {% assign messages = site.data.i18n.update35 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update23 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                Please write it if you want to display it on your profile. And please start with https://.
-                {% assign messages = site.data.i18n.update36 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update21 %}{% include translate.html %}
               </small>
               <input type="text" name="github" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="https://github.com/">
             </div>
 
             <div class="form-group">
               <label for="InputName">
-                Google profile URL
-                {% assign messages = site.data.i18n.update35 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update24 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                Please write it if you want to display it on your profile. And please start with https://.
-                {% assign messages = site.data.i18n.update36 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update21 %}{% include translate.html %}
               </small>
               <input type="text" name="google" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="https://google.com/">
             </div>
 
             <div class="form-group">
               <label for="InputName">
-                LinkedIn profile URL
-                {% assign messages = site.data.i18n.update35 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update25 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                Please write it if you want to display it on your profile. And please start with https://.
-                {% assign messages = site.data.i18n.update36 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update21 %}{% include translate.html %}
               </small>
               <input type="text" name="linkedin" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="https://www.linkedin.com/">
             </div>
 
             <div class="form-group">
               <label for="InputName">
-                YouTube URL
-                {% assign messages = site.data.i18n.update35 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update26 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                Please write it if you want to display it on your profile. And please start with https://.
-                {% assign messages = site.data.i18n.update36 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update21 %}{% include translate.html %}
               </small>
               <input type="text" name="youtube" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="https://www.youtube.com/">
             </div>
 
             <div class="form-group">
               <label for="InputName">
-                Instagram URL
-                {% assign messages = site.data.i18n.update35 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update27 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                Please write it if you want to display it on your profile. And please start with https://.
-                {% assign messages = site.data.i18n.update36 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update21 %}{% include translate.html %}
               </small>
               <input type="text" name="instagram" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="https://www.instagram.com/">
             </div>
             
             <div class="form-group">
               <label for="InputName">
-                Stack Overflow profile URL
-                {% assign messages = site.data.i18n.update35 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update28 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                Please write it if you want to display it on your profile. And please start with https://.
-                {% assign messages = site.data.i18n.update36 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update21 %}{% include translate.html %}
               </small>
               <input type="text" name="stackoverflow" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="https://stackoverflow.com/">
             </div>
 
             <div class="form-group">
               <label for="InputName">
-                Dev.to URL
-                {% assign messages = site.data.i18n.update35 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update29 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                Please write it if you want to display it on your profile. And please start with https://.
-                {% assign messages = site.data.i18n.update36 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update21 %}{% include translate.html %}
               </small>
               <input type="text" name="devto" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="https://dev.to/">
             </div>
 
             <div class="form-group">
               <label for="InputName">
-                Twitch URL
-                {% assign messages = site.data.i18n.update35 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update30 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                Please write it if you want to display it on your profile. And please start with https://.
-                {% assign messages = site.data.i18n.update36 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update21 %}{% include translate.html %}
               </small>
               <input type="text" name="twitch" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="https://www.twitch.tv/">
             </div>
 
             <div class="form-group">
               <label for="InputName">
-                Weibo URL
-                {% assign messages = site.data.i18n.update35 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update31 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                Please write it if you want to display it on your profile. And please start with https://.
-                {% assign messages = site.data.i18n.update36 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update21 %}{% include translate.html %}
               </small>
               <input type="text" name="weibo" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="https://weibo.com/">
             </div>
 
             <div class="form-group">
               <label for="InputName">
-                Other URL
-                {% assign messages = site.data.i18n.update35 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update32 %}{% include translate.html %}
               </label>
               <small id="nameHelp" class="form-text text-muted">
-                Please write it if you want to display it on your profile. And please start with https:// or http://
-                {% assign messages = site.data.i18n.update36 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update21 %}{% include translate.html %}
               </small>
               <input type="text" name="other" class="form-control save" id="inputText" aria-describedby="nameHelp" placeholder="https://">
             </div>
@@ -281,17 +235,14 @@ permalink: /update/
 
             <div class="form-group">
               <div class="alert alert-success profile success hide" role="alert">
-                Thank you. We will update your information soon. Please wait 10-20 min.
-                {% assign messages = site.data.i18n.update40 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update33 %}{% include translate.html %}
               </div>
               <div class="alert alert-warning profile failure hide" role="alert">
-                Sorry, we got an error to send your new information. Please contact us on Slack or try again later.
-                {% assign messages = site.data.i18n.update41 %}{% include translate.html %}
+                {% assign messages = site.data.i18n.update34 %}{% include translate.html %}
               </div>
             </div>
             <button class="btn btn-primary" type="submit">
-              Send my new information
-              {% assign messages = site.data.i18n.update42 %}{% include translate.html %}
+              {% assign messages = site.data.i18n.update35 %}{% include translate.html %}
             </button>
             <input type="hidden" name="objectId" />
           </form>
