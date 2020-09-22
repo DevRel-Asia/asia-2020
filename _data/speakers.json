@@ -1,5 +1,6 @@
 [
   {
+    "objectId": "",
     "id": "soon_sun_kwon",
     "company_english": "Google",
     "speaker_title_english": "Dev Rel Program Manager",
@@ -29,6 +30,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "reagan",
     "company_english": "Wanted",
     "speaker_title_english": "Co-Founder",
@@ -58,6 +60,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "tebica",
     "company_english": "LINE",
     "speaker_title_english": "Tech Evangelist",
@@ -87,6 +90,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "annpmathew",
     "company_english": "Microsoft",
     "speaker_title_english": "",
@@ -116,6 +120,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/annpmathew.jpg"
   },
   {
+    "objectId": "",
     "id": "emma",
     "company_english": "Google",
     "speaker_title_english": "",
@@ -145,6 +150,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/emma.jpg"
   },
   {
+    "objectId": "",
     "id": "pj",
     "company_english": "DevRelate.io",
     "speaker_title_english": "",
@@ -174,6 +180,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/pj.jpg"
   },
   {
+    "objectId": "",
     "id": "seth",
     "company_english": "Slack",
     "speaker_title_english": "Co-Chapter Leader",
@@ -203,6 +210,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/seth.jpg"
   },
   {
+    "objectId": "",
     "id": "christina",
     "company_english": "SlashData",
     "speaker_title_english": "",
@@ -232,6 +240,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/christina.jpg"
   },
   {
+    "objectId": "",
     "id": "hemchander",
     "company_english": "Freshworks Inc",
     "speaker_title_english": "",
@@ -261,6 +270,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/hemchander.jpg"
   },
   {
+    "objectId": "",
     "id": "mvkaran",
     "company_english": "GitHub",
     "speaker_title_english": "",
@@ -290,6 +300,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/mvkaran.jpg"
   },
   {
+    "objectId": "",
     "id": "seigo",
     "company_english": "1ft-seabass",
     "speaker_title_english": "",
@@ -319,6 +330,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/seigo.jpg"
   },
   {
+    "objectId": "",
     "id": "yokota",
     "company_english": "Sakura Internet",
     "speaker_title_english": "Operating officer/Evangelist",
@@ -348,6 +360,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "a-know",
     "company_english": "Hatena",
     "speaker_title_english": "CRE",
@@ -377,6 +390,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "taiji",
     "company_english": "IBM",
     "speaker_title_english": "Sr. Developer Advocate",
@@ -406,6 +420,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/taiji.jpg"
   },
   {
+    "objectId": "",
     "id": "goofmint",
     "company_english": "MOONGIFT",
     "speaker_title_english": "CEO",
@@ -435,6 +450,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/goofmint.jpg"
   },
   {
+    "objectId": "",
     "id": "odasho",
     "company_english": "Microsoft Japan",
     "speaker_title_english": "Developer Marketing Manager/Evangelist",
@@ -464,6 +480,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "wataru",
     "company_english": "Uhuru",
     "speaker_title_english": "General Manager",
@@ -493,6 +510,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "shotaro",
     "company_english": "Elastic",
     "speaker_title_english": "Technical Product Marketing Manager",
@@ -522,6 +540,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "yuko",
     "company_english": "Shoeisha",
     "speaker_title_english": "Chief Editor",
@@ -551,6 +570,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "ryo",
     "company_english": "Cybozu",
     "speaker_title_english": "Technical Evangelist",
@@ -580,6 +600,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "llminatoll",
     "company_english": "Freelancer",
     "speaker_title_english": "",
@@ -609,6 +630,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "aya",
     "company_english": "IBM Japan",
     "speaker_title_english": "",
@@ -638,6 +660,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "zhang",
     "company_english": "China .NET community",
     "speaker_title_english": "",
@@ -667,6 +690,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "singing",
     "company_english": "Open Culture Foundation",
     "speaker_title_english": "",
@@ -696,6 +720,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "don",
     "company_english": "Katsudon.tech",
     "speaker_title_english": "",
@@ -725,6 +750,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/don.jpg"
   },
   {
+    "objectId": "",
     "id": "ado",
     "company_english": "MongoDB",
     "speaker_title_english": "",
@@ -754,6 +780,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/ado.jpg"
   },
   {
+    "objectId": "",
     "id": "yamada",
     "company_english": "Yahoo Japan Corporation",
     "speaker_title_english": "Splunk Advocate @ Yahoo! JAPAN",
@@ -783,6 +810,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "sammy",
     "company_english": "Open Source Hong Kong",
     "speaker_title_english": "",
@@ -812,6 +840,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/sammy.jpg"
   },
   {
+    "objectId": "",
     "id": "akhil",
     "company_english": "Krunchdata.io",
     "speaker_title_english": "",
@@ -841,6 +870,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/akhil.jpg"
   },
   {
+    "objectId": "",
     "id": "alex",
     "company_english": "Fidel",
     "speaker_title_english": "Developer Avocados",
@@ -870,6 +900,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/alex.jpg"
   },
   {
+    "objectId": "",
     "id": "hung",
     "company_english": "DAC Data science Vietnam",
     "speaker_title_english": "",
@@ -899,6 +930,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/hung.jpg"
   },
   {
+    "objectId": "",
     "id": "hyunsang",
     "company_english": "TeamGRIT",
     "speaker_title_english": "Front-End Developer",
@@ -928,6 +960,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "arkodyuti",
     "company_english": "Microsoft",
     "speaker_title_english": "",
@@ -957,6 +990,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/arkodyuti.jpg"
   },
   {
+    "objectId": "",
     "id": "jessica",
     "company_english": "LaunchDarkly",
     "speaker_title_english": "",
@@ -986,6 +1020,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/jessica.jpg"
   },
   {
+    "objectId": "",
     "id": "nguyen",
     "company_english": "SheCodes Vietnam",
     "speaker_title_english": "",
@@ -1015,6 +1050,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/nguyen.jpg"
   },
   {
+    "objectId": "",
     "id": "manabu",
     "company_english": "Yahoo Japan Corporation",
     "speaker_title_english": "",
@@ -1044,6 +1080,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "juyoung",
     "company_english": "beNX",
     "speaker_title_english": "",
@@ -1073,6 +1110,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/juyoung.jpg"
   },
   {
+    "objectId": "",
     "id": "tien",
     "company_english": "SheCodes Vietnam",
     "speaker_title_english": "Co-fouder at SheCodes Vietnam",
@@ -1102,6 +1140,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/tien.jpg"
   },
   {
+    "objectId": "",
     "id": "jaime",
     "company_english": "Jack Henry & Associates",
     "speaker_title_english": "",
@@ -1131,6 +1170,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/jaime.jpg"
   },
   {
+    "objectId": "",
     "id": "patrick",
     "company_english": "beNovelty",
     "speaker_title_english": "",
@@ -1160,6 +1200,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/patrick.jpg"
   },
   {
+    "objectId": "",
     "id": "miho",
     "company_english": "Nulab Inc.",
     "speaker_title_english": "",
@@ -1189,6 +1230,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "elishatam",
     "company_english": "TechLadies",
     "speaker_title_english": "",
@@ -1218,6 +1260,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/elishatam.jpg"
   },
   {
+    "objectId": "",
     "id": "paresh",
     "company_english": "Google Developers Group Ahmedabad",
     "speaker_title_english": "",
@@ -1247,6 +1290,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/paresh.jpg"
   },
   {
+    "objectId": "",
     "id": "aditya",
     "company_english": "Microsoft Learn Student Ambassador",
     "speaker_title_english": "",
@@ -1276,6 +1320,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/aditya.jpg"
   },
   {
+    "objectId": "",
     "id": "shedrack",
     "company_english": "Cloud Foundry",
     "speaker_title_english": "",
@@ -1305,6 +1350,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/shedrack.jpg"
   },
   {
+    "objectId": "",
     "id": "kushlani",
     "company_english": "WSO2",
     "speaker_title_english": "",
@@ -1334,6 +1380,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/kushlani.jpg"
   },
   {
+    "objectId": "",
     "id": "raviraj",
     "company_english": "Freshworks Inc.",
     "speaker_title_english": "",
@@ -1363,6 +1410,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/raviraj.jpg"
   },
   {
+    "objectId": "",
     "id": "juhi",
     "company_english": "Freshworks Inc.",
     "speaker_title_english": "",
@@ -1392,6 +1440,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/juhi.jpg"
   },
   {
+    "objectId": "",
     "id": "jongmin",
     "company_english": "Elastic",
     "speaker_title_english": "",
@@ -1421,6 +1470,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "yasushi",
     "company_english": "IBM",
     "speaker_title_english": "",
@@ -1450,6 +1500,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "junichi",
     "company_english": "Shopify",
     "speaker_title_english": "",
@@ -1479,6 +1530,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "justin",
     "company_english": "Microsoft",
     "speaker_title_english": "",
@@ -1508,6 +1560,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "renaldi",
     "company_english": "GReS Studio",
     "speaker_title_english": "",
@@ -1537,6 +1590,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "park",
     "company_english": "",
     "speaker_title_english": "",
@@ -1566,6 +1620,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "cherish",
     "company_english": "HackerEarth",
     "speaker_title_english": "",
@@ -1595,6 +1650,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "haimantika",
     "company_english": "Microsoft Learn Student Ambassador",
     "speaker_title_english": "",
@@ -1624,6 +1680,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "shelvia",
     "company_english": "TechLadies",
     "speaker_title_english": "",
@@ -1653,6 +1710,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "vaibhavi",
     "company_english": "Gojek",
     "speaker_title_english": "",
@@ -1682,6 +1740,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "mary",
     "company_english": "Camunda",
     "speaker_title_english": "",
@@ -1711,6 +1770,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "anne",
     "company_english": "FemaleGeek, Facebook Developer Circle Jakarta",
     "speaker_title_english": "",
@@ -1740,6 +1800,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "olle",
     "company_english": "Devrel Events",
     "speaker_title_english": "",
@@ -1769,6 +1830,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "yashraj",
     "company_english": "Progate",
     "speaker_title_english": "",
@@ -1798,6 +1860,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "sarah",
     "company_english": "",
     "speaker_title_english": "",
@@ -1827,6 +1890,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "takuo",
     "company_english": "Google",
     "speaker_title_english": "",
@@ -1856,6 +1920,7 @@
     "ogp": ""
   },
   {
+    "objectId": "",
     "id": "sandra",
     "company_english": "",
     "speaker_title_english": "",
