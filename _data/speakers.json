@@ -409,7 +409,7 @@
     "speaker_title_english": "Sr. Developer Advocate",
     "name_english": "Taiji Hagino",
     "profile_english": "Ex-hairdresser and Ex-musician. After becoming a software engineer, he started an Accurate System Ltd. with his various experience. After working as a system integrator of a subsidiary of a general trading company, he now works as a developer advocate in the IBM Global team, developing DevRel (Developer Relations), a marketing approach to engineers. Also works as a lecturer at the Faculty of Informatics, University of Tsukuba. His authors include \"Developer Marketing DevRel Q&A\" (Impress R&D), \"First Node-RED\", \"Practical Node-RED Application Manual\" (Kogakusha), etc.",
-    "company_your_language": "日本アイ・ビー・エム",
+    "company_your_language": "日本アイ・ビー・エム株式会社",
     "speaker_title_your_language": "シニアデベロッパーアドボケイト",
     "name_your_language": "萩野たいじ",
     "profile_your_language": "元美容師で元音楽家。ソフトウェアエンジニアへ転身後、有限会社アキュレートシステムを起業。その後、商社系SIerを経て、現在はIBM Globalチームにて、Developer Advocateとして技術者へリーチしたマーケティング、DevRel（Developer Relations）を展開。エールビールが大好きな二児の父。著書に『開発者向けマーケティング DevRel Q&A』（インプレスR&D）『はじめてのNode-RED』『Node-RED活用マニュアル』（工学社）など。",
@@ -1545,7 +1545,7 @@
     "speaker": "true",
     "region": "",
     "photo": "true",
-    "profile_country": "english",
+    "profile_country": "japan",
     "ogp": "",
     "uniqueKey": "krb2ik9j-h9qnn5dl-l3w2kttf"
   },
