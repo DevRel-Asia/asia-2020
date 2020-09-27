@@ -1,7 +1,7 @@
 ---
 layout: speaker
-permalink: /speakers/tien/
-id: tien
+permalink: /speakers/Tien Mai/
+id: Tien Mai
 type: speaker
 title: Tien Mai（SheCodes Vietnam）
 ---

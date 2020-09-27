@@ -1,7 +1,7 @@
 ---
 layout: speaker
-permalink: /speakers/nguyen/
-id: nguyen
+permalink: /speakers/My Nguyen/
+id: My Nguyen
 type: speaker
 title: My Nguyen（SheCodes Vietnam）
 ---
