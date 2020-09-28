@@ -25,7 +25,7 @@
     "other": "",
     "speaker": "true",
     "region": "korea",
-    "photo": "false",
+    "photo": "true",
     "profile_country": "korea",
     "ogp": "",
     "uniqueKey": "nw5pxrnk-wovv0h6d-byo9w26l"
@@ -2039,15 +2039,15 @@
     "weibo": "",
     "other": "",
     "speaker": "",
-    "region": "",
+    "region": "japan",
     "photo": "",
     "profile_country": "",
     "ogp": "",
-    "uniqueKey": ""
+    "uniqueKey": "mtg1pneb-h0jwfi32-wv368nvj"
   },
   {
-    "objectId": "",
-    "id": "",
+    "objectId": "halqG7JD0H1KQ6OK",
+    "id": "tomomi",
     "company_english": "Microsoft",
     "speaker_title_english": "",
     "name_english": "Tomomi Imura",
@@ -2070,10 +2070,10 @@
     "weibo": "",
     "other": "",
     "speaker": "",
-    "region": "",
+    "region": "sea",
     "photo": "",
     "profile_country": "",
     "ogp": "",
-    "uniqueKey": ""
+    "uniqueKey": "20efodzl-wrla90tj-5z5qf3yc"
   }
 ]
