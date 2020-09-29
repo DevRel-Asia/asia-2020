@@ -2069,10 +2069,10 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "",
+    "speaker": "true",
     "region": "sea",
-    "photo": "",
-    "profile_country": "",
+    "photo": "true",
+    "profile_country": "japan",
     "ogp": "",
     "uniqueKey": "20efodzl-wrla90tj-5z5qf3yc"
   }
