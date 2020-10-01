@@ -2,6 +2,7 @@
   {
     "objectId": "",
     "id": "soon",
+    "slack": "",
     "company_english": "Google",
     "speaker_title_english": "Global ML Ecosystem Programs Lead",
     "name_english": "Soon Sun Kwon",
@@ -33,6 +34,7 @@
   {
     "objectId": "",
     "id": "reagan",
+    "slack": "",
     "company_english": "Wanted",
     "speaker_title_english": "Co-Founder",
     "name_english": "Reagan Hwang",
@@ -64,6 +66,7 @@
   {
     "objectId": "",
     "id": "tebica",
+    "slack": "",
     "company_english": "LINE",
     "speaker_title_english": "Tech Evangelist",
     "name_english": "Minwoo Park",
@@ -95,6 +98,7 @@
   {
     "objectId": "V9H0trlvhnlpBC9c",
     "id": "annpmathew",
+    "slack": "",
     "company_english": "Microsoft",
     "speaker_title_english": "",
     "name_english": "Annie Mathew",
@@ -126,6 +130,7 @@
   {
     "objectId": "bDLofiR7CDRAAIi8",
     "id": "emma",
+    "slack": "",
     "company_english": "Google",
     "speaker_title_english": "Developer Advocate",
     "name_english": "Emma Haruka Iwao",
@@ -157,6 +162,7 @@
   {
     "objectId": "RkgF32odg6XMnP1b",
     "id": "pj",
+    "slack": "",
     "company_english": "DevRelate.io",
     "speaker_title_english": "",
     "name_english": "PJ Hagerty",
@@ -188,6 +194,7 @@
   {
     "objectId": "3AsLEbaBKVJ7VsUU",
     "id": "seth",
+    "slack": "",
     "company_english": "Slack",
     "speaker_title_english": "Co-Chapter Leader",
     "name_english": "Prasad Seth",
@@ -219,6 +226,7 @@
   {
     "objectId": "nuiwWojI0Z47Ym1S",
     "id": "christina",
+    "slack": "",
     "company_english": "SlashData",
     "speaker_title_english": "",
     "name_english": "Christina Voskoglou",
@@ -250,6 +258,7 @@
   {
     "objectId": "1r6MutoAbQU7AvBH",
     "id": "hemchander",
+    "slack": "",
     "company_english": "Freshworks Inc",
     "speaker_title_english": "",
     "name_english": "Hemchander S",
@@ -281,6 +290,7 @@
   {
     "objectId": "LQ6v5R0gTyB8iBPO",
     "id": "mvkaran",
+    "slack": "",
     "company_english": "GitHub",
     "speaker_title_english": "",
     "name_english": "Karan MV",
@@ -312,6 +322,7 @@
   {
     "objectId": "hLgNVSw58Q2RsmmP",
     "id": "seigo",
+    "slack": "",
     "company_english": "1ft-seabass",
     "speaker_title_english": "",
     "name_english": "Seigo Tanaka",
@@ -343,6 +354,7 @@
   {
     "objectId": "TztUtD7kRCXRBhCJ",
     "id": "yokota",
+    "slack": "",
     "company_english": "Sakura Internet",
     "speaker_title_english": "Operating officer/Evangelist",
     "name_english": "Masatoshi Yokota",
@@ -374,6 +386,7 @@
   {
     "objectId": "dWixmXPJIyZlCTDL",
     "id": "a-know",
+    "slack": "",
     "company_english": "Hatena",
     "speaker_title_english": "CRE",
     "name_english": "Daisuke Inoue",
@@ -405,6 +418,7 @@
   {
     "objectId": "bZy2OHsccVqcwp6p",
     "id": "taiji",
+    "slack": "",
     "company_english": "IBM",
     "speaker_title_english": "Sr. Developer Advocate",
     "name_english": "Taiji Hagino",
@@ -436,6 +450,7 @@
   {
     "objectId": "LdqHxx16jtn417uf",
     "id": "goofmint",
+    "slack": "",
     "company_english": "MOONGIFT",
     "speaker_title_english": "CEO",
     "name_english": "Atsushi Nakatsugawa",
@@ -467,6 +482,7 @@
   {
     "objectId": "jMoppssEaOvsgChk",
     "id": "odasho",
+    "slack": "",
     "company_english": "Microsoft Japan",
     "speaker_title_english": "Developer Marketing Manager/Evangelist",
     "name_english": "Shohei Oda",
@@ -498,6 +514,7 @@
   {
     "objectId": "VodFGsxkz63kYDER",
     "id": "wataru",
+    "slack": "",
     "company_english": "Uhuru",
     "speaker_title_english": "General Manager",
     "name_english": "Wataru Yamazaki",
@@ -529,6 +546,7 @@
   {
     "objectId": "D7oZlCKDDed28AtW",
     "id": "shotaro",
+    "slack": "",
     "company_english": "Elastic",
     "speaker_title_english": "Technical Product Marketing Manager",
     "name_english": "Shotaro Suzuki",
@@ -560,6 +578,7 @@
   {
     "objectId": "lpOXMV9c3o2uqb4h",
     "id": "yuko",
+    "slack": "",
     "company_english": "Shoeisha",
     "speaker_title_english": "Chief Editor",
     "name_english": "Yuko Kondo",
@@ -591,6 +610,7 @@
   {
     "objectId": "rUO9DiZ4YwPuEkrf",
     "id": "ryo",
+    "slack": "",
     "company_english": "Cybozu, Inc.",
     "speaker_title_english": "Technical Evangelist",
     "name_english": "Ryo Otake",
@@ -622,6 +642,7 @@
   {
     "objectId": "xrakXHU2g4aYJGt5",
     "id": "llminatoll",
+    "slack": "",
     "company_english": "Freelancer",
     "speaker_title_english": "",
     "name_english": "Ai Minatogawa",
@@ -653,6 +674,7 @@
   {
     "objectId": "j05OmztKJPGK3lL6",
     "id": "aya",
+    "slack": "",
     "company_english": "IBM Japan",
     "speaker_title_english": "",
     "name_english": "Aya Tokura",
@@ -684,6 +706,7 @@
   {
     "objectId": "VhYmNN2OoZHF4lS1",
     "id": "zhang",
+    "slack": "",
     "company_english": "China .NET community",
     "speaker_title_english": "",
     "name_english": "Zhang Shanyou",
@@ -715,6 +738,7 @@
   {
     "objectId": "1ld44EeyQmbf0JXe",
     "id": "singing",
+    "slack": "",
     "company_english": "Open Culture Foundation",
     "speaker_title_english": "",
     "name_english": "Singing Li",
@@ -746,6 +770,7 @@
   {
     "objectId": "z3Iy2D2uTef6dkl3",
     "id": "don",
+    "slack": "",
     "company_english": "Katsudon.tech",
     "speaker_title_english": "Director",
     "name_english": "Don Goodman-Wilson",
@@ -777,6 +802,7 @@
   {
     "objectId": "78geAN9AN6Mkg0TA",
     "id": "ado",
+    "slack": "",
     "company_english": "MongoDB",
     "speaker_title_english": "",
     "name_english": "Ado Kukic",
@@ -808,6 +834,7 @@
   {
     "objectId": "Nz1mUZv911mBduBc",
     "id": "yamada",
+    "slack": "",
     "company_english": "Yahoo Japan Corporation",
     "speaker_title_english": "Splunk Advocate @ Yahoo! JAPAN",
     "name_english": "Yamada Noel",
@@ -839,6 +866,7 @@
   {
     "objectId": "B0VVDU1Hjj14KegD",
     "id": "sammy",
+    "slack": "",
     "company_english": "Open Source Hong Kong",
     "speaker_title_english": "",
     "name_english": "Sammy Fung",
@@ -870,6 +898,7 @@
   {
     "objectId": "xpv93Aa396XYaohY",
     "id": "akhil",
+    "slack": "",
     "company_english": "Krunchdata.io",
     "speaker_title_english": "",
     "name_english": "Akhil Sharma",
@@ -901,6 +930,7 @@
   {
     "objectId": "b1LLlp36r0bPU7P9",
     "id": "alex",
+    "slack": "",
     "company_english": "Fidel API",
     "speaker_title_english": "Developer Avocado",
     "name_english": "Alex Lakatos",
@@ -932,6 +962,7 @@
   {
     "objectId": "dmYIUqBxv8khy3vI",
     "id": "hung",
+    "slack": "",
     "company_english": "DAC Data science Vietnam",
     "speaker_title_english": "",
     "name_english": "Hung Le Thanh",
@@ -963,6 +994,7 @@
   {
     "objectId": "5kitwVjHRF8F78KR",
     "id": "hyunsang",
+    "slack": "",
     "company_english": "TeamGRIT",
     "speaker_title_english": "Front-End Developer",
     "name_english": "HyunSang Park",
@@ -994,6 +1026,7 @@
   {
     "objectId": "xqBEHUm5dgpL1cwM",
     "id": "arkodyuti",
+    "slack": "",
     "company_english": "Microsoft",
     "speaker_title_english": "Developer Relations Program Manager",
     "name_english": "Arkodyuti Saha",
@@ -1025,6 +1058,7 @@
   {
     "objectId": "7O0hAo4fTSsf2OxO",
     "id": "jessica",
+    "slack": "",
     "company_english": "LaunchDarkly",
     "speaker_title_english": "Head of Developer Relations",
     "name_english": "Jessica West",
@@ -1056,6 +1090,7 @@
   {
     "objectId": "VRcycfAjCjfMmUJH",
     "id": "tien",
+    "slack": "",
     "company_english": "SheCodes Vietnam",
     "speaker_title_english": "Founder and CEO @ SheCodes Vietnam",
     "name_english": "Tien Mai",
@@ -1087,6 +1122,7 @@
   {
     "objectId": "bfr1aIgOMgQyVcnV",
     "id": "manabu",
+    "slack": "",
     "company_english": "Yahoo Japan Corporation",
     "speaker_title_english": "",
     "name_english": "Manabu Yamamoto",
@@ -1118,6 +1154,7 @@
   {
     "objectId": "5XpgcwJYmKO3qItI",
     "id": "juyoung",
+    "slack": "",
     "company_english": "weverse",
     "speaker_title_english": "DevOps engineer",
     "name_english": "Juyoung Song",
@@ -1149,6 +1186,7 @@
   {
     "objectId": "",
     "id": "nguyen",
+    "slack": "",
     "company_english": "SheCodes Vietnam",
     "speaker_title_english": "Strategic Advisor and Co-Founder @ SheCodes Vietnam",
     "name_english": "My Nguyen",
@@ -1180,6 +1218,7 @@
   {
     "objectId": "1EfNBRySXIKxPA4I",
     "id": "jaime",
+    "slack": "",
     "company_english": "Jack Henry & Associates",
     "speaker_title_english": "",
     "name_english": "Jaime Lopez Jr",
@@ -1211,6 +1250,7 @@
   {
     "objectId": "3AGa5C0C93azGBiQ",
     "id": "patrick",
+    "slack": "",
     "company_english": "beNovelty",
     "speaker_title_english": "",
     "name_english": "Patrick CS Fan",
@@ -1242,6 +1282,7 @@
   {
     "objectId": "b8nrTRQVUSKjVDsA",
     "id": "miho",
+    "slack": "",
     "company_english": "Nulab Inc.",
     "speaker_title_english": "",
     "name_english": "Miho Inoue",
@@ -1273,6 +1314,7 @@
   {
     "objectId": "fHkEng0M0rGEvo2P",
     "id": "elishatam",
+    "slack": "",
     "company_english": "TechLadies",
     "speaker_title_english": "Founder",
     "name_english": "Elisha Tan",
@@ -1304,6 +1346,7 @@
   {
     "objectId": "J0XnTA1llUrFpRGg",
     "id": "paresh",
+    "slack": "",
     "company_english": "Google Developers Group Ahmedabad",
     "speaker_title_english": "",
     "name_english": "Paresh Mayani",
@@ -1335,6 +1378,7 @@
   {
     "objectId": "7DlPW0GpH3c5rnd5",
     "id": "aditya",
+    "slack": "",
     "company_english": "Microsoft Learn Student Ambassador",
     "speaker_title_english": "",
     "name_english": "Aditya Oberai",
@@ -1366,6 +1410,7 @@
   {
     "objectId": "nOURGQ9WQWrhGCW4",
     "id": "shedrack",
+    "slack": "",
     "company_english": "Cloud Foundry",
     "speaker_title_english": "Developer Advocate",
     "name_english": "Shedrack Akintayo",
@@ -1397,6 +1442,7 @@
   {
     "objectId": "ZBnKrD40eR0bjQNc",
     "id": "kushlani",
+    "slack": "",
     "company_english": "WSO2",
     "speaker_title_english": "",
     "name_english": "Kushlani De Silva",
@@ -1428,6 +1474,7 @@
   {
     "objectId": "VJ60h1NB16z0reFM",
     "id": "raviraj",
+    "slack": "",
     "company_english": "Freshworks Inc.",
     "speaker_title_english": "Senior Developer Advocate",
     "name_english": "Raviraj Subramanian",
@@ -1459,6 +1506,7 @@
   {
     "objectId": "hqjVOZ7AFKaIpJba",
     "id": "juhi",
+    "slack": "",
     "company_english": "Freshworks Inc.",
     "speaker_title_english": "",
     "name_english": "Juhi Singh",
@@ -1490,6 +1538,7 @@
   {
     "objectId": "Tr762FhTPfDaHM6B",
     "id": "jongmin",
+    "slack": "",
     "company_english": "Elastic",
     "speaker_title_english": "",
     "name_english": "Jongmin Kim",
@@ -1521,6 +1570,7 @@
   {
     "objectId": "Bynhq7oTP1EcUdk6",
     "id": "yasushi",
+    "slack": "",
     "company_english": "IBM",
     "speaker_title_english": "",
     "name_english": "Yasushi Osonoi",
@@ -1552,6 +1602,7 @@
   {
     "objectId": "3SLgHOiljAwsKiR8",
     "id": "junichi",
+    "slack": "",
     "company_english": "Shopify",
     "speaker_title_english": "",
     "name_english": "Junichi Okamura",
@@ -1583,6 +1634,7 @@
   {
     "objectId": "zB6aAZTyimRdsD56",
     "id": "justin",
+    "slack": "",
     "company_english": "Microsoft",
     "speaker_title_english": "Senior Cloud Advocate",
     "name_english": "Justin Yoo",
@@ -1614,6 +1666,7 @@
   {
     "objectId": "tEBppY1wlcRrmAHD",
     "id": "renaldi",
+    "slack": "true",
     "company_english": "GReS Studio",
     "speaker_title_english": "Founder and Developer Advocate",
     "name_english": "Renaldi Gondosubroto",
@@ -1645,6 +1698,7 @@
   {
     "objectId": "lSAKIG1FdnBDAVkI",
     "id": "park",
+    "slack": "",
     "company_english": "",
     "speaker_title_english": "",
     "name_english": "Ted Park",
@@ -1676,6 +1730,7 @@
   {
     "objectId": "1OwROYYyMQK7Rxi1",
     "id": "cherish",
+    "slack": "true",
     "company_english": "HackerEarth",
     "speaker_title_english": "",
     "name_english": "Cherish Santoshi",
@@ -1707,6 +1762,7 @@
   {
     "objectId": "3TQoCE5xEEKxjCAo",
     "id": "haimantika",
+    "slack": "true",
     "company_english": "Microsoft Learn Student Ambassador",
     "speaker_title_english": "",
     "name_english": "Haimantika Mitra",
@@ -1738,6 +1794,7 @@
   {
     "objectId": "xiZQoxWMTVIFbxLH",
     "id": "shelvia",
+    "slack": "true",
     "company_english": "TechLadies",
     "speaker_title_english": "Software Engineer @ ThoughtWorks",
     "name_english": "Shelvia Dwi Hotama",
@@ -1769,6 +1826,7 @@
   {
     "objectId": "Lmzh1KdINj1eUhjj",
     "id": "vaibhavi",
+    "slack": "true",
     "company_english": "Gojek ",
     "speaker_title_english": "Program Manager, Engineering & Data",
     "name_english": "Vaibhavi Desai",
@@ -1800,6 +1858,7 @@
   {
     "objectId": "NDLaNMkapPtfQNhd",
     "id": "mary",
+    "slack": "",
     "company_english": "Camunda",
     "speaker_title_english": "Director, Developer Relations",
     "name_english": "Mary Thengvall",
@@ -1831,6 +1890,7 @@
   {
     "objectId": "7GcSsrU5sePpGNoS",
     "id": "anne",
+    "slack": "true",
     "company_english": "FemaleGeek, Facebook Developer Circle Jakarta",
     "speaker_title_english": "",
     "name_english": "Anne Regina",
@@ -1862,6 +1922,7 @@
   {
     "objectId": "H71z2f4dNW2psE1U",
     "id": "olle",
+    "slack": "true",
     "company_english": "Devrel Events",
     "speaker_title_english": "Co-founder Devrel.Events, Developer Advocate",
     "name_english": "Olle Pridiuksson",
@@ -1893,6 +1954,7 @@
   {
     "objectId": "RepRwyMCEI59u02W",
     "id": "yashraj",
+    "slack": "",
     "company_english": "Progate",
     "speaker_title_english": "",
     "name_english": "Yashraj Nayak",
@@ -1924,6 +1986,7 @@
   {
     "objectId": "LFOXpD9FBO6qa9zF",
     "id": "sarah",
+    "slack": "",
     "company_english": "",
     "speaker_title_english": "",
     "name_english": "Sarah Thiam",
@@ -1955,6 +2018,7 @@
   {
     "objectId": "RnSd34RSMCZ5rK8M",
     "id": "takuo",
+    "slack": "true",
     "company_english": "Google",
     "speaker_title_english": "",
     "name_english": "Takuo Suzuki",
@@ -1986,6 +2050,7 @@
   {
     "objectId": "txQ33xYL0ZtlDhuI",
     "id": "sandra",
+    "slack": "",
     "company_english": "",
     "speaker_title_english": "",
     "name_english": "Sandra Persing",
@@ -2017,6 +2082,7 @@
   {
     "objectId": "nAlzH9DGEVxY7ZVn",
     "id": "satoru",
+    "slack": "",
     "company_english": "LINE Corp.",
     "speaker_title_english": "",
     "name_english": "Satoru Fujiwara",
@@ -2048,6 +2114,7 @@
   {
     "objectId": "halqG7JD0H1KQ6OK",
     "id": "tomomi",
+    "slack": "",
     "company_english": "Microsoft",
     "speaker_title_english": "Cloud Advocate ",
     "name_english": "Tomomi Imura",
@@ -2079,6 +2146,7 @@
   {
     "objectId": "H5GtnUFNxUYgeyzW",
     "id": "sunny",
+    "slack": "true",
     "company_english": "SegmentFault ",
     "speaker_title_english": "CEO",
     "name_english": "Sunny",
