@@ -2185,10 +2185,10 @@
     "profile_english": "",
     "company_your_language": "Microsoft",
     "speaker_title_your_language": "",
-    "name_your_language": "",
-    "profile_your_language": "",
-    "web": "",
-    "twitter": "",
+    "name_your_language": "Jun Han",
+    "profile_your_language": "《Visual Studio Code 权威指南》作者，微软开发平台事业部的软件工程师，VS Code 中文社区创始人，VS Code 的代码贡献者。写过 20 多款 VS Code 插件，其中最热门的 Code Runner 插件有超过一千万下载量。他是《玩转VS Code》公众号和知乎专栏的作者。他还是 PyCon、JSConf、.NET Conf、Microsoft Tech Summit、Google Developer Group、COSCon 等大会的讲师。",
+    "web": "https://www.zhihu.com/people/formulahendry",
+    "twitter": "https://twitter.com/formulahendry",
     "facebook": "",
     "github": "",
     "google": "",
@@ -2203,7 +2203,7 @@
     "speaker": "",
     "region": "china",
     "photo": "",
-    "profile_country": "",
+    "profile_country": "china",
     "ogp": "",
     "uniqueKey": "vxvnq4a1-pg7769kv-903gwsax"
   },
@@ -2235,7 +2235,7 @@
     "speaker": "",
     "region": "",
     "photo": "",
-    "profile_country": "",
+    "profile_country": "english",
     "ogp": "",
     "uniqueKey": ""
   }
