@@ -5,239 +5,194 @@
         <h2>Schedule</h2>
         <p>We'll be announced soon!</p>
       </div>
-      <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
-        <li class="nav-item">
-          <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Day 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Day 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Day 3</a>
-        </li>
-      </ul>
 
-      <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
-        necessitatibus voluptatem quis labore perspiciatis quia.</h3>
-
-      <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
-
-        <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>09:30 AM</time></div>
-            <div class="col-md-10">
-              <h4>Registration</h4>
-              <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>10:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
-              </div>
-              <h4>Keynote <span>Brenden Legros</span></h4>
-              <p>Facere provident incidunt quos voluptas.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>11:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
-              </div>
-              <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-              <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>12:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
-              </div>
-              <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-              <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>02:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
-              </div>
-              <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-              <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>03:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
-              </div>
-              <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-              <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>04:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
-              </div>
-              <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-              <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
-            </div>
-          </div>
-
+      <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
+        <div class="cd-schedule__timeline">
+          <ul>
+            <li><span>09:00</span></li>
+            <li><span>09:30</span></li>
+            <li><span>10:00</span></li>
+            <li><span>10:30</span></li>
+            <li><span>11:00</span></li>
+            <li><span>11:30</span></li>
+            <li><span>12:00</span></li>
+            <li><span>12:30</span></li>
+            <li><span>13:00</span></li>
+            <li><span>13:30</span></li>
+            <li><span>14:00</span></li>
+            <li><span>14:30</span></li>
+            <li><span>15:00</span></li>
+            <li><span>15:30</span></li>
+            <li><span>16:00</span></li>
+            <li><span>16:30</span></li>
+            <li><span>17:00</span></li>
+            <li><span>17:30</span></li>
+            <li><span>18:00</span></li>
+          </ul>
+        </div> <!-- .cd-schedule__timeline -->
+      
+        <div class="cd-schedule__events">
+          <ul>
+            <li class="cd-schedule__group">
+              <div class="cd-schedule__top-info"><span>Monday</span></div>
+      
+              <ul>
+                <li class="cd-schedule__event">
+                  <a data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                    <em class="cd-schedule__name">Abs Circuit</em>
+                  </a>
+                </li>
+      
+                <li class="cd-schedule__event">
+                  <a data-start="11:00" data-end="12:30" data-content="event-rowing-workout" data-event="event-2" href="#0">
+                    <em class="cd-schedule__name">Rowing Workout</em>
+                  </a>
+                </li>
+      
+                <li class="cd-schedule__event">
+                  <a data-start="14:00" data-end="15:15"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                    <em class="cd-schedule__name">Yoga Level 1</em>
+                  </a>
+                </li>
+              </ul>
+            </li>
+      
+            <li class="cd-schedule__group">
+              <div class="cd-schedule__top-info"><span>Tuesday</span></div>
+      
+              <ul>
+                <li class="cd-schedule__event">
+                  <a data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2" href="#0">
+                    <em class="cd-schedule__name">Rowing Workout</em>
+                  </a>
+                </li>
+      
+                <li class="cd-schedule__event">
+                  <a data-start="11:30" data-end="13:00"  data-content="event-restorative-yoga" data-event="event-4" href="#0">
+                    <em class="cd-schedule__name">Restorative Yoga</em>
+                  </a>
+                </li>
+      
+                <li class="cd-schedule__event">
+                  <a data-start="13:30" data-end="15:00" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                    <em class="cd-schedule__name">Abs Circuit</em>
+                  </a>
+                </li>
+      
+                <li class="cd-schedule__event">
+                  <a data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                    <em class="cd-schedule__name">Yoga Level 1</em>
+                  </a>
+                </li>
+              </ul>
+            </li>
+      
+            <li class="cd-schedule__group">
+              <div class="cd-schedule__top-info"><span>Wednesday</span></div>
+      
+              <ul>
+                <li class="cd-schedule__event">
+                  <a data-start="09:00" data-end="10:15" data-content="event-restorative-yoga" data-event="event-4" href="#0">
+                    <em class="cd-schedule__name">Restorative Yoga</em>
+                  </a>
+                </li>
+      
+                <li class="cd-schedule__event">
+                  <a data-start="10:45" data-end="11:45" data-content="event-yoga-1" data-event="event-3" href="#0">
+                    <em class="cd-schedule__name">Yoga Level 1</em>
+                  </a>
+                </li>
+      
+                <li class="cd-schedule__event">
+                  <a data-start="12:00" data-end="13:45"  data-content="event-rowing-workout" data-event="event-2" href="#0">
+                    <em class="cd-schedule__name">Rowing Workout</em>
+                  </a>
+                </li>
+      
+                <li class="cd-schedule__event">
+                  <a data-start="13:45" data-end="15:00" data-content="event-yoga-1" data-event="event-3" href="#0">
+                    <em class="cd-schedule__name">Yoga Level 1</em>
+                  </a>
+                </li>
+              </ul>
+            </li>
+      
+            <li class="cd-schedule__group">
+              <div class="cd-schedule__top-info"><span>Thursday</span></div>
+      
+              <ul>
+                <li class="cd-schedule__event">
+                  <a data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                    <em class="cd-schedule__name">Abs Circuit</em>
+                  </a>
+                </li>
+      
+                <li class="cd-schedule__event">
+                  <a data-start="12:00" data-end="13:45" data-content="event-restorative-yoga" data-event="event-4" href="#0">
+                    <em class="cd-schedule__name">Restorative Yoga</em>
+                  </a>
+                </li>
+      
+                <li class="cd-schedule__event">
+                  <a data-start="15:30" data-end="16:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                    <em class="cd-schedule__name">Abs Circuit</em>
+                  </a>
+                </li>
+      
+                <li class="cd-schedule__event">
+                  <a data-start="17:00" data-end="18:30"  data-content="event-rowing-workout" data-event="event-2" href="#0">
+                    <em class="cd-schedule__name">Rowing Workout</em>
+                  </a>
+                </li>
+              </ul>
+            </li>
+      
+            <li class="cd-schedule__group">
+              <div class="cd-schedule__top-info"><span>Friday</span></div>
+      
+              <ul>
+                <li class="cd-schedule__event">
+                  <a data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2" href="#0">
+                    <em class="cd-schedule__name">Rowing Workout</em>
+                  </a>
+                </li>
+      
+                <li class="cd-schedule__event">
+                  <a data-start="12:30" data-end="14:00" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                    <em class="cd-schedule__name">Abs Circuit</em>
+                  </a>
+                </li>
+      
+                <li class="cd-schedule__event">
+                  <a data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                    <em class="cd-schedule__name">Yoga Level 1</em>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>10:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
-              </div>
-              <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-              <p>Facere provident incidunt quos voluptas.</p>
+      
+        <div class="cd-schedule-modal">
+          <header class="cd-schedule-modal__header">
+            <div class="cd-schedule-modal__content">
+              <span class="cd-schedule-modal__date"></span>
+              <h3 class="cd-schedule-modal__name"></h3>
             </div>
+      
+            <div class="cd-schedule-modal__header-bg"></div>
+          </header>
+      
+          <div class="cd-schedule-modal__body">
+            <div class="cd-schedule-modal__event-info"></div>
+            <div class="cd-schedule-modal__body-bg"></div>
           </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>11:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
-              </div>
-              <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-              <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>12:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
-              </div>
-              <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-              <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>02:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
-              </div>
-              <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-              <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>03:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
-              </div>
-              <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-              <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>04:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
-              </div>
-              <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-              <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
-            </div>
-          </div>
-
+      
+          <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
         </div>
-        <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>10:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
-              </div>
-              <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-              <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>11:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
-              </div>
-              <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-              <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>12:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
-              </div>
-              <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-              <p>Facere provident incidunt quos voluptas.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>02:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
-              </div>
-              <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-              <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>03:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
-              </div>
-              <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-              <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>04:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
-              </div>
-              <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-              <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
+      
+        <div class="cd-schedule__cover-layer"></div>
+      </div> <!-- .cd-schedule -->
     </div>
 
   </section>

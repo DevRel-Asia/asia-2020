@@ -1670,3 +1670,63 @@ body.mobile-nav-active #mobile-nav-toggle {
 .bs-tooltip-bottom .arrow::before {
   border-bottom-color: #f82249;
 }
+
+
+.cd-schedule__group > ul {
+  position: relative;
+  padding: 0 var(--component-padding);
+  display: flex;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.cd-schedule__event {
+  flex-shrink: 0; // force them to stay on one line
+  float: left; // flex fallback
+  height: 150px;
+  width: 70%;
+  max-width: 300px;
+}
+
+.cd-schedule-modal {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  transform: translateX(100%);
+  transition: transform .4s, visibility .4s;
+}
+
+.cd-schedule-modal--open { // this class is added as soon as an event is selected
+  transform: translateX(0);
+  visibility: visible;
+}
+
+.js {
+  @include breakpoint(md) {
+    .cd-schedule__events {
+      width: 100%;
+
+      > ul {
+        display: flex;
+        flex-wrap: nowrap;
+      }
+    }
+
+    .cd-schedule__group {
+      flex-basis: 0;
+      flex-grow: 1;
+    }
+
+    .cd-schedule__event {
+      position: absolute;
+      z-index: 3;
+      width: calc(100% + 2px); // top position and height will be set using js
+      left: -1px;
+    }
+  }
+}
+

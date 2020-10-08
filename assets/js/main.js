@@ -404,22 +404,26 @@ const Unconf = ncmb.DataStore('Unconf');
 
   // Initialize Venobox
   $(window).on('load', function() {
-    $('.venobox').venobox({
-      bgcolor: '',
-      overlayColor: 'rgba(6, 12, 34, 0.85)',
-      closeBackground: '',
-      closeColor: '#fff',
-      share: false
-    });
+    if ($('.venobox').venobox) {
+      $('.venobox').venobox({
+        bgcolor: '',
+        overlayColor: 'rgba(6, 12, 34, 0.85)',
+        closeBackground: '',
+        closeColor: '#fff',
+        share: false
+      });
+    }
   });
 
   // Initiate superfish on nav menu
-  $('.nav-menu').superfish({
-    animation: {
-      opacity: 'show'
-    },
-    speed: 400
-  });
+  if ($('.nav-menu').superfish) {
+    $('.nav-menu').superfish({
+      animation: {
+        opacity: 'show'
+      },
+      speed: 400
+    });
+  }
 
   // Mobile Navigation
   if ($('#nav-menu-container').length) {
@@ -535,13 +539,50 @@ const Unconf = ncmb.DataStore('Unconf');
 
   // Init AOS
   function aos_init() {
-    AOS.init({
-      duration: 1000,
-      once: true
-    });
+    if (typeof AOS !== 'undefined') {
+      AOS.init({
+        duration: 1000,
+        once: true
+      });
+    }
   }
   $(window).on('load', function() {
     aos_init();
   });
 
+
+  dayjs.extend(dayjsPluginUTC.default)
+  $("#searchDropdown").on('click', e => {
+    e.preventDefault();
+    $("#myDropdown").toggle("show");
+  });
+
+  $('#myDropdown a').on('click', e => {
+    e.preventDefault();
+    const timezone = $(e.target).attr('value');
+    changeTimeZone(timezone)
+  })
+
+  function changeTimeZone(timezone) {
+    $.each($('.schedule_time'), (i, ele) => {
+      const time = `2000-01-01T${("00" + $(ele).data('time')).slice( -5 )}:00Z`;
+      $(ele).text(dayjs.utc(time).utcOffset(timezone).format('H:mm'));
+    });
+  }
+
+  if (dayjs().utcOffset() !== 0) {
+    changeTimeZone(dayjs().utcOffset());
+  }
+
+  $('#myInput').on('keyup', e => {
+    const filter = $("#myInput").val().toUpperCase();
+    $.each($("#myDropdown a"), (i, el) => {
+      if ($(el).text().toUpperCase().indexOf(filter) > -1) {
+        $(el).show();
+      } else {
+        $(el).hide();
+      }
+    })
+  });
 })(jQuery);
+

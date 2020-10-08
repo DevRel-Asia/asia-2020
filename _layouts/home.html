@@ -8,7 +8,16 @@ layout: default
   {%- include about.html -%}
   {%- include news.html -%}
   {% include speakers.html %}
-  {% comment %}{%- include schedule.html -%}{% endcomment %}
+  <section id="schedule">
+    <div class="container">
+      <div class="section-header">
+        <h2>Schedule</h2>
+      </div>
+      <div style="margin-left: -5em;">
+        <iframe src="/asia-2020/schedule/" width="110%" height="1200px" style="border: none;"></iframe>
+      </div>
+    </div>
+  </section>
   {% include sponsors.html %}
   {% include posts.html %}
   {% include faq.html %}

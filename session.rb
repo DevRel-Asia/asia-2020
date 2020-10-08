@@ -1,0 +1,47 @@
+require 'json'
+require 'time'
+
+files = [
+  'session_asia2',
+  'session_japan',
+  'session_korea',
+  'session_asia1',
+  'session_sea',
+  'session_china'
+]
+
+files.each do |file_name|
+  path = "./_data/#{file_name}.json"
+  next unless File.exist? path
+  json = JSON.parse(open(path).read)
+  results = []
+  countries = %w(english japan korea singapore vietnam indonesia)
+  json.each do |session|
+    next if session['id'] == ''
+    d = Time.parse session['utc']
+    session['start'] = d.strftime('%H:%M')
+    r = Time.parse session['range']
+    time = 0
+    if r.strftime('%H').to_i > 0
+      time = r.strftime('%H').to_i * 60 * 60
+    end
+    if r.strftime('%M').to_i > 0
+      time = time + r.strftime('%M').to_i * 60
+    end
+    session['end' ] = (d + time).strftime('%H:%M')
+    %w(title description category).each do |type|
+      session[type] = {}
+      countries.each do |country|
+        session[type][country] = session["#{type}_english"]
+      end
+      session[type]['japan'] = session["#{type}_your_language"] if session['language'] == 'Japanese'
+      session[type]['korea'] = session["#{type}_your_language"] if session['language'] == 'Korean'
+      session[type]['india'] = session["#{type}_your_language"] if session['language'] == 'Hindi'
+      session[type]['china'] = session["#{type}_your_language"] if session['language'] == 'Chinese'
+    end
+    results << session
+  end
+  f = open(path, 'w')
+  f.write(results.to_json)
+  f.close
+end

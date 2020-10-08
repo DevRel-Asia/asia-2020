@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link href="{{ site.baseurl }}/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/color.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/schedule_style.css">
+  <title>DevRel/Asia 2020 Timetable</title>
+  {% include head.html %}
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 offset-md-9">
+        <div class="dropdown">
+          <button id="searchDropdown" class="dropbtn">Change timezone</button>
+          <div id="myDropdown" class="dropdown-content">
+            <div class="input-group mb-1">
+              <div class="input-group-prepend">
+                <div class="input-group-text">🔎</div>
+                <input type="text" placeholder="Search.." id="myInput">
+              </div>
+            </div>
+            {% include timezone.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
+    <div class="cd-schedule__timeline">
+      <ul>
+        {% for time in site.data.schedule_time.time %}
+          <li><span class="schedule_time" data-time="{{time}}">{{ time }}</span></li>
+        {% endfor %}
+      </ul>
+    </div> <!-- .cd-schedule__timeline -->
+  
+    <div class="cd-schedule__events">
+      <ul>
+        {% include timetable.html sessions=site.data.session_asia1 name='Asia 1' %}
+        {% include timetable.html sessions=site.data.session_asia2 name='Asia 2' %}
+        {% include timetable.html sessions=site.data.session_japan name='Japan' %}
+        {% include timetable.html sessions=site.data.session_korea name='Korea' %}
+        {% include timetable.html sessions=site.data.session_china name='China/HK' %}
+        {% include timetable.html sessions=site.data.session_sea name='SEA' %}
+      </ul>
+    </div>
+  
+    <div class="cd-schedule-modal">
+      <header class="cd-schedule-modal__header">
+        <div class="cd-schedule-modal__content">
+          <span class="cd-schedule-modal__date"></span>
+          <h3 class="cd-schedule-modal__name"></h3>
+        </div>
+  
+        <div class="cd-schedule-modal__header-bg"></div>
+      </header>
+  
+      <div class="cd-schedule-modal__body">
+        <div class="cd-schedule-modal__event-info"></div>
+        <div class="cd-schedule-modal__body-bg"></div>
+      </div>
+  
+      <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
+    </div>
+  
+    <div class="cd-schedule__cover-layer"></div>
+  </div> <!-- .cd-schedule -->
+
+  <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+  <script src="https://unpkg.com/dayjs-plugin-utc@0.1.2/dist/dayjs-plugin-utc.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/blang/dist/blang.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/scheduleutil.js"></script> <!-- util functions included in the CodyHouse framework -->
+  <script src="{{ site.baseurl }}/assets/js/schedule.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+</body>
+</html>
