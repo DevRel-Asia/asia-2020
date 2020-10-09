@@ -3,5 +3,5 @@ layout: speaker
 permalink: /speakers/eisaku/
 id: eisaku
 type: speaker
-title: Terao Eisaku
+title: Eisaku Terao（SBCloud）
 ---
