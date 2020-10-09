@@ -1388,7 +1388,7 @@
   {
     "key": "update1",
     "english": "Update your profile",
-    "japan": "",
+    "japan": "プロフィールの更新",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1397,7 +1397,7 @@
   {
     "key": "update2",
     "english": "You can update your profile to perfectly.",
-    "japan": "",
+    "japan": "あなたのプロフィールを完璧に維持できます",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1406,7 +1406,7 @@
   {
     "key": "update3",
     "english": "This system doesn't update your website information directly. We use async updating system and there is cache. Please 10-20 min for reflect your new information. So please don't send multiple time. <br />\nYou can't update your profile photo and session information on this system. Please contact us if you want to update it.",
-    "japan": "",
+    "japan": "サイト情報を直接更新するシステムではありません。当システムは非同期更新システムを使用しており、キャッシュが存在します。新しい情報が反映されるまでに10～20分程度かかります。そのため、何度も送信しないようにしてください。<br />\nこのシステムではプロフィール写真やセッション情報の更新ができません。更新をご希望の方はご連絡ください。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1415,7 +1415,7 @@
   {
     "key": "update4",
     "english": "Your information",
-    "japan": "",
+    "japan": "あなたの情報",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1424,7 +1424,7 @@
   {
     "key": "update5",
     "english": "Company or organization name in English",
-    "japan": "",
+    "japan": "会社名または団体名（英語）",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1433,7 +1433,7 @@
   {
     "key": "update6",
     "english": "Company or organization name in your language",
-    "japan": "",
+    "japan": "会社名または組織名（日本語）",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1442,7 +1442,7 @@
   {
     "key": "update7",
     "english": "Write your company or organization name in your common languge like Japanese, Korean, Chinese and etc.",
-    "japan": "",
+    "japan": "会社名や団体名は、日本語、韓国語、中国語などの一般的な言語で書いてください",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1451,7 +1451,7 @@
   {
     "key": "update8",
     "english": "Your title in English",
-    "japan": "",
+    "japan": "役職（英語）",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1460,7 +1460,7 @@
   {
     "key": "update9",
     "english": "CEO, Technical evangelist, Developer advocate and etc.",
-    "japan": "",
+    "japan": "CEO、テクニカルエバンジェリスト、デベロッパーアドボケートなど",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1469,7 +1469,7 @@
   {
     "key": "update10",
     "english": "Your title in your language",
-    "japan": "",
+    "japan": "役職（日本語）",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1478,7 +1478,7 @@
   {
     "key": "update11",
     "english": "Write your title in your common language like Japanese, Korean, Chinese and etc.",
-    "japan": "",
+    "japan": "役職を日本語、韓国語、中国語などの共通言語で書いてください",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1487,7 +1487,7 @@
   {
     "key": "update12",
     "english": "Your name in English",
-    "japan": "",
+    "japan": "お名前（英語）",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1496,7 +1496,7 @@
   {
     "key": "update13",
     "english": "Your name in your language",
-    "japan": "",
+    "japan": "お名前（日本語）",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1505,7 +1505,7 @@
   {
     "key": "update14",
     "english": "Write your name in your common language like Japanese, Korean, Chinese and etc.",
-    "japan": "",
+    "japan": "日本語、韓国語、中国語などの一般的な言語で名前を書いてください",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
