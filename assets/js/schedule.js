@@ -157,6 +157,7 @@
 		}
 	}
 	ScheduleTemplate.prototype.openModal = function(target) {
+
 		const session = JSON.parse($(target).find('.session_info').text());
 		const category = JSON.parse($(target).find('.session_category').text());
 		const speakers = [];
@@ -166,6 +167,7 @@
 		speakers.push(JSON.parse($(target).find('.session_speaker4').text()))
 		speakers.push(JSON.parse($(target).find('.session_speaker5').text()))
 		speakers.push(JSON.parse($(target).find('.session_speaker6').text()))
+		if (speakers.filter(s => s !== null).length === 0) return false;
 		var self = this;
 		var mq = self.mq();
 		this.animating = true;
