@@ -11,6 +11,9 @@
           {% if speaker.photo == "true" and speaker.speaker == "true" %}
             <div class="col-lg-4 col-md-6">
               <div class="speaker">
+                {% if speaker.interview_url != "" %}
+                <div class="ribbon"><span>INTERVIEW</span></div>
+                {% endif %}
                 <a href="{{ site.baseurl }}/speakers/{{ speaker.id }}/">
                   <img src="{{ site.baseurl }}/assets/images/speakers/{{ speaker.id }}.jpg" alt="{{ speaker.name_english }}" class="img-fluid">
                 </a>

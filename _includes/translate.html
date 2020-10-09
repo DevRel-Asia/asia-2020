@@ -1,5 +1,13 @@
+{% if include.messages %}
+<span class="lang en">{{ include.messages.english }}</span>
+<span class="lang ja">{{ include.messages.japan }}</span>
+<span class="lang ko">{{ include.messages.korea }}</span>
+<span class="lang id">{{ include.messages.indonesia }}</span>
+<span class="lang vi">{{ include.messages.vietnam }}</span>
+{% else %}
 <span class="lang en">{{ messages.english }}</span>
 <span class="lang ja">{{ messages.japan }}</span>
 <span class="lang ko">{{ messages.korea }}</span>
 <span class="lang id">{{ messages.indonesia }}</span>
 <span class="lang vi">{{ messages.vietnam }}</span>
+{% endif %}

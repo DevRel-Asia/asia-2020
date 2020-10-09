@@ -20,5 +20,47 @@
         </div>
       </div>
     </div>
+    {% if speaker.interview_url != "" %}
+      <div class="row">
+        <div class="col">
+          <h2>Interview</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          {% assign key = speaker.interview_url | replace: "https://www.youtube.com/watch?v=", "" %}
+          <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/{{ key }}" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    {% endif %}
+    {% assign session = site.data.sessions | find: "speaker_id", page.id %}
+    {% if session %}
+      <div class="row">
+        <div class="col">
+          <h2>Session information</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h4>
+            {% include translate.html messages = session.title %}
+          </h4>
+        </div>
+        <div class="col-12">
+          🕘 <span class="schedule_time" data-time="{{ session.start }}">{{ session.start }}</span> 〜 
+            <span class="schedule_time" data-time="{{ session.end }}">{{ session.end }}</span>
+            <span class="schedule_timezone">UTC</span>
+            at {{ session.track }}
+        </div>
+        <div class="col-12">
+          {% include translate.html messages = session.description %}
+        </div>
+      </div>
+    {% else %}
+      
+    {% endif %}
   </div>
 </section>

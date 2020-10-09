@@ -2,16 +2,17 @@ require 'json'
 require 'time'
 
 files = [
-  'session_asia2',
-  'session_japan',
-  'session_korea',
-  'session_asia1',
-  'session_sea',
-  'session_china'
+  'asia2',
+  'japan',
+  'korea',
+  'asia1',
+  'sea',
+  'china'
 ]
 
+sessions = []
 files.each do |file_name|
-  path = "./_data/#{file_name}.json"
+  path = "./_data/session_#{file_name}.json"
   next unless File.exist? path
   json = JSON.parse(open(path).read)
   results = []
@@ -40,8 +41,14 @@ files.each do |file_name|
       session[type]['china'] = session["#{type}_your_language"] if session['language'] == 'Chinese'
     end
     results << session
+    session['track'] = file_name.capitalize
+    sessions << session
   end
   f = open(path, 'w')
   f.write(results.to_json)
   f.close
 end
+
+f = open('./_data/sessions.json', 'w')
+f.write(sessions.to_json)
+f.close

@@ -564,6 +564,7 @@ const Unconf = ncmb.DataStore('Unconf');
   })
 
   function changeTimeZone(timezone) {
+    $('.schedule_timezone').text(dayjs.utc().utcOffset(timezone).format("Z"));
     $.each($('.schedule_time'), (i, ele) => {
       const time = `2000-01-01T${("00" + $(ele).data('time')).slice( -5 )}:00Z`;
       $(ele).text(dayjs.utc(time).utcOffset(timezone).format('H:mm'));
