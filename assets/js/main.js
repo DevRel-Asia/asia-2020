@@ -40,29 +40,8 @@ const Unconf = ncmb.DataStore('Unconf');
   document.querySelectorAll('pre code').forEach((block) => {
     hljs.highlightBlock(block);
   });
-  $('.lang').hide();
-  if (blang.is.en()) {
-    $('.lang.en').show();
-  } else if (blang.is.ja()) {
-    $('.lang.ja').show();
-  } else if (blang.is.ko()) {
-    $('.lang.ko').show();
-  /*} else if (blang.is.zh()) {
-    $('.lang.zh').show();
-  */
-  } else if (blang.is.id()) {
-    $('.lang.id').show();
-  } else if (blang.is.vi()) {
-    $('.lang.vi').show();
-  } else if (blang.is.hi()) {
-    $('.lang.in').show();
-  } else {
-    $('.lang.en').show();
-  }
 
-  $.each($('.markdown .lang'), (i, e) => {
-    $(e).html(marked($(e).text()));
-  })
+  setDefaultLang();
   
   if (location.href.indexOf('/update/') > -1) {
     $('.hide').hide();
@@ -550,7 +529,6 @@ const Unconf = ncmb.DataStore('Unconf');
     aos_init();
   });
 
-
   dayjs.extend(dayjsPluginUTC.default)
   $("#searchDropdown").on('click', e => {
     e.preventDefault();
@@ -562,14 +540,6 @@ const Unconf = ncmb.DataStore('Unconf');
     const timezone = $(e.target).attr('value');
     changeTimeZone(timezone)
   })
-
-  function changeTimeZone(timezone) {
-    $('.schedule_timezone').text(dayjs.utc().utcOffset(timezone).format("Z"));
-    $.each($('.schedule_time'), (i, ele) => {
-      const time = `2000-01-01T${("00" + $(ele).data('time')).slice( -5 )}:00Z`;
-      $(ele).text(dayjs.utc(time).utcOffset(timezone).format('H:mm'));
-    });
-  }
 
   if (dayjs().utcOffset() !== 0) {
     changeTimeZone(dayjs().utcOffset());
@@ -587,3 +557,37 @@ const Unconf = ncmb.DataStore('Unconf');
   });
 })(jQuery);
 
+
+function changeTimeZone(timezone) {
+  if (!timezone) {
+    timezone = dayjs().utcOffset();
+  }
+  $('.schedule_timezone').text(dayjs.utc().utcOffset(timezone).format("Z"));
+  $.each($('.schedule_time'), (i, ele) => {
+    const time = `2000-01-01T${("00" + $(ele).data('time')).slice( -5 )}:00Z`;
+    $(ele).text(dayjs.utc(time).utcOffset(timezone).format('H:mm'));
+  });
+}
+
+function setDefaultLang() {
+  $('.lang').hide();
+  if (blang.is.en()) {
+    $('.lang.en').show();
+  } else if (blang.is.ja()) {
+    $('.lang.ja').show();
+  } else if (blang.is.ko()) {
+    $('.lang.ko').show();
+  } else if (blang.is.id()) {
+    $('.lang.id').show();
+  } else if (blang.is.vi()) {
+    $('.lang.vi').show();
+  } else if (blang.is.hi()) {
+    $('.lang.in').show();
+  } else {
+    $('.lang.en').show();
+  }
+
+  $.each($('.markdown .lang'), (i, e) => {
+    $(e).html(marked($(e).text()));
+  })
+}

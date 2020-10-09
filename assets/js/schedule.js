@@ -101,18 +101,106 @@
 		});
 	};
 
+	ScheduleTemplate.prototype.translate = function(obj) {
+		const langs = {
+			en: 'english',
+			ja: 'japan',
+			ko: 'korea',
+			id: 'indonesia',
+			vi: 'vietnam'
+		}
+		const ary = [];
+		for (let key in langs) {
+			ary.push(`<span class="lang ${key}">${obj[langs[key]]}</span>`);
+		}
+		return ary.join('');
+	}
+
+	ScheduleTemplate.prototype.showSpeakers = function(speakers) {
+		speakers = speakers.filter(s => s !== null);
+		if (speakers.length === 1) {
+			return `
+			<div class="row">
+				<div class="col-md-6 offset-md-3">
+					<img src="/asia-2020/assets/images/speakers/${ speakers[0].id }.jpg" alt="${ speakers[0].name_english }" class="img-fluid">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+					<h4>
+						${this.translate(speakers[0].name)} at ${ this.translate(speakers[0].company) }
+					</h4>
+				</div>
+			</div>
+			`;
+		} else {
+			const html = ['<div class="row">'];
+			for (let speaker of speakers) {
+				console.log(speaker);
+				html.push(`<div class="col-md-3">`);
+				html.push(`<a href="/asia-2020/speakers/${ speaker.id }/">`);
+				html.push(`<img src="/asia-2020/assets/images/speakers/${ speaker.id }.jpg" alt="${ speaker.name_english }" class="img-fluid">`)
+				html.push('</a>');
+				html.push('</div>');
+			}
+			html.push('</div>');
+			html.push('<div class="row">');
+			for (let speaker of speakers) {
+				html.push(`<div class="col-md-${12/speakers.length}">`);
+				html.push(`<a href="/asia-2020/speakers/${ speaker.id }/">`);
+				html.push(`<h6>${this.translate(speaker.name)} at ${ this.translate(speaker.company) }</h6>`)
+				html.push('</a>');
+				html.push('</div>');
+			}
+			html.push('</div>');
+			return html.join('');
+		}
+	}
 	ScheduleTemplate.prototype.openModal = function(target) {
+		const session = JSON.parse($(target).find('.session_info').text());
+		const category = JSON.parse($(target).find('.session_category').text());
+		const speakers = [];
+		speakers.push(JSON.parse($(target).find('.session_speaker').text()))
+		speakers.push(JSON.parse($(target).find('.session_speaker2').text()))
+		speakers.push(JSON.parse($(target).find('.session_speaker3').text()))
+		speakers.push(JSON.parse($(target).find('.session_speaker4').text()))
+		speakers.push(JSON.parse($(target).find('.session_speaker5').text()))
+		speakers.push(JSON.parse($(target).find('.session_speaker6').text()))
 		var self = this;
 		var mq = self.mq();
 		this.animating = true;
 
 		//update event name and time
-		this.modalEventName.innerHTML = $(target).find('em').html();
-		// this.modalDate.textContent = target.getAttribute('data-start')+' - '+target.getAttribute('data-end');
+		this.modalEventName.innerHTML = `<div>
+			<h2 style="color:white">${session.track}</h2>
+			<h4 style="color:white">🕘 
+				<span class="schedule_time" data-time="${session.start}">${session.start}</span> 〜
+				<span class="schedule_time" data-time="${session.end}">${session.end}</span><br />
+				<span class="schedule_timezone">UTC</span>
+			</h4>
+			<h4 style="color:white;text-transform:capitalize">🗣 ${session.language}</h4>
+		</div>
+		`;
+		changeTimeZone();
+		// this.modalDate.textContent = target.getAttribute('data-start');
 		this.modal.setAttribute('data-event', target.getAttribute('data-event'));
 
-		//update event content
-		this.loadEventContent(target.getAttribute('data-content'));
+		//update event content	
+		this.modal.getElementsByClassName('cd-schedule-modal__event-info')[0].innerHTML = `<div style="margin: 1em">
+		<h3><a href="/asia-2020/speakers/${speakers[0].id}/">${this.translate(session.title)}</a></h3>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="markdown" style="font-size: 1.2em;">
+						${ this.translate(session.description)}
+					</p>
+				</div>
+			</div>
+			${this.showSpeakers(speakers)}
+		</div>`;
+		setDefaultLang();
+
+		Util.addClass(this.modal, 'cd-schedule-modal--content-loaded');
 
 		Util.addClass(this.modal, 'cd-schedule-modal--open');
 		
@@ -286,30 +374,6 @@
 			}, 20);
 
 		}
-	};
-
-	ScheduleTemplate.prototype.loadEventContent = function(content) {
-		// load the content of an event when user selects it
-		var self = this;
-
-		httpRequest = new XMLHttpRequest();
-		httpRequest.onreadystatechange = function() {
-			if (httpRequest.readyState === XMLHttpRequest.DONE) {
-	      if (httpRequest.status === 200) {
-	      	self.modal.getElementsByClassName('cd-schedule-modal__event-info')[0].innerHTML = self.getEventContent(httpRequest.responseText); 
-	      	Util.addClass(self.modal, 'cd-schedule-modal--content-loaded');
-	      }
-	    }
-		};
-		httpRequest.open('GET', content+'.html');
-    httpRequest.send();
-	};
-
-	ScheduleTemplate.prototype.getEventContent = function(string) {
-		// reset the loaded event content so that it can be inserted in the modal
-		var div = document.createElement('div');
-		div.innerHTML = string.trim();
-		return div.getElementsByClassName('cd-schedule-modal__event-info')[0].innerHTML;
 	};
 
 	ScheduleTemplate.prototype.animationFallback = function() {
