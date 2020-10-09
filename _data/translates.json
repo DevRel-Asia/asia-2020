@@ -1532,7 +1532,7 @@
   {
     "key": "update17",
     "english": "Write your profile in your common language like Japanese, Korean, Chinese and etc.",
-    "japan": "",
+    "japan": "日本語、韓国語、中国語などの共通言語でプロフィールを書いてください",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1541,7 +1541,7 @@
   {
     "key": "update18",
     "english": "Your website",
-    "japan": "",
+    "japan": "Webサイト",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1550,7 +1550,7 @@
   {
     "key": "update19",
     "english": "Blog or your official website",
-    "japan": "",
+    "japan": "ブログまたは公式サイト",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1559,7 +1559,7 @@
   {
     "key": "update20",
     "english": "Twitter account",
-    "japan": "",
+    "japan": "Twitterアカウント",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1568,7 +1568,7 @@
   {
     "key": "update21",
     "english": "Please write it if you want to display it on your profile. And please start with https://.",
-    "japan": "",
+    "japan": "プロフィールに表示する場合は書いてください。https:// からお願いします。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1577,7 +1577,7 @@
   {
     "key": "update22",
     "english": "Facebook profile URL",
-    "japan": "",
+    "japan": "Facebook URL",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1586,7 +1586,7 @@
   {
     "key": "update23",
     "english": "GitHub profile URL",
-    "japan": "",
+    "japan": "GitHub URL",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1595,7 +1595,7 @@
   {
     "key": "update24",
     "english": "Google profile URL",
-    "japan": "",
+    "japan": "Google URL",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1604,7 +1604,7 @@
   {
     "key": "update25",
     "english": "LinkedIn profile URL",
-    "japan": "",
+    "japan": "LinkedIn URL",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1613,7 +1613,7 @@
   {
     "key": "update26",
     "english": "YouTube URL",
-    "japan": "",
+    "japan": "YouTube URL",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1622,7 +1622,7 @@
   {
     "key": "update27",
     "english": "Instagram URL",
-    "japan": "",
+    "japan": "Instagram URL",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1631,7 +1631,7 @@
   {
     "key": "update28",
     "english": "Stack Overflow profile URL",
-    "japan": "",
+    "japan": "Stack Overflow URL",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1640,7 +1640,7 @@
   {
     "key": "update29",
     "english": "Dev.to URL",
-    "japan": "",
+    "japan": "Dev.to URL",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1649,7 +1649,7 @@
   {
     "key": "update30",
     "english": "Twitch URL",
-    "japan": "",
+    "japan": "Twitch URL",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1658,7 +1658,7 @@
   {
     "key": "update31",
     "english": "Weibo URL",
-    "japan": "",
+    "japan": "Weibo URL",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1667,7 +1667,7 @@
   {
     "key": "update32",
     "english": "Other URL",
-    "japan": "",
+    "japan": "その他の公開したいURL",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1676,7 +1676,7 @@
   {
     "key": "update33",
     "english": "Thank you. We will update your information soon. Please wait 10-20 min.",
-    "japan": "",
+    "japan": "ありがとうございます。早急に更新します。10～20分ほどお待ちください。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1685,7 +1685,7 @@
   {
     "key": "update34",
     "english": "Sorry, we got an error to send your new information. Please contact us on Slack or try again later.",
-    "japan": "",
+    "japan": "申し訳ありませんが、送信する際にエラーが発生しました。Slackでご連絡いただくか、後ほど再度お試しください。",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
@@ -1694,7 +1694,7 @@
   {
     "key": "update35",
     "english": "Send my new information",
-    "japan": "",
+    "japan": "私の新しい情報を送る",
     "korea": "",
     "vietnam": "",
     "indonesia": "",
