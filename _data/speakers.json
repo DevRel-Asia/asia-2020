@@ -28,7 +28,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "korea",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/soon.jpg",
     "uniqueKey": "nw5pxrnk-wovv0h6d-byo9w26l",
     "interview_url": ""
   },
@@ -129,7 +129,7 @@
     "profile_country": "english",
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/annpmathew.jpg",
     "uniqueKey": "nmsecaqd-0uq8n2nb-730f9geg",
-    "interview_url": ""
+    "interview_url": "https://www.youtube.com/watch?v=2ZMU0oeOWlI"
   },
   {
     "objectId": "bDLofiR7CDRAAIi8",
@@ -437,8 +437,8 @@
     "slack": "true",
     "region": "asia2",
     "profile_english": "Ex-hairdresser and Ex-musician. After becoming a software engineer, he started an Accurate System Ltd. with his various experience. After working as a system integrator of a subsidiary of a general trading company, he now works as a developer advocate in the IBM Global team, developing DevRel (Developer Relations), a marketing approach to engineers. Also works as a lecturer at the Faculty of Informatics, University of Tsukuba. His authors include \"Developer Marketing DevRel Q&A\" (Impress R&D), \"First Node-RED\", \"Practical Node-RED Application Manual\" (Kogakusha), etc.",
-    "company_your_language": "日本アイ・ビー・エム株式会社",
-    "speaker_title_your_language": "シニアデベロッパーアドボケイト",
+    "company_your_language": "IBM",
+    "speaker_title_your_language": "Sr. Developer Advocate",
     "name_your_language": "萩野たいじ",
     "profile_your_language": "元美容師で元音楽家。ソフトウェアエンジニアへ転身後、有限会社アキュレートシステムを起業。その後、商社系SIerを経て、現在はIBM Globalチームにて、Developer Advocateとして技術者へリーチしたマーケティング、DevRel（Developer Relations）を展開。エールビールが大好きな二児の父。著書に『開発者向けマーケティング DevRel Q&A』（インプレスR&D）『はじめてのNode-RED』『Node-RED活用マニュアル』（工学社）など。",
     "web": "https://medium.com/@taiponrock",
@@ -533,13 +533,13 @@
     "company_english": "Uhuru",
     "speaker_title_english": "Product Marketing Manager",
     "name_english": "Wataru Yamazaki",
-    "slack": "true",
+    "slack": "",
     "region": "japan",
-    "profile_english": "Wataru Yamazaki is a Product Marketing Manager and the team-lead of “enebular” product marketing team, Uhuru Corporation based in Tokyo, Japan.\n\nHe runs a product marketing team and also acts as a developer relations of the product – organizes meetups, a user community, tech contents – demos, hands-on labs, and communicates with users via social media.",
+    "profile_english": "Wataru Yamazaki is a Product Marketing Manager of “enebular”, Uhuru Corporation based in Tokyo, Japan.\r\n\r\nHe runs a product marketing team and also acts as developer relations of the product – organizes meetups, a user community, tech contents – demos, hands-on labs, and communicates with users via social media.",
     "company_your_language": "株式会社ウフル",
     "speaker_title_your_language": "プロダクト マーケティング マネージャー",
     "name_your_language": "山崎 亘",
-    "profile_your_language": "東京に本社を置く株式会社ウフルの開発ツール製品「enebular」のDevRel兼プロダクト・マーケティング・マネージャーです。\n\nプロダクト・マーケティングを担当しつつ、製品のデベロッパー・リレーションとしても活動しており、ミートアップ、ユーザー・コミュニティ、技術コンテンツ（ブログ、デモ、ハンズオン）を制作・企画したり、ソーシャルメディア経由でユーザーとコミュニケーションをとったりしています。\n\n前職はシリコンバレーのITベンダーのマーケティングで、最後の6年間はデベロッパー・マーケティング担当でした。グローバル・チームと共に活動し、彼らから得られた知見も多数。\n\nDevRelのカンファレンスは、\n\n- [DevRelCon Earth 2020](https://2020.devrel.net/)\n- [DevRel Japan 2019](https://devrel.tokyo/japan-2019/)\n- [DevRelCon Tokyo 2019](https://tokyo-2019.devrel.net/)\n\nでスピーカーを担当。また、DevRel Meetupメンバー有志と、DevRel関連書籍の\n\n- [プレゼンテーションを支える技術](https://www.amazon.co.jp/dp/B07Q854G1T/)\n- [英語で広がる開発者のキャリア](https://www.amazon.co.jp/dp/B07Q86FNHB/)\n- [開発者向けマーケティング DevRel Q&A　Apple、Slack、GitHub、Twitterが成長した裏にある秘密](https://www.amazon.co.jp/dp/B0814N5WLW/)\n\nらを共著。\n\n新しい試みとして、Sonosサウンド システムの日本初のユーザーグループ、「[SONOS Japan User Group](https://sonos-com.amebaownd.com/)」を仲間と立ち上げ。\n",
+    "profile_your_language": "東京に本社を置く株式会社ウフルの開発ツール製品「enebular」のDevRel兼プロダクト・マーケティング・マネージャーです。\r\n\r\nプロダクト・マーケティングを担当しつつ、製品のデベロッパー・リレーションとしても活動しており、ミートアップ、ユーザー・コミュニティ、技術コンテンツ（ブログ、デモ、ハンズオン）を制作・企画したり、ソーシャルメディア経由でユーザーとコミュニケーションをとったりしています。\r\n\r\n前職はシリコンバレーのITベンダーのマーケティングで、最後の6年間はデベロッパー・マーケティング担当でした。グローバル・チームと共に活動し、彼らから得られた知見も多数。\r\n\r\nDevRelのカンファレンスは、\r\n\r\n- [DevRelCon Earth 2020](https://2020.devrel.net/)\r\n- [DevRel Japan 2019](https://devrel.tokyo/japan-2019/)\r\n- [DevRelCon Tokyo 2019](https://tokyo-2019.devrel.net/)\r\n\r\nでスピーカーを担当。また、DevRel Meetupメンバー有志と、DevRel関連書籍の\r\n\r\n- [プレゼンテーションを支える技術](https://www.amazon.co.jp/dp/B07Q854G1T/)\r\n- [英語で広がる開発者のキャリア](https://www.amazon.co.jp/dp/B07Q86FNHB/)\r\n- [開発者向けマーケティング DevRel Q&A　Apple、Slack、GitHub、Twitterが成長した裏にある秘密](https://www.amazon.co.jp/dp/B0814N5WLW/)\r\n\r\nらを共著。\r\n\r\n新しい試みとして、Sonosサウンド システムの日本初のユーザーグループ、「[SONOS Japan User Group](https://sonos-com.amebaownd.com/)」を仲間と立ち上げ。\r\n",
     "web": "https://about.me/wyamazak",
     "twitter": "https://twitter.com/wyamazak",
     "facebook": "https://www.facebook.com/wyamazak",
@@ -1612,7 +1612,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "korea",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/jongmin.jpg",
     "uniqueKey": "gb3wz39a-bz22bubo-64jqhte7",
     "interview_url": ""
   },
@@ -1645,7 +1645,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "japan",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/yasushi.jpg",
     "uniqueKey": "krb2ik9j-h9qnn5dl-l3w2kttf",
     "interview_url": ""
   },
@@ -1678,7 +1678,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/junichi.jpg",
     "uniqueKey": "dxjxzcq8-2tf8td86-cui2ixiw",
     "interview_url": ""
   },
@@ -1711,7 +1711,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/justin.jpg",
     "uniqueKey": "0w6wjzmm-i55csuc6-jpb9hivh",
     "interview_url": ""
   },
@@ -1744,9 +1744,9 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/renaldi.jpg",
     "uniqueKey": "u28rby3g-akf9hyi6-n7lxnijr",
-    "interview_url": ""
+    "interview_url": "https://www.youtube.com/watch?v=uPOCrjNoAzM"
   },
   {
     "objectId": "lSAKIG1FdnBDAVkI",
@@ -1777,7 +1777,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "korea",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/park.jpg",
     "uniqueKey": "ukk3jsoo-33jnolkz-sprus5do",
     "interview_url": ""
   },
@@ -1810,7 +1810,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/cherish.jpg",
     "uniqueKey": "96b8ibua-h9hr9cp8-jz1b76rn",
     "interview_url": ""
   },
@@ -1843,20 +1843,20 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/haimantika.jpg",
     "uniqueKey": "lo08l0rw-ls6gpk8j-ummk403o",
     "interview_url": ""
   },
   {
     "objectId": "xiZQoxWMTVIFbxLH",
     "id": "shelvia",
-    "company_english": "TechLadies",
-    "speaker_title_english": "Software Engineer @ ThoughtWorks",
-    "name_english": "Shelvia Dwi Hotama",
-    "slack": "true",
+    "company_english": "TechLadies Core Team | Software Engineer @ ThoughtWorks",
+    "speaker_title_english": "",
+    "name_english": "Shelvia Hotama",
+    "slack": "",
     "region": "sea",
     "profile_english": "I am a Software Engineer at ThoughtWorks, having previously worked in an investment bank technology.  A volunteer at TechLadies this year, I organized TechLadies Mentorship Program and run study groups to support women in technology. I am generally technology agnostic but most comfortable writing code in Java. At the moment, I am keen on learning about data engineering and science. A huge Juventus fan! ",
-    "company_your_language": "TechLadies",
+    "company_your_language": "",
     "speaker_title_your_language": "",
     "name_your_language": "Shelvia Dwi Hotama",
     "profile_your_language": "I am a Software Engineer at ThoughtWorks, having previously worked in an investment bank technology.  A volunteer at TechLadies this year, I organized TechLadies Mentorship Program and run study groups to support women in technology. I am generally technology agnostic but most comfortable writing code in Java. At the moment, I am keen on learning about data engineering and science. A huge Juventus fan! ",
@@ -1876,7 +1876,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/shelvia.jpg",
     "uniqueKey": "g9zq9ff7-tboww3ze-aqgecdmj",
     "interview_url": ""
   },
@@ -1909,7 +1909,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/vaibhavi.jpg",
     "uniqueKey": "7mqjrftq-axboospk-0472i60e",
     "interview_url": "https://www.youtube.com/watch?v=6i4e9g-te9o"
   },
@@ -1942,7 +1942,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/mary.jpg",
     "uniqueKey": "z40e1otl-w99tghwo-5b7gypep",
     "interview_url": ""
   },
@@ -1975,7 +1975,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/anne.jpg",
     "uniqueKey": "pdt8czpq-8tl9rwae-pnnxi925",
     "interview_url": ""
   },
@@ -2008,7 +2008,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/olle.jpg",
     "uniqueKey": "8mdimaq6-rtdkquyv-tsvmpq1h",
     "interview_url": ""
   },
@@ -2041,7 +2041,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/yashraj.jpg",
     "uniqueKey": "y4e9953f-6w49315p-zf215opq",
     "interview_url": ""
   },
@@ -2074,7 +2074,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/sarah.jpg",
     "uniqueKey": "nixhplqb-2f2pn1om-a1m0nehu",
     "interview_url": ""
   },
@@ -2107,7 +2107,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "japan",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/takuo.jpg",
     "uniqueKey": "vnvwv15g-6eg3agnd-4sasrgjp",
     "interview_url": ""
   },
@@ -2140,7 +2140,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/sandra.jpg",
     "uniqueKey": "nzzjwf8h-4togvz07-kslr52zt",
     "interview_url": ""
   },
@@ -2173,7 +2173,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "japan",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/satoru.jpg",
     "uniqueKey": "mtg1pneb-h0jwfi32-wv368nvj",
     "interview_url": ""
   },
@@ -2206,7 +2206,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "japan",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/tomomi.jpg",
     "uniqueKey": "20efodzl-wrla90tj-5z5qf3yc",
     "interview_url": ""
   },
@@ -2239,7 +2239,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "china",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/sunny.jpg",
     "uniqueKey": "ludgln8e-7lz3gonh-thg67iso",
     "interview_url": ""
   },
@@ -2272,7 +2272,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "china",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/jun.jpg",
     "uniqueKey": "vxvnq4a1-pg7769kv-903gwsax",
     "interview_url": ""
   },
@@ -2305,7 +2305,7 @@
     "speaker": "true",
     "photo": "false",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/zhengshihao.jpg",
     "uniqueKey": "03sarmk8-wqtj2g2y-3ixu67sq",
     "interview_url": ""
   },
@@ -2345,19 +2345,19 @@
   {
     "objectId": "lWm6oIiK8atQDrg2",
     "id": "eisaku",
-    "company_english": "SBCloud",
+    "company_english": "SB Cloud",
     "speaker_title_english": "Alibaba Cloud Solution Architect",
     "name_english": "Eisaku Terao",
     "slack": "",
     "region": "japan",
-    "profile_english": "",
+    "profile_english": "Lately I've been doing a lot of planning, development and lectures for Alibaba Cloud training courses. My main focus at the moment is data analysis.\r\n",
     "company_your_language": "SBクラウド",
     "speaker_title_your_language": "Alibaba Cloud ソリューションアーキテクト",
     "name_your_language": "寺尾 英作",
-    "profile_your_language": "",
+    "profile_your_language": "最近はもっぱらAlibaba Cloudのトレーニングコースの企画・開発・講義をやることが多いです。私が今メインで取り組んでいるのはデータ分析です。\r\n",
     "web": "",
-    "twitter": "",
-    "facebook": "",
+    "twitter": "https://twitter.com/eterao",
+    "facebook": "https://www.facebook.com/eisaku.terao/",
     "github": "",
     "google": "",
     "linkedin": "",
@@ -2371,7 +2371,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "japan",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/eisaku.jpg",
     "uniqueKey": "c4o3gtn7-fabk7sjy-p6xy4w7e",
     "interview_url": ""
   },
@@ -2404,7 +2404,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "japan",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/chomado.jpg",
     "uniqueKey": "qm3as1th-dja7q3zr-th2to4d9",
     "interview_url": ""
   },
@@ -2437,7 +2437,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "japan",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/tsuyoshi.jpg",
     "uniqueKey": "4zf3qw6k-wy999t6c-uvieo3i9",
     "interview_url": ""
   },
@@ -2470,7 +2470,7 @@
     "speaker": "true",
     "photo": "true",
     "profile_country": "english",
-    "ogp": "",
+    "ogp": "https://devrel.dev/asia-2020/assets/images/socials/giri.jpg",
     "uniqueKey": "cn3jdfu4-bhm3kkck-dz2hkdz3",
     "interview_url": ""
   }
