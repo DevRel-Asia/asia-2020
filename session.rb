@@ -35,10 +35,10 @@ files.each do |file_name|
       countries.each do |country|
         session[type][country] = session["#{type}_english"]
       end
-      session[type]['japan'] = session["#{type}_your_language"] if session['language'] == 'Japanese'
-      session[type]['korea'] = session["#{type}_your_language"] if session['language'] == 'Korean'
-      session[type]['india'] = session["#{type}_your_language"] if session['language'] == 'Hindi'
-      session[type]['china'] = session["#{type}_your_language"] if session['language'] == 'Chinese'
+      session[type]['japan'] = session["#{type}_your_language"] if session['language'].upcase == 'JAPANESE'
+      session[type]['korea'] = session["#{type}_your_language"] if session['language'].upcase == 'KOREAN'
+      session[type]['india'] = session["#{type}_your_language"] if session['language'].upcase == 'HINDI'
+      session[type]['china'] = session["#{type}_your_language"] if session['language'].upcase == 'CHINESE'
     end
     results << session
     session['track'] = file_name.capitalize

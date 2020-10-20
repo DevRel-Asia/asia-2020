@@ -189,7 +189,7 @@
 
 		//update event content	
 		this.modal.getElementsByClassName('cd-schedule-modal__event-info')[0].innerHTML = `<div style="margin: 1em">
-		<h3><a href="/asia-2020/speakers/${speakers[0].id}/">${this.translate(session.title)}</a></h3>
+		<h3><a target="_top" href="/asia-2020/speakers/${speakers[0].id}/">${this.translate(session.title)}</a></h3>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">

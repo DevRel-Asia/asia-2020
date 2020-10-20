@@ -36,7 +36,7 @@
         </div>
       </div>
     {% endif %}
-    {% assign session = site.data.sessions | find: "speaker_id", page.id %}
+    {% assign session = site.data.sessions | where: "speaker_id", page.id | find: "speaker", "true" %}
     {% if session %}
       <div class="row">
         <div class="col">
