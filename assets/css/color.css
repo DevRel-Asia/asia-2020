@@ -27,10 +27,10 @@
   --cd-color-event-7-h: 203;
   --cd-color-event-7-s: 69%;
   --cd-color-event-7-l: 60%;
-  --cd-color-event-8: hsl(51, 76%, 76%);
-  --cd-color-event-8-h: 51;
-  --cd-color-event-8-s: 76%;
-  --cd-color-event-8-l: 76%;
+  --cd-color-event-8: hsl(203, 100%, 77%);
+  --cd-color-event-8-h: 203;
+  --cd-color-event-8-s: 100%;
+  --cd-color-event-8-l: 77%;
   --cd-color-event-9: hsl(32, 86%, 58%);
   --cd-color-event-9-h: 32;
   --cd-color-event-9-s: 86%;
@@ -76,7 +76,7 @@
   }
 
   .cd-schedule__event [data-event="event-8"], .cd-schedule-modal[data-event="event-8"] .cd-schedule-modal__header-bg {
-    background: hsl(51, 76%, 76%);
+    background: hsl(203, 100%, 77%);
     background: var(--cd-color-event-8)
   }
 
