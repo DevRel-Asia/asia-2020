@@ -2403,7 +2403,7 @@
     "other": "",
     "speaker": "true",
     "photo": "true",
-    "profile_country": "",
+    "profile_country": "japan",
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/chomado.jpg",
     "uniqueKey": "qm3as1th-dja7q3zr-th2to4d9",
     "interview_url": ""
@@ -2504,7 +2504,7 @@
     "photo": "true",
     "profile_country": "china",
     "ogp": "",
-    "uniqueKey": "",
+    "uniqueKey": "e4ebwtc6-wkljwfxm-3j3d9x4h",
     "interview_url": ""
   },
   {
@@ -2533,11 +2533,11 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "",
-    "photo": "",
-    "profile_country": "",
+    "speaker": "true",
+    "photo": "true",
+    "profile_country": "english",
     "ogp": "",
-    "uniqueKey": "",
+    "uniqueKey": "z67mq6xo-y6meal2n-j3voxrf8",
     "interview_url": ""
   }
 ]
