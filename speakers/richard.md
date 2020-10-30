@@ -3,5 +3,5 @@ layout: speaker
 permalink: /speakers/richard/
 id: richard
 type: speaker
-title: Richard Lin
+title: Richard Lin（Kaiyuanshe.org, Huawei Technologies）
 ---
