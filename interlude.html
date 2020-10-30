@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body>
+    <main id="main" style="padding-top: 5em">
+      <canvas id="social" width="1920" height="1080"></canvas>
+      <button id="download">download</button>
+    </main>
+    <script src="{{ site.baseurl }}/assets/js/interlude.js"></script>
+  </body>
+</html>
