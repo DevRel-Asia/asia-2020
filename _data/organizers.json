@@ -680,8 +680,8 @@
     "image": ""
   },
   {
-    "id": "Amit",
-    "type": "Person",
+    "id": "amit",
+    "type": "person",
     "company_english": "Weavr",
     "title_english": "Weavr Advocate-APAC",
     "name_english": "Amit Godbole",
@@ -697,6 +697,6 @@
     "github": "https://github.com/weavrai",
     "facebook": "",
     "linkedin": "https://www.linkedin.com/company/weavrai",
-    "image": "Shared"
+    "image": "added"
   }
 ]
