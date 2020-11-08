@@ -1,0 +1,52 @@
+---
+layout: default
+permalink: /code/
+---
+
+<main id="main">
+  <section id="news" style="padding-top: 6em">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Enter code</h1>
+          <form class="form code">
+            <div class="form-group">
+              <label for="InputName">
+                MOONGIFT
+              </label>
+              <input type="text" class="form-control" required name="moongift" placeholder="Enter MOONGIFT code" value="CODE" />
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                Vanage
+              </label>
+              <input type="text" class="form-control" required name="vonage" placeholder="Enter Vonage code" value="CODE" />
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                Twilio
+              </label>
+              <input type="text" class="form-control" required name="twilio" placeholder="Enter Twilio code" value="CODE" />
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                Microsoft
+              </label>
+              <input type="text" class="form-control" required name="microsoft" placeholder="Enter Microsoft code" value="CODE" />
+            </div>
+            <p>&nbsp;</p>
+            <div class="row code-fail hide">
+              <div class="col">
+                <div class="alert alert-warning load-message" role="alert">
+                  Code is wrong. Please check your code and submit again.
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary" id="submit_code" type="submit">Submit Code</button>
+          </form>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

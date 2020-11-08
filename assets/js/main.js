@@ -43,6 +43,61 @@ const Unconf = ncmb.DataStore('Unconf');
 
   setDefaultLang();
   
+  $('.code-fail.hide,.novelty .hide').hide();
+
+  if (location.href.indexOf('/special') > -1) {
+    const key = localStorage.getItem('key');
+    if (!key) {
+      alert('You have to have special key for accessing this URL');
+      location.href = '/asia-2020/'
+      return;
+    }
+  }
+
+  $('form.novelty').on('submit', async e => {
+    e.preventDefault();
+    $('.novelty .hide').hide();
+    const Attendee = ncmb.DataStore('Attendee');
+    const attendee = await Attendee.equalTo('objectId', localStorage.getItem('key')).fetch();
+    if (!attendee.objectId) {
+      $('.novelty .hide').show();
+      return;
+    }
+    if (attendee.get('entry')) {
+      alert(`You're already entried.`);
+      return;
+    }
+    attendee.set('entry', true);
+    const ary = $(e.target).serializeArray();
+    for (const v of ary) {
+      attendee.set(v.name, v.value);
+    }
+    await attendee.update();
+    alert('Thank you for apply to special survenir. Please enjoy DevRel/Asia 2020!');
+    localStorage.removeItem('key');
+    $('form.novelty')[0].reset();
+  });
+
+  $('form.code').on('submit', async e => {
+    e.preventDefault();
+    $('.code-fail.hide').hide();
+    const ary = $(e.target).serializeArray();
+    const params = {};
+    for (const v of ary) {
+      params[v.name] = v.value;
+    }
+    const res = await ncmb.Script
+      .data({code: params})
+      .exec('POST', 'code.js');
+    const json = JSON.parse(res.body);
+    if (json.url !== '') {
+      localStorage.setItem('key', json.key);
+      location.href = json.url;
+    } else {
+      $('.code-fail.hide').show();
+    }
+  });
+
   if (location.href.indexOf('/update/') > -1) {
     $('.hide').hide();
     // Confirm proposal
@@ -74,7 +129,6 @@ const Unconf = ncmb.DataStore('Unconf');
       $('form.profile .loading').show();
       $('form .btn').attr('disabled', true);
       const ary = $(e.target).serializeArray();
-      console.log(ary)
       const s = new Speaker;
       for (let key of ary) {
         s.set(key.name, key.value);

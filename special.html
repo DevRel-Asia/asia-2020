@@ -1,0 +1,66 @@
+---
+layout: default
+permalink: /special/
+---
+
+<main id="main">
+  <section id="news" style="padding-top: 6em">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Congratulations! You got privilege getting special survenir novelties! Please enter your name, email and address to delivery novelties.</h2>
+          <small id="nameHelp" class="form-text text-muted">
+            <ul>
+              <li>It's limited. We'll lottery to select lucky attendees to get special survenir novelties at end of the conference.</li>
+              <li>There is possibility to lose privilege if we don't select you. Sorry about it.</li>
+              <li>We never use your personal information other than deliver novelties. And we'll delete your information from our database after deliver it.</li>
+              <li>This is best effort service. We can't promise you will get novelty perfectly. If we got problem in custom, delivery company and etc, we can't support you. Please agree about it.</li>
+            </ul>
+          </small>
+          <form class="form novelty">
+            <div class="form-group">
+              <label for="InputName">
+                Your name
+              </label>
+              <input type="text" class="form-control" required name="name" placeholder="Enter your name" />
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                Address include country name
+              </label>
+              <textarea class="form-control" required name="address" placeholder="Enter address to deliver"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                Zip code
+              </label>
+              <input type="text" class="form-control" required name="zipcode" placeholder="Enter zip code" />
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                Tel number
+              </label>
+              <input type="text" class="form-control" required name="tel" placeholder="Enter tel number" />
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                Email
+              </label>
+              <input type="email" class="form-control" required name="email" placeholder="Enter email address" />
+            </div>
+            <p>&nbsp;</p>
+            <div class="row hide novelty">
+              <div class="col">
+                <div class="alert alert-warning load-message" role="alert">
+                  Something wrong. Please submit form later.
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary" id="submit_code" type="submit">Entry!</button>
+          </form>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
