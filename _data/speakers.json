@@ -2211,7 +2211,7 @@
     "interview_url": ""
   },
   {
-    "objectId": "",
+    "objectId": "3P6Hg1GZic1ZJnJO",
     "id": "jun",
     "company_english": "Microsoft",
     "speaker_title_english": "",
@@ -2244,7 +2244,7 @@
     "interview_url": ""
   },
   {
-    "objectId": "",
+    "objectId": "Rl1u6aQ15sDpxOIZ",
     "id": "zhengshihao",
     "company_english": "Huawei",
     "speaker_title_english": "",
@@ -2270,7 +2270,7 @@
     "weibo": "",
     "other": "",
     "speaker": "true",
-    "photo": "false",
+    "photo": "true",
     "profile_country": "english",
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/zhengshihao.jpg",
     "uniqueKey": "03sarmk8-wqtj2g2y-3ixu67sq",
@@ -2514,7 +2514,7 @@
     "speaker_title_english": "",
     "name_english": "Richard Lin",
     "slack": "",
-    "region": "",
+    "region": "china",
     "profile_english": "Richard Lin (林旅强), Co-founding member/ board member of Kaiyuanshe.org (开源社), an open source alliance in China. He currently works in Huawei Technologies, responsible for Huawei Cloud AI developers ecosystem. He has more than 10 years experience of open source/ developer community organizing and operation, including SHLUG (Shanghai Linux User Group) and COSCUP (Conference of Open Source Codes, Users and Promoters). Guest speaker at O'Reilly OSCON @Austin, LinuxCon @Beijing/Shanghai, COSCon @Shanghai/Shenzhen, COSCUP @Taipei and open source related conferences in the Mainland China, Taiwan and Hong Kong. ",
     "company_your_language": "",
     "speaker_title_your_language": "",
@@ -2541,7 +2541,7 @@
     "interview_url": ""
   },
   {
-    "objectId": "",
+    "objectId": "9MRlvMgcVv5nfnf3",
     "id": "tianqi",
     "company_english": "Microsoft",
     "speaker_title_english": "",
