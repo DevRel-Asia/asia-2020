@@ -434,4 +434,16 @@
 			resizing = false;
 		};
 	}
+
+	document.addEventListener('DOMContentLoaded', e => {
+		$.each($('.room-a'), (i, dom) => {
+			const w = $(dom).width();
+			$(dom).width(w / 2);
+		});
+		$.each($('.room-b'), (i, dom) => {
+			const w = $(dom).width();
+			$(dom).width(w / 2);
+			$(dom).css({left: w / 2});
+		});
+	})
 }());

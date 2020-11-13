@@ -13,7 +13,7 @@
     {% assign speaker5 = site.data.sps | find: "id", session.speaker5_id %}
     {% assign speaker6 = site.data.sps | find: "id", session.speaker6_id %}
     {% assign category = site.data.colors | find: "Name", session.category_english %}
-      <li class="cd-schedule__event">
+      <li class="cd-schedule__event room-{{ session.room }}">
         <a data-start="{{ session.start }}" data-end="{{ session.end }}" data-content="event-abs-circuit" data-event="event-{{ category.Id }}" href="#0">
           <em class="cd-schedule__name"><span data-start="{{ session.start }}" data-time="{{session.start}}" class="schedule_time cd-schedule__time">{{ session.start }}</span>{% assign messages = session.title %}{% include translate.html %}
             {% if session.speaker == 'true' %}
