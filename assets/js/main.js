@@ -54,6 +54,7 @@ const Unconf = ncmb.DataStore('Unconf');
     }
   }
 
+
   $('form.novelty').on('submit', async e => {
     e.preventDefault();
     $('.novelty .hide').hide();
@@ -68,10 +69,13 @@ const Unconf = ncmb.DataStore('Unconf');
       return;
     }
     attendee.set('entry', true);
+    attendee.set('prize', false);
     const ary = $(e.target).serializeArray();
+    console.log(ary)
     for (const v of ary) {
       attendee.set(v.name, v.value);
     }
+    // const acl = ncmb.Acl();
     await attendee.update();
     alert('Thank you for apply to special survenir. Please enjoy DevRel/Asia 2020!');
     localStorage.removeItem('key');
@@ -98,6 +102,79 @@ const Unconf = ncmb.DataStore('Unconf');
     }
   });
 
+  if (location.href.indexOf('/lottery/') > -1) {
+    const Attendee = ncmb.DataStore('Attendee');
+    const ary = await Attendee.equalTo('prize', false).limit(1000).fetchAll();
+    const countries = {};
+    ary.forEach(a => {
+      if (!countries[a.get('country')]) {
+        countries[a.get('country')] = 0;
+      }
+      countries[a.get('country')]++;
+    });
+    for (const name in countries) {
+      const html = $('.countries').html();
+      $('.countries').html(`${html}
+        <div class="form-group form-check">
+          <input type="checkbox" name="countries[]" value="${name}" class="form-check-input" />
+          <label class="form-check-label" for="check${name}"> ${name} (${countries[name]} ${countries[name] == 1 ? 'person' : 'people'})
+        </div>
+      `);
+    }
+    let people;
+    $('#start-lottery').on('click', async e => {
+      const countries = [];
+      $.each($('input[type="checkbox"]:checked'), (i, dom) => {
+        countries.push(dom.value);
+      });
+      const Attendee = ncmb.DataStore('Attendee');
+      if (countries.length === 0) {
+        people = await Attendee.equalTo('prize', false).limit(1000).fetchAll();
+      } else {
+        people = await Attendee.equalTo('prize', false).in('country', countries).limit(1000).fetchAll();
+      }
+      try {
+        $('.lot').slick('unslick');
+      } catch (e) {
+      }
+      $('.lot').html(people.map(a => `<h2 class="person" data-object-id="${a.get('objectId')}">${a.get('name')}</h2>`).join(''));
+      $('.lot').slick({
+        arrows: false,
+        autoplay: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: true,
+        autoplaySpeed: 0,
+        speed: 50,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        useTransform: true,
+        vertical: true
+      });
+    });
+
+    function wait(m) {
+      return new Promise(res => {
+        setTimeout(res, m);
+      });
+    }
+    $('#select-person').on('click', async e => {
+      $('#select-person').attr('disabled', true);
+      e.preventDefault();
+      $('.prize').html('');
+      let lottery = [...people];
+      for (const i of [1, 2, 3]) {
+        await wait(2000);
+        const person = lottery[Math.floor(Math.random() * lottery.length)];
+        if (!person) break;
+        lottery = lottery.filter(f => f.get('objectId') !== person.get('objectId'));
+        $(`.person-${i}`).html(person.get('name'));
+        await person.set('prize', true).update();
+      }
+      $('.lot').slick('slickPause');
+    })
+  }
   if (location.href.indexOf('/update/') > -1) {
     $('.hide').hide();
     // Confirm proposal

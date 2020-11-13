@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /special/
+permalink: /special-devrel-2020/
 ---
 
 <main id="main">
@@ -26,7 +26,7 @@ permalink: /special/
             </div>
             <div class="form-group">
               <label for="InputName">
-                Address include country name
+                Address
               </label>
               <textarea class="form-control" required name="address" placeholder="Enter address to deliver"></textarea>
             </div>
@@ -35,6 +35,22 @@ permalink: /special/
                 Zip code
               </label>
               <input type="text" class="form-control" required name="zipcode" placeholder="Enter zip code" />
+            </div>
+            <div class="form-group">
+              <label for="InputName">
+                Country
+              </label>
+              <select class="form-control" name="country" required>
+                <option value="" disabled selected>Select your country or other</option>
+                <option value="Japan">🇯🇵 Japan</option>
+                <option value="Korea">🇰🇷 Korea</option>
+                <option value="China/HK">🇨🇳 China/HK 🇭🇰</option>
+                <option value="Vietnam">🇻🇳 Vietnam</option>
+                <option value="Indonesia">🇮🇩 Indonesia</option>
+                <option value="Singapore">🇸🇬 Singapore</option>
+                <option value="India">🇮🇳 India</option>
+                <option value="Other">Other</option>
+              </select>
             </div>
             <div class="form-group">
               <label for="InputName">
