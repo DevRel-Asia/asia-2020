@@ -88,16 +88,20 @@ const Unconf = ncmb.DataStore('Unconf');
     const ary = $(e.target).serializeArray();
     const params = {};
     for (const v of ary) {
-      params[v.name] = v.value;
+      params[v.name] = v.value.replace(/ /g, '');
     }
     const res = await ncmb.Script
       .data({code: params})
       .exec('POST', 'code.js');
-    const json = JSON.parse(res.body);
-    if (json.url !== '') {
-      localStorage.setItem('key', json.key);
-      location.href = json.url;
-    } else {
+    try {
+      const json = JSON.parse(res.body);
+      if (json.url !== '') {
+        localStorage.setItem('key', json.key);
+        location.href = json.url;
+      } else {
+        $('.code-fail.hide').show();
+      }
+    } catch (e) {
       $('.code-fail.hide').show();
     }
   });
