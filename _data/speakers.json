@@ -276,7 +276,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/christina.jpg",
     "uniqueKey": "u663mcw9-xw0mojdd-dggj43sh",
     "interview_url": "",
-    "youtube_url": "",
+    "youtube_url": "https://youtu.be/kexy1Epk8o0",
     "slide": ""
   },
   {
@@ -1151,7 +1151,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/arkodyuti.jpg",
     "uniqueKey": "n7vcsst2-zpfia349-3wxlhp2b",
     "interview_url": "",
-    "youtube_url": "",
+    "youtube_url": "https://youtu.be/v_igmW1-F6M",
     "slide": ""
   },
   {
@@ -1427,11 +1427,11 @@
     "other": "",
     "speaker": "true",
     "photo": "true",
-    "profile_country": "",
+    "profile_country": "japan",
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/miho.jpg",
     "uniqueKey": "7d5qi3hk-a5kmls2g-l643bctr",
     "interview_url": "",
-    "youtube_url": "",
+    "youtube_url": "https://youtu.be/Eoto5cYggRw",
     "slide": "https://speakerdeck.com/nulabinc/why-we-should-start-an-internal-tech-blog-for-devrel"
   },
   {
@@ -1641,7 +1641,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/raviraj.jpg",
     "uniqueKey": "nmp7a668-r8f3ef0r-1aye79s4",
     "interview_url": "",
-    "youtube_url": "",
+    "youtube_url": "https://youtu.be/wAlSuO46jeo",
     "slide": ""
   },
   {
@@ -1676,7 +1676,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/juhi.jpg",
     "uniqueKey": "9abozdys-lxa0b03f-r7j6k6w9",
     "interview_url": "https://www.youtube.com/watch?v=Ge5YOyX8Qt8",
-    "youtube_url": "",
+    "youtube_url": "https://youtu.be/4D3I-Bo0XqQ",
     "slide": ""
   },
   {
@@ -1746,7 +1746,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/yasushi.jpg",
     "uniqueKey": "krb2ik9j-h9qnn5dl-l3w2kttf",
     "interview_url": "",
-    "youtube_url": "",
+    "youtube_url": "https://youtu.be/10hgn__Tbso",
     "slide": ""
   },
   {
@@ -1781,7 +1781,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/junichi.jpg",
     "uniqueKey": "dxjxzcq8-2tf8td86-cui2ixiw",
     "interview_url": "https://www.youtube.com/watch?v=vPj4TMwHcHM",
-    "youtube_url": "",
+    "youtube_url": "https://youtu.be/2Hxd-oiHDRo",
     "slide": "https://speakerdeck.com/benzookapi/our-new-devrel-invention-of-scaling-out-partner-ecosystem"
   },
   {
@@ -2160,7 +2160,7 @@
     "twitch": "",
     "weibo": "",
     "other": "",
-    "speaker": "true",
+    "speaker": "false",
     "photo": "true",
     "profile_country": "english",
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/yashraj.jpg",
