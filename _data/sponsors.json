@@ -1,0 +1,34 @@
+[
+  {
+    "id": "moongift",
+    "type": "gold",
+    "name": "MOONGIFT",
+    "url": "https://devrel.co/",
+    "twitter": "devrelco",
+    "track": "japan,asia2"
+  },
+  {
+    "id": "vonage",
+    "type": "gold",
+    "name": "Vonage",
+    "url": "http://nexmo.dev/devrelasia",
+    "twitter": "VonageDev",
+    "track": "asia1,sea"
+  },
+  {
+    "id": "microsoft",
+    "type": "gold",
+    "name": "Microsoft",
+    "url": "https://azure.microsoft.com/ja-jp/",
+    "twitter": "msdevjp",
+    "track": "japan,china"
+  },
+  {
+    "id": "twilio",
+    "type": "gold",
+    "name": "Twilio",
+    "url": "https://www.twilio.com/",
+    "twitter": "twilio",
+    "track": "asia2,sea"
+  }
+]
