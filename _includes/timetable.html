@@ -27,7 +27,7 @@
             {{ category | jsonify }}
           </script>
           <script type="session" class="session_speaker">
-            {{ speaker | jsonify }}
+            {{ speaker | jsonify | escape }}
           </script>
           <script type="session" class="session_speaker2">{{ speaker2 | jsonify }}</script>
           <script type="session" class="session_speaker3">{{ speaker3 | jsonify }}</script>

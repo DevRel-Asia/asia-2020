@@ -161,12 +161,12 @@
 		const session = JSON.parse($(target).find('.session_info').text());
 		const category = JSON.parse($(target).find('.session_category').text());
 		const speakers = [];
-		speakers.push(JSON.parse($(target).find('.session_speaker').text()))
-		speakers.push(JSON.parse($(target).find('.session_speaker2').text()))
-		speakers.push(JSON.parse($(target).find('.session_speaker3').text()))
-		speakers.push(JSON.parse($(target).find('.session_speaker4').text()))
-		speakers.push(JSON.parse($(target).find('.session_speaker5').text()))
-		speakers.push(JSON.parse($(target).find('.session_speaker6').text()))
+		speakers.push(JSON.parse(htmlEntities($(target).find('.session_speaker').text())))
+		speakers.push(JSON.parse(htmlEntities($(target).find('.session_speaker2').text())))
+		speakers.push(JSON.parse(htmlEntities($(target).find('.session_speaker3').text())))
+		speakers.push(JSON.parse(htmlEntities($(target).find('.session_speaker4').text())))
+		speakers.push(JSON.parse(htmlEntities($(target).find('.session_speaker5').text())))
+		speakers.push(JSON.parse(htmlEntities($(target).find('.session_speaker6').text())))
 		if (speakers.filter(s => s !== null).length === 0) return false;
 		var self = this;
 		var mq = self.mq();
@@ -447,3 +447,22 @@
 		});
 	})
 }());
+
+function htmlEntities( text ) {
+	proc = 'decode';
+  var entities = [
+    ['amp', '&'],
+    ['apos', '\''],
+    ['lt', '<'],
+    ['gt', '>'],
+  ];
+
+  for ( var i=0, max=entities.length; i<max; i++ ) {
+    if ( 'encode' === proc ) {
+      text = text.replace(new RegExp( entities[i][1], 'g' ), "&"+entities[i][0]+';' ).replace( '"', '&quot;' );
+    } else {
+      text = text.replace(/&quot;/g, '"' ).replace(new RegExp( '&'+entities[i][0]+';', 'g' ), entities[i][1] );
+    }
+  }
+  return text;
+}
