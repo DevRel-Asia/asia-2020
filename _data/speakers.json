@@ -320,7 +320,7 @@
     "uniqueKey": "2r3njjod-k5kdf5yq-22yrwvs1",
     "interview_url": "https://www.youtube.com/watch?v=ZIUux3jJpFI",
     "video": "true",
-    "youtube_url": "https://www.youtube.com/watch?v=pJhU0l-H8_8",
+    "youtube_url": "https://youtu.be/pJhU0l-H8_8",
     "slide": "<script async class=\"speakerdeck-embed\" data-id=\"61acd01b783b410a95f40f2ed6c0f977\" data-ratio=\"1.77777777777778\" src=\"//speakerdeck.com/assets/embed.js\"></script>"
   },
   {
@@ -355,7 +355,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/mvkaran.jpg",
     "uniqueKey": "ffx3dgdu-pi7h6q9x-3j03sowk",
     "interview_url": "https://www.youtube.com/watch?v=xD0Tqe_HtEc",
-    "video": "false",
+    "video": "true",
     "youtube_url": "https://youtu.be/lMQKfBG5R24",
     "slide": ""
   },
@@ -463,7 +463,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/a-know.jpg",
     "uniqueKey": "twi2vjfl-yxuvx89u-urku230o",
     "interview_url": "",
-    "video": "false",
+    "video": "",
     "youtube_url": "https://youtu.be/YKTLkFJUJa0",
     "slide": ""
   },
@@ -859,7 +859,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/singing.jpg",
     "uniqueKey": "ngumqw3i-53k63owr-5v9t6qdn",
     "interview_url": "",
-    "video": "false",
+    "video": "true",
     "youtube_url": "https://youtu.be/Gv0JjiLjAjc",
     "slide": ""
   },
@@ -895,7 +895,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/don.jpg",
     "uniqueKey": "bq6lk2ka-d2za7fss-a3huoqn8",
     "interview_url": "https://www.youtube.com/watch?v=wmAEI10EAwA",
-    "video": "false",
+    "video": "true",
     "youtube_url": "https://youtu.be/6I6Sl5i8h1I",
     "slide": "<a href=\"https://don.goodman-wilson.com/talks/devrel-asia-2020/\">Don Goodman-Wilson</a>"
   },
@@ -1111,7 +1111,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/hung.jpg",
     "uniqueKey": "1klb8iup-vqg7wrm7-b9wm1xdu",
     "interview_url": "",
-    "video": "false",
+    "video": "true",
     "youtube_url": "https://youtu.be/rGh0BGoPdIo",
     "slide": ""
   },
@@ -1255,7 +1255,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/tien.jpg",
     "uniqueKey": "3m03sl8r-99ni6hpl-yaomn8bs",
     "interview_url": "",
-    "video": "false",
+    "video": "true",
     "youtube_url": "https://youtu.be/RVfRDOUizzI",
     "slide": ""
   },
@@ -2047,7 +2047,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/shelvia.jpg",
     "uniqueKey": "g9zq9ff7-tboww3ze-aqgecdmj",
     "interview_url": "",
-    "video": "false",
+    "video": "true",
     "youtube_url": "https://youtu.be/pU96HmBYowY",
     "slide": ""
   },
@@ -2227,7 +2227,7 @@
     "ogp": "https://devrel.dev/asia-2020/assets/images/socials/yashraj.jpg",
     "uniqueKey": "y4e9953f-6w49315p-zf215opq",
     "interview_url": "",
-    "video": "false",
+    "video": "",
     "youtube_url": "",
     "slide": ""
   },
